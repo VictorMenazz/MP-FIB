@@ -58,11 +58,15 @@ begin
 				elsif (hay_peticion_procesador(pet)) then
 					v_prxestado := CMPET;
 				end if;
-			when INI is
+			when DES => 
+				if(hay_peticion_procesador(pet)) then
+					v_prxestado := CMPET;
+				end if;
+			when INI =>
 				v_prxestado := ESCINI;
-			when ESCINI is
+			when ESCINI =>
 				v_prxestado := HECHOE;
-			when CMPET is
+			when CMPET =>
 				if (es_acierto_lectura(pet, derechos_acceso)) then
 					v_prxestado := LEC;
 				elsif (es_fallo_lectura(pet, derechos_acceso)) then
@@ -72,42 +76,38 @@ begin
 				elsif (es_fallo_escritura(pet, derechos_acceso)) then
 					v_prxestado := PMEF;
 				end if;
-			when LEC is
+			when LEC =>
 				v_prxestado := HECHOL;
-			when PML is
+			when PML =>
 				v_prxestado := ESPL;
-			when ESPL is
+			when ESPL =>
 				if (hay_respuesta_memoria(resp_m)) then
 					v_prxestado := ESB;
 				end if;
-			when ESB is
+			when ESB =>
 				v_prcestado := LEC;
-			when PMEA is
+			when PMEA =>
 				v_prxestado := ESPEA;
-			when ESPEA is
+			when ESPEA =>
 				if (hay_respuesta_memoria(resp_m)) then
 					v_prxestado := ESCP;
 				end if;
-			when ESCP is
+			when ESCP =>
 				v_prxestado := HECHOE;
-			when PMEF is
+			when PMEF =>
 				v_prxestado := ESPEF;
-			when ESPEF is
+			when ESPEF =>
 				if (hay_respuesta_memoria(resp_m)) then
 					v_prxestado := HECHOE;
 				end if;
-			when HECHOL is
+			when HECHOL =>
 				v_prxestado := DES;
-			when HECHOE is
+			when HECHOE =>
 				v_prxestado := DES;
-			when others is 
-				if (hay_peticion_procesador(pet)) then
-					v_prxestado := CMPET;
-		
+		end case;
 	else 
 		v_prxestado := DES0;
 	end if;
-
 
 	prxestado <= v_prxestado after retardo_logica_prx_estado;
 end process;
@@ -119,7 +119,93 @@ variable v_resp: tp_contro_s;
 variable v_pet_m: tp_cntl_memoria_s;
 
 begin
-	
+	--POR DEFECTO
+	por_defecto (v_s_control, v_pet_m, v_resp);
+
+	if (pcero /= '1') then
+		case estado is
+			when DES0 => 
+				interfaces_DES(v_resp);
+				if (hay_peticion_ini_procesador(pet)) then
+					
+				elsif (hay_peticion_procesador(pet)) then
+					
+				end if;
+			when DES => 
+				interfaces_DES(v_resp);
+				if(hay_peticion_procesador(pet)) then
+					
+				end if;
+			when INI =>
+				interfaces_en_CURSO(v_resp);
+				
+			when ESCINI => --Actualizar contenedor
+				interfaces_en_CURSO(v_resp);
+				actualizar_etiqueta (v_s_control);
+				actualizar_estado (v_s_control; contenedor_valido);				
+				actualizar_dato (v_s_control);
+				
+			when CMPET =>
+				interfaces_en_CURSO(v_resp);
+				lectura_etiq_estado(v_s_control);
+--				if (es_acierto_lectura(pet, derechos_acceso)) then
+--					v_prxestado := LEC;
+--				elsif (es_fallo_lectura(pet, derechos_acceso)) then
+--					v_prxestado := PML;
+--				elsif (es_acierto_escritura(pet, derechos_acceso)) then
+--					v_prxestado := PMEA;
+--				elsif (es_fallo_escritura(pet, derechos_acceso)) then
+--					v_prxestado := PMEF;
+--				end if;
+			when LEC =>
+				interfaces_en_CURSO(v_resp);
+				lectura_datos(v_s_control);
+				
+			when PML =>
+				interfaces_en_CURSO(v_resp);
+				peticion_memoria_lectura(v_pet_m);
+				
+			when ESPL =>
+				interfaces_en_CURSO(v_resp);
+				if (hay_respuesta_memoria(resp_m)) then
+					
+				end if;
+				
+			when ESB =>
+				interfaces_en_CURSO(v_resp);
+				actualizar_etiqueta (v_s_control);
+				actualizar_estado (v_s_control; contenedor_valido);				
+				actualizar_dato (v_s_control);
+				
+			when PMEA =>
+				interfaces_en_CURSO(v_resp);
+				peticion_memoria_escritura(v_pet_m);
+				
+			when ESPEA =>
+				interfaces_en_CURSO(v_resp);
+				if (hay_respuesta_memoria(resp_m)) then
+					
+				end if;
+				
+			when ESCP =>
+				interfaces_en_CURSO(v_resp);
+				actualizar_dato (v_s_control);
+				
+			when PMEF =>
+				interfaces_en_CURSO(v_resp);
+				peticion_memoria_escritura(v_pet_m);
+				
+			when ESPEF =>
+				interfaces_en_CURSO(v_resp);
+				if (hay_respuesta_memoria(resp_m)) then
+					
+				end if;
+			when HECHOL =>
+				interfaces_HECHOL(v_resp);
+			when HECHOE =>
+				interfaces_HECHOE(v_resp);
+		end case;
+	end if;
 
 
 s_control <= v_s_control after retardo_logica_salida;
