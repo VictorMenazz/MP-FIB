@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Cache proyecto 4: Fichero Fuente /home/llaberia/Desktop/QUARTUS_MULTIS_LABORATORIOS/MP/LAB2/proyecto_4/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/interfaces/CODIGO/interface_cache_proc.vhd</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Cache proyecto 4
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_8501acdd3e26f6f94a45f47a89001357.html">proyecto_4</a></li><li class="navelem"><a class="el" href="dir_b8529e8474b2614961561e33e5866b00.html">cache_con_interface_bus</a></li><li class="navelem"><a class="el" href="dir_6dea4525feb5f22592f0962ef076283f.html">cache_con_interface_proc</a></li><li class="navelem"><a class="el" href="dir_10d559773954c0853fbb2dcf8abe9ddd.html">interface_proc_cache</a></li><li class="navelem"><a class="el" href="dir_b14a96c3c7e6e7d2667d3dba52236946.html">interfaces</a></li><li class="navelem"><a class="el" href="dir_3476e2c2a87982a8f9f618443540df45.html">CODIGO</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">interface_cache_proc.vhd</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="interface__cache__proc_8vhd.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">--</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">-- Copyright (c) 2017 XXXX, UPC</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">-- All rights reserved.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">-- </span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classinterface__cache__proc.html#a0a6af6eef40212dbaf130d57ce711256">    6</a></span>&#160;<span class="vhdlkeyword">library </span><span class="keywordflow">ieee</span>;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classinterface__cache__proc.html#acd03516902501cd1c7296a98e22c6fcb">    7</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classprocedimientos__controlador__pkg.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.std_logic_1164.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classinterface__cache__proc.html#a34d41362a186139d9a2b384a91ad3ce7">    9</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classcache__pkg.html">cache_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classinterface__cache__proc.html#ae3d5be0bf9ae0cdb2e0544251921ce2c">   10</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classcomponentes__interface__proc__cache__pkg.html">componentes_interface_proc_cache_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classinterface__cache__proc.html">   12</a></span>&#160;<span class="keywordflow">entity </span><a class="code" href="classinterface__cache__proc.html">interface_cache_proc</a> <span class="keywordflow">is</span></div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classinterface__cache__proc.html#a4aaa937b4681cb2e4936e1e3511a65c8">   13</a></span>&#160;   <span class="keywordflow">port</span> <span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classinterface__cache__proc.html#a4aaa937b4681cb2e4936e1e3511a65c8">respuesta</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="vhdlchar"><a class="code" href="classcache__pkg.html#ae729fc1344ba05def6472831767cb0c1">tp_respuesta</a></span>;</div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classinterface__cache__proc.html#abf8f860d02a5298361f8ed9748fe39bf">   14</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classinterface__cache__proc.html#abf8f860d02a5298361f8ed9748fe39bf">resp_cache</a></span><span class="vhdlchar">:</span> <span class="keywordflow">out</span> <span class="vhdlchar"><a class="code" href="classcache__pkg.html#ae729fc1344ba05def6472831767cb0c1">tp_respuesta</a></span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keywordflow">end</span> <span class="vhdlchar">interface_cache_proc</span>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classinterface__cache__proc_1_1estruc.html">   17</a></span>&#160;<span class="keywordflow">architecture</span> estruc <span class="keywordflow">of</span> <a class="code" href="classinterface__cache__proc.html">interface_cache_proc</a> is</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="vhdlkeyword">begin</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="vhdlchar"><a class="code" href="classinterface__cache__proc.html#abf8f860d02a5298361f8ed9748fe39bf">resp_cache</a></span> <span class="vhdlchar">&lt;=</span> <span class="vhdlchar"><a class="code" href="classinterface__cache__proc.html#a4aaa937b4681cb2e4936e1e3511a65c8">respuesta</a></span>;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keywordflow">end</span>;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="ttc" id="classinterface__cache__proc_html"><div class="ttname"><a href="classinterface__cache__proc.html">interface_cache_proc</a></div><div class="ttdef"><b>Definition:</b> <a href="interface__cache__proc_8vhd_source.html#l00012">interface_cache_proc.vhd:12</a></div></div>
+<div class="ttc" id="classinterface__cache__proc_html_a4aaa937b4681cb2e4936e1e3511a65c8"><div class="ttname"><a href="classinterface__cache__proc.html#a4aaa937b4681cb2e4936e1e3511a65c8">interface_cache_proc.respuesta</a></div><div class="ttdeci">in respuestatp_respuesta  </div><div class="ttdef"><b>Definition:</b> <a href="interface__cache__proc_8vhd_source.html#l00013">interface_cache_proc.vhd:13</a></div></div>
+<div class="ttc" id="classprocedimientos__controlador__pkg_html_a0a6af6eef40212dbaf130d57ce711256"><div class="ttname"><a href="classprocedimientos__controlador__pkg.html#a0a6af6eef40212dbaf130d57ce711256">procedimientos_controlador_pkg.ieee</a></div><div class="ttdeci">_library_ ieeeieee</div><div class="ttdef"><b>Definition:</b> <a href="procedimientos__controlador__pkg_8vhd_source.html#l00006">procedimientos_controlador_pkg.vhd:6</a></div></div>
+<div class="ttc" id="classcomponentes__interface__proc__cache__pkg_html"><div class="ttname"><a href="classcomponentes__interface__proc__cache__pkg.html">componentes_interface_proc_cache_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="componentes__interface__proc__cache__pkg_8vhd_source.html#l00014">componentes_interface_proc_cache_pkg.vhd:14</a></div></div>
+<div class="ttc" id="classcache__pkg_html_ae729fc1344ba05def6472831767cb0c1"><div class="ttname"><a href="classcache__pkg.html#ae729fc1344ba05def6472831767cb0c1">cache_pkg.tp_respuesta</a></div><div class="ttdeci">tp_respuesta</div><div class="ttdef"><b>Definition:</b> <a href="cache__pkg_8vhd_source.html#l00021">cache_pkg.vhd:21</a></div></div>
+<div class="ttc" id="classinterface__cache__proc_html_abf8f860d02a5298361f8ed9748fe39bf"><div class="ttname"><a href="classinterface__cache__proc.html#abf8f860d02a5298361f8ed9748fe39bf">interface_cache_proc.resp_cache</a></div><div class="ttdeci">out resp_cachetp_respuesta  </div><div class="ttdef"><b>Definition:</b> <a href="interface__cache__proc_8vhd_source.html#l00014">interface_cache_proc.vhd:14</a></div></div>
+<div class="ttc" id="classcache__pkg_html"><div class="ttname"><a href="classcache__pkg.html">cache_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="cache__pkg_8vhd_source.html#l00011">cache_pkg.vhd:11</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Domingo, 2 de Diciembre de 2018 15:37:41 para Cache proyecto 4 por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

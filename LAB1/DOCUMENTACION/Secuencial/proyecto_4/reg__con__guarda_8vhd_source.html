@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Secuencial proyecto 4: Fichero Fuente /home/llaberia/Desktop/QUARTUS_MULTIS_LABORATORIOS/MP_PROFE/LAB1/Secuencial/proyecto_4/interfaces/registro_con_guarda/ensamblado_reg_guarda/CODIGO/reg_con_guarda.vhd</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Secuencial proyecto 4
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_7d1a8fcd005c758db1f72d8753192582.html">LAB1</a></li><li class="navelem"><a class="el" href="dir_38445b9e92076debe1a9052d1e5ec2c0.html">Secuencial</a></li><li class="navelem"><a class="el" href="dir_df7ff23768a8b8ed61e613fadd2569ea.html">proyecto_4</a></li><li class="navelem"><a class="el" href="dir_d94e5c0187801e293761d836c001346e.html">interfaces</a></li><li class="navelem"><a class="el" href="dir_373686625d5993390469935bf85296fc.html">registro_con_guarda</a></li><li class="navelem"><a class="el" href="dir_57d1587c5af41e48877b1cc98bf5ab1d.html">ensamblado_reg_guarda</a></li><li class="navelem"><a class="el" href="dir_9ec1e4fb51b8b9d0b8b8f6592a1cf37b.html">CODIGO</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">reg_con_guarda.vhd</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="reg__con__guarda_8vhd.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">--</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">-- Copyright (c) 2017 XXXX, UPC</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">-- All rights reserved.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">-- </span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classreg__con__guarda.html#a0a6af6eef40212dbaf130d57ce711256">    6</a></span>&#160;<span class="vhdlkeyword">library </span><span class="keywordflow">ieee</span>;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classreg__con__guarda.html#acd03516902501cd1c7296a98e22c6fcb">    7</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classcomponentes__reg__con__guarda__pkg.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.std_logic_1164.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classreg__con__guarda.html#a1de3d6a72279acdc8f85b56c5cfe12cd">    8</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classparam__disenyo__pkg.html">param_disenyo_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classreg__con__guarda.html#a3b1e5b19d577faad9817f8da2cd4730b">    9</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classcomponentes__reg__con__guarda__pkg.html">componentes_reg_con_guarda_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classreg__con__guarda.html#ac78f79dbb7b910abce72ce7d7e1704ce">   10</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classinterface__pkg.html">interface_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classreg__con__guarda.html">   13</a></span>&#160;<span class="keywordflow">entity </span><a class="code" href="classreg__con__guarda.html">reg_con_guarda</a> <span class="keywordflow">is</span></div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classreg__con__guarda.html#a9a2054ec7f63792c3956fe7264bbd941">   14</a></span>&#160;   <span class="keywordflow">port</span> <span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classreg__con__guarda.html#a9a2054ec7f63792c3956fe7264bbd941">reloj</a></span><span class="vhdlchar">,</span> <span class="vhdlchar"><a class="code" href="classreg__con__guarda.html#aaaf76b3c92306baf67cc09a1ff48254d">pcero</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classreg__con__guarda.html#a851b856e1b9951d87e6320bcd24973fd">   15</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classreg__con__guarda.html#a851b856e1b9951d87e6320bcd24973fd">rdv_e</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="vhdlchar"><a class="code" href="classinterface__pkg.html#a06b35a58bf09cf74ce001ff9b3c87115">posterior_1</a></span>;</div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classreg__con__guarda.html#ac6cdbc8dc494fa772bb4a1b71b32c1b7">   16</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classreg__con__guarda.html#ac6cdbc8dc494fa772bb4a1b71b32c1b7">rl_s</a></span><span class="vhdlchar">:</span> <span class="keywordflow">out</span> <span class="vhdlchar"><a class="code" href="classinterface__pkg.html#a8cd2e8e7acce79947af1f0de3334a6dd">anterior</a></span>;</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classreg__con__guarda.html#a07ec399d24d5a911b0a904e24da161ac">   17</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classreg__con__guarda.html#a07ec399d24d5a911b0a904e24da161ac">rdv_s</a></span><span class="vhdlchar">:</span> <span class="keywordflow">out</span> <span class="vhdlchar"><a class="code" href="classinterface__pkg.html#a06b35a58bf09cf74ce001ff9b3c87115">posterior_1</a></span>;</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classreg__con__guarda.html#aaf39821a1c4646600904ac27b511f327">   18</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classreg__con__guarda.html#aaf39821a1c4646600904ac27b511f327">rl_e</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="vhdlchar"><a class="code" href="classinterface__pkg.html#a8cd2e8e7acce79947af1f0de3334a6dd">anterior</a></span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keywordflow">end</span>;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  </div><div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classreg__con__guarda_1_1estruc.html">   21</a></span>&#160;<span class="keywordflow">architecture</span> estruc <span class="keywordflow">of</span> <a class="code" href="classreg__con__guarda.html">reg_con_guarda</a> is</div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classreg__con__guarda_1_1estruc.html#a3c25082ddf87d7e05b4ff6d9b05ac7b5">   22</a></span>&#160;<span class="keywordflow">signal</span> <span class="vhdlchar"><a class="code" href="classreg__con__guarda_1_1estruc.html#a3c25082ddf87d7e05b4ff6d9b05ac7b5">guarda_dv_s</a></span><span class="vhdlchar">:</span> <span class="vhdlchar"><a class="code" href="classinterface__pkg.html#a06b35a58bf09cf74ce001ff9b3c87115">posterior_1</a></span>;</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classreg__con__guarda_1_1estruc.html#aa4e49af8a360e0c5fe4ef2cfbfeeb75e">   23</a></span>&#160;<span class="keywordflow">signal</span> <span class="vhdlchar"><a class="code" href="classreg__con__guarda_1_1estruc.html#aa4e49af8a360e0c5fe4ef2cfbfeeb75e">cabeza_l_s</a></span><span class="vhdlchar">:</span> <span class="vhdlchar"><a class="code" href="classinterface__pkg.html#a8cd2e8e7acce79947af1f0de3334a6dd">anterior</a></span>;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="vhdlkeyword">begin</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;reg_gua: reg_guarda <span class="keywordflow">port</span> <span class="keywordflow">map</span> (reloj =&gt; reloj, pcero =&gt; pcero, rdv_e =&gt; rdv_e, rl_s =&gt;  rl_s, rdv_s =&gt; guarda_dv_s, rl_e =&gt; cabeza_l_s);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;reg_cab: reg_cabeza <span class="keywordflow">port</span> <span class="keywordflow">map</span> (reloj =&gt; reloj, pcero =&gt; pcero, rdv_e =&gt; guarda_dv_s, rl_s =&gt; cabeza_l_s , rdv_s =&gt; rdv_s, rl_e =&gt; rl_e);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keywordflow">end</span>;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="ttc" id="classparam__disenyo__pkg_html"><div class="ttname"><a href="classparam__disenyo__pkg.html">param_disenyo_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="param__disenyo__pkg_8vhd_source.html#l00009">param_disenyo_pkg.vhd:9</a></div></div>
+<div class="ttc" id="classreg__con__guarda_1_1estruc_html_aa4e49af8a360e0c5fe4ef2cfbfeeb75e"><div class="ttname"><a href="classreg__con__guarda_1_1estruc.html#aa4e49af8a360e0c5fe4ef2cfbfeeb75e">reg_con_guarda.estruc.cabeza_l_s</a></div><div class="ttdeci">anterior   cabeza_l_s</div><div class="ttdef"><b>Definition:</b> <a href="reg__con__guarda_8vhd_source.html#l00023">reg_con_guarda.vhd:23</a></div></div>
+<div class="ttc" id="classinterface__pkg_html_a8cd2e8e7acce79947af1f0de3334a6dd"><div class="ttname"><a href="classinterface__pkg.html#a8cd2e8e7acce79947af1f0de3334a6dd">interface_pkg.anterior</a></div><div class="ttdeci">anterior</div><div class="ttdef"><b>Definition:</b> <a href="interface__pkg_8vhd_source.html#l00023">interface_pkg.vhd:23</a></div></div>
+<div class="ttc" id="classcomponentes__reg__con__guarda__pkg_html"><div class="ttname"><a href="classcomponentes__reg__con__guarda__pkg.html">componentes_reg_con_guarda_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="componentes__reg__con__guarda__pkg_8vhd_source.html#l00012">componentes_reg_con_guarda_pkg.vhd:12</a></div></div>
+<div class="ttc" id="classreg__con__guarda_html_ac6cdbc8dc494fa772bb4a1b71b32c1b7"><div class="ttname"><a href="classreg__con__guarda.html#ac6cdbc8dc494fa772bb4a1b71b32c1b7">reg_con_guarda.rl_s</a></div><div class="ttdeci">out rl_santerior  </div><div class="ttdef"><b>Definition:</b> <a href="reg__con__guarda_8vhd_source.html#l00016">reg_con_guarda.vhd:16</a></div></div>
+<div class="ttc" id="classreg__con__guarda_html_aaf39821a1c4646600904ac27b511f327"><div class="ttname"><a href="classreg__con__guarda.html#aaf39821a1c4646600904ac27b511f327">reg_con_guarda.rl_e</a></div><div class="ttdeci">in rl_eanterior  </div><div class="ttdef"><b>Definition:</b> <a href="reg__con__guarda_8vhd_source.html#l00018">reg_con_guarda.vhd:18</a></div></div>
+<div class="ttc" id="classinterface__pkg_html_a06b35a58bf09cf74ce001ff9b3c87115"><div class="ttname"><a href="classinterface__pkg.html#a06b35a58bf09cf74ce001ff9b3c87115">interface_pkg.posterior_1</a></div><div class="ttdeci">posterior_1</div><div class="ttdef"><b>Definition:</b> <a href="interface__pkg_8vhd_source.html#l00018">interface_pkg.vhd:18</a></div></div>
+<div class="ttc" id="classreg__con__guarda_html_a9a2054ec7f63792c3956fe7264bbd941"><div class="ttname"><a href="classreg__con__guarda.html#a9a2054ec7f63792c3956fe7264bbd941">reg_con_guarda.reloj</a></div><div class="ttdeci">in relojstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="reg__con__guarda_8vhd_source.html#l00014">reg_con_guarda.vhd:14</a></div></div>
+<div class="ttc" id="classreg__con__guarda_html_a851b856e1b9951d87e6320bcd24973fd"><div class="ttname"><a href="classreg__con__guarda.html#a851b856e1b9951d87e6320bcd24973fd">reg_con_guarda.rdv_e</a></div><div class="ttdeci">in rdv_eposterior_1  </div><div class="ttdef"><b>Definition:</b> <a href="reg__con__guarda_8vhd_source.html#l00015">reg_con_guarda.vhd:15</a></div></div>
+<div class="ttc" id="classreg__con__guarda_1_1estruc_html_a3c25082ddf87d7e05b4ff6d9b05ac7b5"><div class="ttname"><a href="classreg__con__guarda_1_1estruc.html#a3c25082ddf87d7e05b4ff6d9b05ac7b5">reg_con_guarda.estruc.guarda_dv_s</a></div><div class="ttdeci">posterior_1   guarda_dv_s</div><div class="ttdef"><b>Definition:</b> <a href="reg__con__guarda_8vhd_source.html#l00022">reg_con_guarda.vhd:22</a></div></div>
+<div class="ttc" id="classinterface__pkg_html"><div class="ttname"><a href="classinterface__pkg.html">interface_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="interface__pkg_8vhd_source.html#l00010">interface_pkg.vhd:10</a></div></div>
+<div class="ttc" id="classreg__con__guarda_html"><div class="ttname"><a href="classreg__con__guarda.html">reg_con_guarda</a></div><div class="ttdef"><b>Definition:</b> <a href="reg__con__guarda_8vhd_source.html#l00013">reg_con_guarda.vhd:13</a></div></div>
+<div class="ttc" id="classreg__con__guarda_html_aaaf76b3c92306baf67cc09a1ff48254d"><div class="ttname"><a href="classreg__con__guarda.html#aaaf76b3c92306baf67cc09a1ff48254d">reg_con_guarda.pcero</a></div><div class="ttdeci">in pcerostd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="reg__con__guarda_8vhd_source.html#l00014">reg_con_guarda.vhd:14</a></div></div>
+<div class="ttc" id="classcomponentes__reg__con__guarda__pkg_html_a0a6af6eef40212dbaf130d57ce711256"><div class="ttname"><a href="classcomponentes__reg__con__guarda__pkg.html#a0a6af6eef40212dbaf130d57ce711256">componentes_reg_con_guarda_pkg.ieee</a></div><div class="ttdeci">_library_ ieeeieee</div><div class="ttdef"><b>Definition:</b> <a href="componentes__reg__con__guarda__pkg_8vhd_source.html#l00006">componentes_reg_con_guarda_pkg.vhd:6</a></div></div>
+<div class="ttc" id="classreg__con__guarda_html_a07ec399d24d5a911b0a904e24da161ac"><div class="ttname"><a href="classreg__con__guarda.html#a07ec399d24d5a911b0a904e24da161ac">reg_con_guarda.rdv_s</a></div><div class="ttdeci">out rdv_sposterior_1  </div><div class="ttdef"><b>Definition:</b> <a href="reg__con__guarda_8vhd_source.html#l00017">reg_con_guarda.vhd:17</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Jueves, 29 de Noviembre de 2018 14:28:18 para Secuencial proyecto 4 por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

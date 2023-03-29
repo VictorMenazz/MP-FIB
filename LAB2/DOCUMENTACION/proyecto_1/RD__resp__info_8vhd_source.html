@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Cache proyecto 1: Fichero Fuente /home/llaberia/Desktop/QUARTUS_MULTIS_LABORATORIOS/MP/LAB2/proyecto_1/BUS/componentes/registros/CODIGO/RD_resp_info.vhd</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Cache proyecto 1
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_16778cce2b727dca4ffd580210a8ab8a.html">proyecto_1</a></li><li class="navelem"><a class="el" href="dir_020f80f5e0a0420b98a3183f952b7b2c.html">BUS</a></li><li class="navelem"><a class="el" href="dir_7dd7a003cfee6ef2a587c01bf520fe7e.html">componentes</a></li><li class="navelem"><a class="el" href="dir_b39073075a2c51620dd8ff4ff26ed6bf.html">registros</a></li><li class="navelem"><a class="el" href="dir_63e40f1175b79076c150a9e8995d607e.html">CODIGO</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">RD_resp_info.vhd</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="RD__resp__info_8vhd.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">--</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">-- Copyright (c) 2017 XXXX, UPC</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">-- All rights reserved.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">-- </span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classRD__resp__info.html#ae4f03c286607f3181e16b9aa12d0c6d4">    6</a></span>&#160;<span class="vhdlkeyword">library </span><span class="keywordflow">IEEE</span>;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classRD__resp__info.html#acd03516902501cd1c7296a98e22c6fcb">    7</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classRD__pet__info.html#ae4f03c286607f3181e16b9aa12d0c6d4">IEEE</a>.std_logic_1164.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classRD__resp__info.html#ad99836d916b1c9a26103c9737001f80f">    9</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classinterface__cache__bus__pkg.html">interface_cache_bus_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classRD__resp__info.html#a1afeb77cb920a46f1f60373ccd04fd42">   10</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classretardos__RegDes__pkg.html">retardos_RegDes_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classRD__resp__info.html">   12</a></span>&#160;<span class="keywordflow">entity </span><a class="code" href="classRD__resp__info.html">RD_resp_info</a> <span class="keywordflow">is</span><span class="keyword">                    -- registro con inicializacion a cero asincrona</span></div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classRD__resp__info.html#a9a2054ec7f63792c3956fe7264bbd941">   13</a></span>&#160;  <span class="keywordflow">port</span> <span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classRD__resp__info.html#a9a2054ec7f63792c3956fe7264bbd941">reloj</a></span><span class="vhdlchar">,</span> <span class="vhdlchar"><a class="code" href="classRD__resp__info.html#aaaf76b3c92306baf67cc09a1ff48254d">pcero</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="comment">std_logic</span>;<span class="keyword">    -- pcero: senyal de inicializacion</span></div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classRD__resp__info.html#a665bca762dcafdb9ad166031367b060d">   14</a></span>&#160;         <span class="vhdlchar"><a class="code" href="classRD__resp__info.html#a665bca762dcafdb9ad166031367b060d">e</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="vhdlchar"><a class="code" href="classinterface__cache__bus__pkg.html#af80e9f1d61dbdf0c2b51cd4504e060c5">tp_respuesta_info</a></span>;</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classRD__resp__info.html#a94806ed77269727281ecf898607565fd">   15</a></span>&#160;         <span class="vhdlchar"><a class="code" href="classRD__resp__info.html#a94806ed77269727281ecf898607565fd">s</a></span><span class="vhdlchar">:</span> <span class="keywordflow">out</span> <span class="vhdlchar"><a class="code" href="classinterface__cache__bus__pkg.html#af80e9f1d61dbdf0c2b51cd4504e060c5">tp_respuesta_info</a></span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keywordflow">end</span>;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classRD__resp__info_1_1comportamiento.html">   18</a></span>&#160;<span class="keywordflow">architecture</span> comportamiento <span class="keywordflow">of</span> <a class="code" href="classRD__resp__info.html">RD_resp_info</a> is</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="vhdlkeyword">begin</span></div><div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classRD__resp__info_1_1comportamiento.html#a975a59828fd9f67baf62ab5af594975e">   20</a></span>&#160;<span class="keywordflow">process</span> (<a class="code" href="classRD__resp__info.html#a9a2054ec7f63792c3956fe7264bbd941">reloj</a>, <a class="code" href="classRD__resp__info.html#aaaf76b3c92306baf67cc09a1ff48254d">pcero</a>) </div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="vhdlkeyword">begin</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;   <span class="keywordflow">if</span> <span class="vhdlchar"><a class="code" href="classRD__resp__info.html#aaaf76b3c92306baf67cc09a1ff48254d">pcero</a></span> <span class="vhdlchar">=</span> <span class="vhdlchar">&#39;</span><span class="vhdllogic"></span><span class="vhdllogic">1</span><span class="vhdlchar">&#39;</span> <span class="keywordflow">then</span> </div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;      <span class="vhdlchar"><a class="code" href="classRD__resp__info.html#a94806ed77269727281ecf898607565fd">s</a></span> <span class="vhdlchar">&lt;=</span> <span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classinterface__cache__bus__pkg.html#abb0a3f1f90c28fc47a3a899cfab3aae2">mdato_bus</a></span> <span class="vhdlchar">=</span><span class="vhdlchar">&gt;</span> <span class="vhdlchar">(</span><span class="keywordflow">others</span> <span class="vhdlchar">=</span><span class="vhdlchar">&gt;</span> <span class="vhdlchar">&#39;</span><span class="vhdllogic"></span><span class="vhdllogic">0</span><span class="vhdlchar">&#39;</span><span class="vhdlchar">)</span><span class="vhdlchar">)</span> <span class="keywordflow">after</span> <span class="vhdlchar"><a class="code" href="classretardos__RegDes__pkg.html#ac53af39175df00f730da733399190bd2">retREGDES</a></span>;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;   <span class="keywordflow">elsif</span> <span class="vhdlchar">rising_edge</span><span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classRD__resp__info.html#a9a2054ec7f63792c3956fe7264bbd941">reloj</a></span><span class="vhdlchar">)</span> <span class="keywordflow">then</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;      <span class="vhdlchar"><a class="code" href="classRD__resp__info.html#a94806ed77269727281ecf898607565fd">s</a></span> <span class="vhdlchar">&lt;=</span> <span class="vhdlchar"><a class="code" href="classRD__resp__info.html#a665bca762dcafdb9ad166031367b060d">e</a></span> <span class="keywordflow">after</span> <span class="vhdlchar"><a class="code" href="classretardos__RegDes__pkg.html#ac53af39175df00f730da733399190bd2">retREGDES</a></span>;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;   <span class="keywordflow">end</span> <span class="keywordflow">if</span>;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keywordflow">end</span> <span class="keywordflow">process</span>;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordflow">end</span>;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="ttc" id="classinterface__cache__bus__pkg_html"><div class="ttname"><a href="classinterface__cache__bus__pkg.html">interface_cache_bus_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="interface__cache__bus__pkg_8vhd_source.html#l00011">interface_cache_bus_pkg.vhd:11</a></div></div>
+<div class="ttc" id="classRD__resp__info_html_aaaf76b3c92306baf67cc09a1ff48254d"><div class="ttname"><a href="classRD__resp__info.html#aaaf76b3c92306baf67cc09a1ff48254d">RD_resp_info.pcero</a></div><div class="ttdeci">in pcerostd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="RD__resp__info_8vhd_source.html#l00013">RD_resp_info.vhd:13</a></div></div>
+<div class="ttc" id="classinterface__cache__bus__pkg_html_af80e9f1d61dbdf0c2b51cd4504e060c5"><div class="ttname"><a href="classinterface__cache__bus__pkg.html#af80e9f1d61dbdf0c2b51cd4504e060c5">interface_cache_bus_pkg.tp_respuesta_info</a></div><div class="ttdeci">tp_respuesta_info</div><div class="ttdef"><b>Definition:</b> <a href="interface__cache__bus__pkg_8vhd_source.html#l00019">interface_cache_bus_pkg.vhd:19</a></div></div>
+<div class="ttc" id="classinterface__cache__bus__pkg_html_abb0a3f1f90c28fc47a3a899cfab3aae2"><div class="ttname"><a href="classinterface__cache__bus__pkg.html#abb0a3f1f90c28fc47a3a899cfab3aae2">interface_cache_bus_pkg.mdato_bus</a></div><div class="ttdeci">st_palabra_dat   mdato_bus</div><div class="ttdef"><b>Definition:</b> <a href="interface__cache__bus__pkg_8vhd_source.html#l00020">interface_cache_bus_pkg.vhd:20</a></div></div>
+<div class="ttc" id="classRD__pet__info_html_ae4f03c286607f3181e16b9aa12d0c6d4"><div class="ttname"><a href="classRD__pet__info.html#ae4f03c286607f3181e16b9aa12d0c6d4">RD_pet_info.IEEE</a></div><div class="ttdeci">_library_ IEEEIEEE</div><div class="ttdef"><b>Definition:</b> <a href="RD__pet__info_8vhd_source.html#l00006">RD_pet_info.vhd:6</a></div></div>
+<div class="ttc" id="classRD__resp__info_html"><div class="ttname"><a href="classRD__resp__info.html">RD_resp_info</a></div><div class="ttdef"><b>Definition:</b> <a href="RD__resp__info_8vhd_source.html#l00012">RD_resp_info.vhd:12</a></div></div>
+<div class="ttc" id="classretardos__RegDes__pkg_html_ac53af39175df00f730da733399190bd2"><div class="ttname"><a href="classretardos__RegDes__pkg.html#ac53af39175df00f730da733399190bd2">retardos_RegDes_pkg.retREGDES</a></div><div class="ttdeci">time  :=  2 ns retREGDES</div><div class="ttdef"><b>Definition:</b> <a href="retardos__RegDes__pkg_8vhd_source.html#l00011">retardos_RegDes_pkg.vhd:11</a></div></div>
+<div class="ttc" id="classretardos__RegDes__pkg_html"><div class="ttname"><a href="classretardos__RegDes__pkg.html">retardos_RegDes_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="retardos__RegDes__pkg_8vhd_source.html#l00009">retardos_RegDes_pkg.vhd:9</a></div></div>
+<div class="ttc" id="classRD__resp__info_html_a9a2054ec7f63792c3956fe7264bbd941"><div class="ttname"><a href="classRD__resp__info.html#a9a2054ec7f63792c3956fe7264bbd941">RD_resp_info.reloj</a></div><div class="ttdeci">in relojstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="RD__resp__info_8vhd_source.html#l00013">RD_resp_info.vhd:13</a></div></div>
+<div class="ttc" id="classRD__resp__info_html_a665bca762dcafdb9ad166031367b060d"><div class="ttname"><a href="classRD__resp__info.html#a665bca762dcafdb9ad166031367b060d">RD_resp_info.e</a></div><div class="ttdeci">in etp_respuesta_info  </div><div class="ttdef"><b>Definition:</b> <a href="RD__resp__info_8vhd_source.html#l00014">RD_resp_info.vhd:14</a></div></div>
+<div class="ttc" id="classRD__resp__info_html_a94806ed77269727281ecf898607565fd"><div class="ttname"><a href="classRD__resp__info.html#a94806ed77269727281ecf898607565fd">RD_resp_info.s</a></div><div class="ttdeci">out stp_respuesta_info  </div><div class="ttdef"><b>Definition:</b> <a href="RD__resp__info_8vhd_source.html#l00015">RD_resp_info.vhd:15</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Domingo, 2 de Diciembre de 2018 12:32:06 para Cache proyecto 1 por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

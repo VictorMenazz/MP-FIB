@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Cache proyecto 3: Fichero Fuente /home/llaberia/Desktop/QUARTUS_MULTIS_LABORATORIOS/MP/LAB2/proyecto_3/cache_con_interface_bus/cache_con_interface_proc/cache/ensamblado/CODIGO/cache.vhd</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Cache proyecto 3
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_280f76072450105598b447824c1e95b1.html">proyecto_3</a></li><li class="navelem"><a class="el" href="dir_05b017759cd0601058fc66bf788ed628.html">cache_con_interface_bus</a></li><li class="navelem"><a class="el" href="dir_b49c5637aa20d50aa4b336b086368b33.html">cache_con_interface_proc</a></li><li class="navelem"><a class="el" href="dir_c5a9238c64332c0779f4d3a496624b0b.html">cache</a></li><li class="navelem"><a class="el" href="dir_975251436e4f962f7e368546057bbf78.html">ensamblado</a></li><li class="navelem"><a class="el" href="dir_02d9ddf7e2c02895ba83248047382fc7.html">CODIGO</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">cache.vhd</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="cache_8vhd.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">--</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">-- Copyright (c) 2017 XXXX, UPC</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">-- All rights reserved.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">-- </span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classcache.html#a0a6af6eef40212dbaf130d57ce711256">    6</a></span>&#160;<span class="vhdlkeyword">library </span><span class="keywordflow">ieee</span>;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classcache.html#acd03516902501cd1c7296a98e22c6fcb">    7</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classprocedimientos__controlador__pkg.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.std_logic_1164.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classcache.html#a2edc34402b573437d5f25fa90ba4013e">    8</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classprocedimientos__controlador__pkg.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.numeric_std.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classcache.html#a1de3d6a72279acdc8f85b56c5cfe12cd">   10</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classparam__disenyo__pkg.html">param_disenyo_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classcache.html#ae9769bd05a46a4e929b5ff2c1a1dcd6f">   11</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classcamino__dat__pkg.html">camino_dat_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classcache.html#ad85a7f5ed0ea716b4cd29a75c0de40da">   12</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classcontrolador__pkg.html">controlador_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classcache.html#a39a370e9a03e7251250f6565de944928">   13</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classcomponentes__cache__pkg.html">componentes_cache_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classcache.html#a34d41362a186139d9a2b384a91ad3ce7">   14</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classcache__pkg.html">cache_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classcache.html">   17</a></span>&#160;<span class="keywordflow">entity </span><a class="code" href="classcache.html">cache</a> <span class="keywordflow">is</span></div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classcache.html#a9a2054ec7f63792c3956fe7264bbd941">   18</a></span>&#160;<span class="keywordflow">port</span> <span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classcache.html#a9a2054ec7f63792c3956fe7264bbd941">reloj</a></span><span class="vhdlchar">,</span> <span class="vhdlchar"><a class="code" href="classcache.html#aaaf76b3c92306baf67cc09a1ff48254d">pcero</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classcache.html#a4aa2391be511cc34750e674d0038b023">   19</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classcache.html#a4aa2391be511cc34750e674d0038b023">peticion</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="vhdlchar"><a class="code" href="classcache__pkg.html#ac6e9870af662e6b81fddc988eaf10c00">tp_peticion</a></span>;</div><div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classcache.html#a603be10dcd0213b26d2a97dd69ba42e1">   20</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classcache.html#a603be10dcd0213b26d2a97dd69ba42e1">pet_listo</a></span><span class="vhdlchar">:</span> <span class="keywordflow">out</span> <span class="vhdlchar"><a class="code" href="classcache__pkg.html#a2f6f3e90fc43ae246066e7c0f7058e9a">st_cache_listo</a></span>;</div><div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classcache.html#a4f08f8955f543ee13aa91b79693b5d72">   21</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classcache.html#a4f08f8955f543ee13aa91b79693b5d72">mdato</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="vhdlchar"><a class="code" href="classparam__disenyo__pkg.html#ad1d7a7ce03bdb0b995bf8d185cac7670">st_elem_dat</a></span>;</div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classcache.html#a7f9fc3936165ea026b983a94d2c0d2c0">   22</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classcache.html#a7f9fc3936165ea026b983a94d2c0d2c0">respuesta</a></span><span class="vhdlchar">:</span> <span class="keywordflow">out</span> <span class="vhdlchar"><a class="code" href="classcache__pkg.html#ae729fc1344ba05def6472831767cb0c1">tp_respuesta</a></span>;</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classcache.html#a46a49613542a82df204c0572978b142b">   23</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classcache.html#a46a49613542a82df204c0572978b142b">resp_m</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="vhdlchar"><a class="code" href="classcontrolador__pkg.html#ad9bba9e7b5726c43bc65e2b96c6e0ce8">tp_cntl_memoria_e</a></span>;</div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classcache.html#add6493ad07421f7efe8285677db2bcbc">   24</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classcache.html#add6493ad07421f7efe8285677db2bcbc">pet_m</a></span><span class="vhdlchar">:</span> <span class="keywordflow">out</span> <span class="vhdlchar"><a class="code" href="classcontrolador__pkg.html#a699b0a76faf86417d0faff195524f34a">tp_cntl_memoria_s</a></span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keywordflow">end</span>;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  </div><div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classcache_1_1estruc.html">   27</a></span>&#160;<span class="keywordflow">architecture</span> estruc <span class="keywordflow">of</span> <a class="code" href="classcache.html">cache</a> is</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="vhdlkeyword">begin </span></div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keywordflow">end</span>;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div><div class="ttc" id="classcache_html_a46a49613542a82df204c0572978b142b"><div class="ttname"><a href="classcache.html#a46a49613542a82df204c0572978b142b">cache.resp_m</a></div><div class="ttdeci">in resp_mtp_cntl_memoria_e  </div><div class="ttdef"><b>Definition:</b> <a href="cache_8vhd_source.html#l00023">cache.vhd:23</a></div></div>
+<div class="ttc" id="classparam__disenyo__pkg_html"><div class="ttname"><a href="classparam__disenyo__pkg.html">param_disenyo_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="param__disenyo__pkg_8vhd_source.html#l00011">param_disenyo_pkg.vhd:11</a></div></div>
+<div class="ttc" id="classcontrolador__pkg_html"><div class="ttname"><a href="classcontrolador__pkg.html">controlador_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="controlador__pkg_8vhd_source.html#l00011">controlador_pkg.vhd:11</a></div></div>
+<div class="ttc" id="classcontrolador__pkg_html_ad9bba9e7b5726c43bc65e2b96c6e0ce8"><div class="ttname"><a href="classcontrolador__pkg.html#ad9bba9e7b5726c43bc65e2b96c6e0ce8">controlador_pkg.tp_cntl_memoria_e</a></div><div class="ttdeci">tp_cntl_memoria_e</div><div class="ttdef"><b>Definition:</b> <a href="controlador__pkg_8vhd_source.html#l00057">controlador_pkg.vhd:57</a></div></div>
+<div class="ttc" id="classcomponentes__cache__pkg_html"><div class="ttname"><a href="classcomponentes__cache__pkg.html">componentes_cache_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="componentes__cache__pkg_8vhd_source.html#l00014">componentes_cache_pkg.vhd:14</a></div></div>
+<div class="ttc" id="classcache_html_a9a2054ec7f63792c3956fe7264bbd941"><div class="ttname"><a href="classcache.html#a9a2054ec7f63792c3956fe7264bbd941">cache.reloj</a></div><div class="ttdeci">in relojstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="cache_8vhd_source.html#l00018">cache.vhd:18</a></div></div>
+<div class="ttc" id="classcache_html_a4f08f8955f543ee13aa91b79693b5d72"><div class="ttname"><a href="classcache.html#a4f08f8955f543ee13aa91b79693b5d72">cache.mdato</a></div><div class="ttdeci">in mdatost_elem_dat  </div><div class="ttdef"><b>Definition:</b> <a href="cache_8vhd_source.html#l00021">cache.vhd:21</a></div></div>
+<div class="ttc" id="classcache_html_a7f9fc3936165ea026b983a94d2c0d2c0"><div class="ttname"><a href="classcache.html#a7f9fc3936165ea026b983a94d2c0d2c0">cache.respuesta</a></div><div class="ttdeci">out respuestatp_respuesta  </div><div class="ttdef"><b>Definition:</b> <a href="cache_8vhd_source.html#l00022">cache.vhd:22</a></div></div>
+<div class="ttc" id="classcache__pkg_html_a2f6f3e90fc43ae246066e7c0f7058e9a"><div class="ttname"><a href="classcache__pkg.html#a2f6f3e90fc43ae246066e7c0f7058e9a">cache_pkg.st_cache_listo</a></div><div class="ttdeci">std_logic   st_cache_listo</div><div class="ttdef"><b>Definition:</b> <a href="cache__pkg_8vhd_source.html#l00026">cache_pkg.vhd:26</a></div></div>
+<div class="ttc" id="classcamino__dat__pkg_html"><div class="ttname"><a href="classcamino__dat__pkg.html">camino_dat_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="camino__dat__pkg_8vhd_source.html#l00011">camino_dat_pkg.vhd:11</a></div></div>
+<div class="ttc" id="classcache_html_add6493ad07421f7efe8285677db2bcbc"><div class="ttname"><a href="classcache.html#add6493ad07421f7efe8285677db2bcbc">cache.pet_m</a></div><div class="ttdeci">out pet_mtp_cntl_memoria_s  </div><div class="ttdef"><b>Definition:</b> <a href="cache_8vhd_source.html#l00024">cache.vhd:24</a></div></div>
+<div class="ttc" id="classparam__disenyo__pkg_html_ad1d7a7ce03bdb0b995bf8d185cac7670"><div class="ttname"><a href="classparam__disenyo__pkg.html#ad1d7a7ce03bdb0b995bf8d185cac7670">param_disenyo_pkg.st_elem_dat</a></div><div class="ttdeci">std_logic_vector(   tam_byte_bits- 1 downto  0)   st_elem_dat</div><div class="ttdef"><b>Definition:</b> <a href="param__disenyo__pkg_8vhd_source.html#l00040">param_disenyo_pkg.vhd:40</a></div></div>
+<div class="ttc" id="classprocedimientos__controlador__pkg_html_a0a6af6eef40212dbaf130d57ce711256"><div class="ttname"><a href="classprocedimientos__controlador__pkg.html#a0a6af6eef40212dbaf130d57ce711256">procedimientos_controlador_pkg.ieee</a></div><div class="ttdeci">_library_ ieeeieee</div><div class="ttdef"><b>Definition:</b> <a href="procedimientos__controlador__pkg_8vhd_source.html#l00006">procedimientos_controlador_pkg.vhd:6</a></div></div>
+<div class="ttc" id="classcontrolador__pkg_html_a699b0a76faf86417d0faff195524f34a"><div class="ttname"><a href="classcontrolador__pkg.html#a699b0a76faf86417d0faff195524f34a">controlador_pkg.tp_cntl_memoria_s</a></div><div class="ttdeci">tp_cntl_memoria_s</div><div class="ttdef"><b>Definition:</b> <a href="controlador__pkg_8vhd_source.html#l00051">controlador_pkg.vhd:51</a></div></div>
+<div class="ttc" id="classcache_html_a603be10dcd0213b26d2a97dd69ba42e1"><div class="ttname"><a href="classcache.html#a603be10dcd0213b26d2a97dd69ba42e1">cache.pet_listo</a></div><div class="ttdeci">out pet_listost_cache_listo  </div><div class="ttdef"><b>Definition:</b> <a href="cache_8vhd_source.html#l00020">cache.vhd:20</a></div></div>
+<div class="ttc" id="classcache_html_aaaf76b3c92306baf67cc09a1ff48254d"><div class="ttname"><a href="classcache.html#aaaf76b3c92306baf67cc09a1ff48254d">cache.pcero</a></div><div class="ttdeci">in pcerostd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="cache_8vhd_source.html#l00018">cache.vhd:18</a></div></div>
+<div class="ttc" id="classcache_html_a4aa2391be511cc34750e674d0038b023"><div class="ttname"><a href="classcache.html#a4aa2391be511cc34750e674d0038b023">cache.peticion</a></div><div class="ttdeci">in peticiontp_peticion  </div><div class="ttdef"><b>Definition:</b> <a href="cache_8vhd_source.html#l00019">cache.vhd:19</a></div></div>
+<div class="ttc" id="classcache__pkg_html_ae729fc1344ba05def6472831767cb0c1"><div class="ttname"><a href="classcache__pkg.html#ae729fc1344ba05def6472831767cb0c1">cache_pkg.tp_respuesta</a></div><div class="ttdeci">tp_respuesta</div><div class="ttdef"><b>Definition:</b> <a href="cache__pkg_8vhd_source.html#l00021">cache_pkg.vhd:21</a></div></div>
+<div class="ttc" id="classcache__pkg_html"><div class="ttname"><a href="classcache__pkg.html">cache_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="cache__pkg_8vhd_source.html#l00011">cache_pkg.vhd:11</a></div></div>
+<div class="ttc" id="classcache_html"><div class="ttname"><a href="classcache.html">cache</a></div><div class="ttdef"><b>Definition:</b> <a href="cache_8vhd_source.html#l00017">cache.vhd:17</a></div></div>
+<div class="ttc" id="classcache__pkg_html_ac6e9870af662e6b81fddc988eaf10c00"><div class="ttname"><a href="classcache__pkg.html#ac6e9870af662e6b81fddc988eaf10c00">cache_pkg.tp_peticion</a></div><div class="ttdeci">tp_peticion</div><div class="ttdef"><b>Definition:</b> <a href="cache__pkg_8vhd_source.html#l00013">cache_pkg.vhd:13</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Domingo, 2 de Diciembre de 2018 12:58:30 para Cache proyecto 3 por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

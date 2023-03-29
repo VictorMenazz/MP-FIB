@@ -1,0 +1,626 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd_interface/QUARTUS/simulation/modelsim
+Ecamino_mcd
+Z1 w1529683668
+Z2 DPx4 work 15 componentes_pkg 0 22 nfGIMlEE:LDoUeXLmAZ[C1
+Z3 DPx4 work 17 param_disenyo_pkg 0 22 AcDMH=3OILI7E2nbZbdD=0
+Z4 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 d/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd_interface/QUARTUS/simulation/modelsim
+Z8 8/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/ensamblado/CODIGO/camino_mcd.vhd
+Z9 F/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/ensamblado/CODIGO/camino_mcd.vhd
+l0
+L13
+VHkRFz[mOMLdWa^d2;IAcK3
+Z10 OV;C;10.1d;51
+31
+Z11 !s108 1678577635.226729
+Z12 !s90 -reportprogress|300|-93|-work|work|/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/ensamblado/CODIGO/camino_mcd.vhd|
+Z13 !s107 /home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/ensamblado/CODIGO/camino_mcd.vhd|
+Z14 o-93 -work work -O0
+Z15 tExplicit 1
+!s100 OT4PWF9Po]D6YOSNIHXjb3
+!i10b 1
+Aestruc
+R2
+R3
+R4
+R5
+R6
+DEx4 work 10 camino_mcd 0 22 HkRFz[mOMLdWa^d2;IAcK3
+l25
+L21
+V7on1JR@8SUU4282h7UU0d3
+R10
+31
+R11
+R12
+R13
+R14
+R15
+!s100 9D`IE9b53:HBKLbhi77z33
+!i10b 1
+Pcomponentes_mcd_pkg
+R3
+R4
+R5
+R6
+w1527512110
+R7
+8/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/componentes_mcd_pkg/componentes_mcd_pkg.vhd
+F/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/componentes_mcd_pkg/componentes_mcd_pkg.vhd
+l0
+L11
+VT`>RNVn7FeNKiHoJ2hmHA3
+R10
+31
+R14
+R15
+!s100 KoYScmQcH]hMn_<MD<ifZ3
+!i10b 1
+!s108 1678577634.948504
+!s90 -reportprogress|300|-93|-work|work|/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/componentes_mcd_pkg/componentes_mcd_pkg.vhd|
+!s107 /home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/componentes_mcd_pkg/componentes_mcd_pkg.vhd|
+Pcomponentes_pkg
+R3
+R4
+R5
+R6
+w1528216177
+R7
+8/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes_pkg/componentes_pkg.vhd
+F/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes_pkg/componentes_pkg.vhd
+l0
+L11
+VnfGIMlEE:LDoUeXLmAZ[C1
+R10
+31
+R14
+R15
+!s100 i@]8_^RQ_FAIQfPLYnl9J3
+!i10b 1
+!s108 1678577634.926781
+!s90 -reportprogress|300|-93|-work|work|/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes_pkg/componentes_pkg.vhd|
+!s107 /home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes_pkg/componentes_pkg.vhd|
+Econtrol
+Z16 w1540289908
+Z17 DPx4 work 21 proc_func_control_pkg 0 22 `GbVjJ]3Mbb0V^]GL:8YL2
+Z18 DPx4 work 10 estado_pkg 0 22 M^@UHMKEh0?NcDHfI_=CY3
+Z19 DPx4 work 24 retardos_componentes_pkg 0 22 zhZM>NHcnMgmiMHWfhe_?1
+R3
+R5
+R6
+R7
+Z20 8/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/control/CODIGO/control.vhd
+Z21 F/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/control/CODIGO/control.vhd
+l0
+L15
+VUTzQo`MU`[7aTn<a2d4YS2
+R10
+31
+Z22 !s108 1678577635.254109
+Z23 !s90 -reportprogress|300|-93|-work|work|/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/control/CODIGO/control.vhd|
+Z24 !s107 /home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/control/CODIGO/control.vhd|
+R14
+R15
+!s100 ndZZV8CmazZk6TMdPNh?01
+!i10b 1
+Afuncional
+R17
+R18
+R19
+R3
+R5
+R6
+DEx4 work 7 control 0 22 UTzQo`MU`[7aTn<a2d4YS2
+l27
+L24
+VZZd_oMK^`NZzf=_D9RG2M2
+R10
+31
+R22
+R23
+R24
+R14
+R15
+!s100 lH45172@M]7c^08fW;PIZ0
+!i10b 1
+Pestado_pkg
+R5
+R6
+w1526031042
+R7
+8/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/control/CODIGO/estado_pkg.vhd
+F/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/control/CODIGO/estado_pkg.vhd
+l0
+L9
+VM^@UHMKEh0?NcDHfI_=CY3
+R10
+31
+R14
+R15
+!s100 6o>eGVMQbi>?3eYR4RB@O1
+!i10b 1
+!s108 1678577634.858584
+!s90 -reportprogress|300|-93|-work|work|/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/control/CODIGO/estado_pkg.vhd|
+!s107 /home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/control/CODIGO/estado_pkg.vhd|
+Eetapa_mcd
+Z25 w1529683924
+Z26 DPx4 work 13 interface_pkg 0 22 SfT[Vb?zPgJS8d::CdVXH1
+Z27 DPx4 work 19 componentes_mcd_pkg 0 22 T`>RNVn7FeNKiHoJ2hmHA3
+R3
+R4
+R5
+R6
+R7
+Z28 8/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd_interface/CODIGO/etapa_mcd.vhd
+Z29 F/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd_interface/CODIGO/etapa_mcd.vhd
+l0
+L14
+V[MnNDjGb3fMdcE]@f9@C_3
+R10
+31
+Z30 !s108 1678577635.162797
+Z31 !s90 -reportprogress|300|-93|-work|work|/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd_interface/CODIGO/etapa_mcd.vhd|
+Z32 !s107 /home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd_interface/CODIGO/etapa_mcd.vhd|
+R14
+R15
+!s100 de<W5Q^4DWVokN_2dL6lo0
+!i10b 1
+Aestruc
+R26
+R27
+R3
+R4
+R5
+R6
+DEx4 work 9 etapa_mcd 0 22 [MnNDjGb3fMdcE]@f9@C_3
+l32
+L22
+VC??bgm[k0W4clQf_HE38c2
+R10
+31
+R30
+R31
+R32
+R14
+R15
+!s100 UI5@jh2d1b<JTjiOlh?BZ2
+!i10b 1
+Eigual_cero
+Z33 w1543490042
+R19
+R3
+R4
+R5
+R6
+R7
+Z34 8/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/igual_cero/CODIGO/igual_cero.vhd
+Z35 F/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/igual_cero/CODIGO/igual_cero.vhd
+l0
+L13
+VVVh>LAL?Y2mEV=zHX]Ke?2
+R10
+31
+Z36 !s108 1678577635.124647
+Z37 !s90 -reportprogress|300|-93|-work|work|/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/igual_cero/CODIGO/igual_cero.vhd|
+Z38 !s107 /home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/igual_cero/CODIGO/igual_cero.vhd|
+R14
+R15
+!s100 OQPTo_Nz904]^JXhNJlJC3
+!i10b 1
+Acomport
+R19
+R3
+R4
+R5
+R6
+DEx4 work 10 igual_cero 0 22 VVh>LAL?Y2mEV=zHX]Ke?2
+l20
+L18
+VL5g@Q>?Wa=i?QR`400WZ02
+R10
+31
+R36
+R37
+R38
+R14
+R15
+!s100 F9?:eni:F7FRHB5=ELz9J1
+!i10b 1
+Pinterface_pkg
+R3
+R5
+R6
+w1528035841
+R7
+8/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/tipos_constantes_pkg/interface_pkg.vhd
+F/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/tipos_constantes_pkg/interface_pkg.vhd
+l0
+L10
+VSfT[Vb?zPgJS8d::CdVXH1
+R10
+31
+R14
+R15
+!s100 `?fC0`Ao[:Xe^zW7=T8db0
+!i10b 1
+!s108 1678577634.973101
+!s90 -reportprogress|300|-93|-work|work|/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/tipos_constantes_pkg/interface_pkg.vhd|
+!s107 /home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/tipos_constantes_pkg/interface_pkg.vhd|
+Emcd
+Z39 w1529684434
+R27
+R3
+R4
+R5
+R6
+R7
+Z40 8/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/ensamblado/CODIGO/mcd.vhd
+Z41 F/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/ensamblado/CODIGO/mcd.vhd
+l0
+L13
+VmEm^HG5M^nnzX6b9NU]bU1
+R10
+31
+Z42 !s108 1678577635.193694
+Z43 !s90 -reportprogress|300|-93|-work|work|/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/ensamblado/CODIGO/mcd.vhd|
+Z44 !s107 /home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/ensamblado/CODIGO/mcd.vhd|
+R14
+R15
+!s100 XHD1AmPe;N?UYUZFaMU7_2
+!i10b 1
+Aestruc
+R27
+R3
+R4
+R5
+R6
+DEx4 work 3 mcd 0 22 mEm^HG5M^nnzX6b9NU]bU1
+l27
+L23
+V?XaD96FdQNiijAR4<khN@2
+R10
+31
+R42
+R43
+R44
+R14
+R15
+!s100 BSFCgoaGk7TDZhfE[PiFX1
+!i10b 1
+Emenqu
+Z45 w1526028933
+R19
+R3
+R4
+R5
+R6
+R7
+Z46 8/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/menor/CODIGO/menqu.vhd
+Z47 F/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/menor/CODIGO/menqu.vhd
+l0
+L13
+V1;N6bQX1j5=>H57YBZ=cU1
+R10
+31
+Z48 !s108 1678577635.040892
+Z49 !s90 -reportprogress|300|-93|-work|work|/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/menor/CODIGO/menqu.vhd|
+Z50 !s107 /home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/menor/CODIGO/menqu.vhd|
+R14
+R15
+!s100 ^Tmek0BRX>c^T]>f<Hm=U3
+!i10b 1
+Acomport
+R19
+R3
+R4
+R5
+R6
+DEx4 work 5 menqu 0 22 1;N6bQX1j5=>H57YBZ=cU1
+l19
+L18
+Vob[HlmSHNJ<dQ<2MWNR1G2
+R10
+31
+R48
+R49
+R50
+R14
+R15
+!s100 6OEa46n[KISmM8=zlima21
+!i10b 1
+Emux2
+Z51 w1525971901
+R19
+R3
+R4
+R5
+R6
+R7
+Z52 8/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/MUX/CODIGO/mux2.vhd
+Z53 F/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/MUX/CODIGO/mux2.vhd
+l0
+L12
+VO]aT5j382B=DC9:V1d?zG3
+R10
+31
+Z54 !s108 1678577634.991229
+Z55 !s90 -reportprogress|300|-93|-work|work|/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/MUX/CODIGO/mux2.vhd|
+Z56 !s107 /home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/MUX/CODIGO/mux2.vhd|
+R14
+R15
+!s100 _5;DclG:6hQ>[J3KGNM252
+!i10b 1
+Acomportamiento
+R19
+R3
+R4
+R5
+R6
+DEx4 work 4 mux2 0 22 O]aT5j382B=DC9:V1d?zG3
+l19
+L18
+VHkG]4>E_eVaWUXXmGNN9h2
+R10
+31
+R54
+R55
+R56
+R14
+R15
+!s100 X<JQ7lZRzQ<@2igO;4e7n0
+!i10b 1
+Pparam_disenyo_pkg
+R5
+R6
+w1540288601
+R7
+8/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/tipos_constantes_pkg/param_disenyo_pkg.vhd
+F/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/tipos_constantes_pkg/param_disenyo_pkg.vhd
+l0
+L9
+VAcDMH=3OILI7E2nbZbdD=0
+R10
+31
+R14
+R15
+!s100 HoE>0k=XjGng;W_nNi7C`1
+!i10b 1
+!s108 1678577634.891809
+!s90 -reportprogress|300|-93|-work|work|/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/tipos_constantes_pkg/param_disenyo_pkg.vhd|
+!s107 /home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/tipos_constantes_pkg/param_disenyo_pkg.vhd|
+Pproc_func_control_pkg
+R3
+R5
+R6
+Z57 w1528666739
+R7
+Z58 8/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/control/CODIGO/proc_func_control_pkg.vhd
+Z59 F/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/control/CODIGO/proc_func_control_pkg.vhd
+l0
+L10
+V`GbVjJ]3Mbb0V^]GL:8YL2
+R10
+31
+b1
+Z60 !s108 1678577634.907596
+Z61 !s90 -reportprogress|300|-93|-work|work|/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/control/CODIGO/proc_func_control_pkg.vhd|
+Z62 !s107 /home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/control/CODIGO/proc_func_control_pkg.vhd|
+R14
+R15
+!s100 8D[FCLdCUf2cL==YcUY]Y3
+!i10b 1
+Bbody
+R17
+R3
+R5
+R6
+l0
+L34
+V:@B5m5CMIJUfI9ffo_8FD0
+R10
+31
+R60
+R61
+R62
+R14
+R15
+nbody
+!s100 V;NYG3c=jBXU>=?AWL5Em0
+!i10b 1
+Pprocedimientos_prueba_pkg
+R3
+R4
+R5
+R6
+Z63 w1528039911
+R7
+Z64 8/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd_interface/QUARTUS/../PRUEBAS/procedimientos_prueba_pkg.vhd
+Z65 F/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd_interface/QUARTUS/../PRUEBAS/procedimientos_prueba_pkg.vhd
+l0
+L11
+VQ6EUT=T9@Kc6iaFXj3;lc2
+R10
+31
+b1
+Z66 !s108 1678577635.280597
+Z67 !s90 -reportprogress|300|-93|-work|work|/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd_interface/QUARTUS/../PRUEBAS/procedimientos_prueba_pkg.vhd|
+Z68 !s107 /home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd_interface/QUARTUS/../PRUEBAS/procedimientos_prueba_pkg.vhd|
+R14
+R15
+!s100 izJj0bVJ2`FSzedBzO<_C3
+!i10b 1
+Bbody
+Z69 DPx4 work 25 procedimientos_prueba_pkg 0 22 Q6EUT=T9@Kc6iaFXj3;lc2
+R3
+R4
+R5
+R6
+l0
+L29
+V=UbM>X1??l<Je0_S_Uo_32
+R10
+31
+R66
+R67
+R68
+R14
+R15
+nbody
+!s100 oRLG=9m=6nY[Cm5]BV04_0
+!i10b 1
+Eprueba_etapa_mcd
+Z70 w1540288563
+R2
+R26
+R69
+R18
+R3
+Z71 DPx3 std 3 env 0 22 kU@g3bh3dSQ6SKX7=V`LE3
+Z72 DPx4 ieee 16 std_logic_textio 0 22 ?Il0a149GV276[?[UMDWh2
+R4
+R5
+R6
+R7
+Z73 8/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd_interface/QUARTUS/../PRUEBAS/prueba_etapa_mcd.vhd
+Z74 F/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd_interface/QUARTUS/../PRUEBAS/prueba_etapa_mcd.vhd
+l0
+L19
+V<z2m2m]b3`8j8dJUSXn@e3
+!s100 hQNheN;?0=lMAK5MYQ`3_2
+R10
+31
+!i10b 1
+Z75 !s108 1678577635.309338
+Z76 !s90 -reportprogress|300|-93|-work|work|/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd_interface/QUARTUS/../PRUEBAS/prueba_etapa_mcd.vhd|
+Z77 !s107 /home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd_interface/QUARTUS/../PRUEBAS/prueba_etapa_mcd.vhd|
+R14
+R15
+Aprueba
+R2
+R26
+R69
+R18
+R3
+R71
+R72
+R4
+R5
+R6
+DEx4 work 16 prueba_etapa_mcd 0 22 <z2m2m]b3`8j8dJUSXn@e3
+l56
+L23
+V0j<;<VH<@^i@P6;A]HanH3
+!s100 ?QhULG6DRZP7S;3Zl[FeS1
+R10
+31
+!i10b 1
+R75
+R76
+R77
+R14
+R15
+Erd_n_pe
+Z78 w1525972363
+R19
+R3
+R5
+R6
+R7
+Z79 8/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/REGISTROS/CODIGO/RD_N_pe.vhd
+Z80 F/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/REGISTROS/CODIGO/RD_N_pe.vhd
+l0
+L11
+VAQZ3:Sb[1hKh;95VP2fRb0
+R10
+31
+Z81 !s108 1678577635.016471
+Z82 !s90 -reportprogress|300|-93|-work|work|/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/REGISTROS/CODIGO/RD_N_pe.vhd|
+Z83 !s107 /home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/REGISTROS/CODIGO/RD_N_pe.vhd|
+R14
+R15
+!s100 5Y3dnZmGUA2CKm@[CA[0R3
+!i10b 1
+Acomportamiento
+R19
+R3
+R5
+R6
+DEx4 work 7 rd_n_pe 0 22 AQZ3:Sb[1hKh;95VP2fRb0
+l18
+L17
+VaSUO[cUbchLObZ2fYi3E]2
+R10
+31
+R81
+R82
+R83
+R14
+R15
+!s100 hK1[gQI[Rn0WLcY1^k:HJ2
+!i10b 1
+Pretardos_componentes_pkg
+R5
+R6
+w1528655013
+R7
+8/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/tipos_constantes_pkg/retardos_componentes_pkg.vhd
+F/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/tipos_constantes_pkg/retardos_componentes_pkg.vhd
+l0
+L9
+VzhZM>NHcnMgmiMHWfhe_?1
+R10
+31
+R14
+R15
+!s100 VlG4z0Agkdf4VBlDcjc;A0
+!i10b 1
+!s108 1678577634.875816
+!s90 -reportprogress|300|-93|-work|work|/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/tipos_constantes_pkg/retardos_componentes_pkg.vhd|
+!s107 /home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/tipos_constantes_pkg/retardos_componentes_pkg.vhd|
+Esumador
+Z84 w1526029125
+R19
+R3
+R4
+R5
+R6
+R7
+Z85 8/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/sumador/CODIGO/sumador.vhd
+Z86 F/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/sumador/CODIGO/sumador.vhd
+l0
+L13
+Vm^cHbCXG;Q;J:_h8SJ0QE1
+R10
+31
+Z87 !s108 1678577635.068447
+Z88 !s90 -reportprogress|300|-93|-work|work|/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/sumador/CODIGO/sumador.vhd|
+Z89 !s107 /home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/sumador/CODIGO/sumador.vhd|
+R14
+R15
+!s100 CGSW<2HA=:ZE>EW4FFmG=0
+!i10b 1
+Acompor
+R19
+R3
+R4
+R5
+R6
+DEx4 work 7 sumador 0 22 m^cHbCXG;Q;J:_h8SJ0QE1
+l20
+L19
+VSW]azB8?fZY?ln>5WFOeM2
+R10
+31
+R87
+R88
+R89
+R14
+R15
+!s100 6Z9B93UABggCgo_?MVSYB1
+!i10b 1

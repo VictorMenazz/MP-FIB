@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Cache proyecto 3: Fichero Fuente /home/llaberia/Desktop/QUARTUS_MULTIS_LABORATORIOS/MP/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/ensam_memoria/CODIGO/ensamblado_memoria.vhd</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Cache proyecto 3
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_16778cce2b727dca4ffd580210a8ab8a.html">proyecto_1</a></li><li class="navelem"><a class="el" href="dir_58b0051ca05b86a0ea8e61e0cd988d24.html">memoria_con_interface_bus</a></li><li class="navelem"><a class="el" href="dir_497836daf1e07852038147cda906e573.html">memoria_principal</a></li><li class="navelem"><a class="el" href="dir_60e8b3b6100558b52ada26e5088b3a29.html">ensam_memoria</a></li><li class="navelem"><a class="el" href="dir_286d35c5e5dd94f7e21643cfe9cbdee2.html">CODIGO</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">ensamblado_memoria.vhd</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="ensamblado__memoria_8vhd.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">--</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">-- Copyright (c) 2017 XXXX, UPC</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">-- All rights reserved.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">-- </span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classensamblado__memoria.html#a0a6af6eef40212dbaf130d57ce711256">    6</a></span>&#160;<span class="vhdlkeyword">library </span><span class="keywordflow">ieee</span>;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classensamblado__memoria.html#acd03516902501cd1c7296a98e22c6fcb">    7</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classcomponentes__memoria__pkg.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.std_logic_1164.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classensamblado__memoria.html#a1de3d6a72279acdc8f85b56c5cfe12cd">    9</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classparam__disenyo__pkg.html">param_disenyo_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classensamblado__memoria.html#aa6d022cc056e90916e0b89853527fdd8">   10</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classcomponentes__memoria__pkg.html">componentes_memoria_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classensamblado__memoria.html">   13</a></span>&#160;<span class="keywordflow">entity </span><a class="code" href="classensamblado__memoria.html">ensamblado_memoria</a> <span class="keywordflow">is</span></div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classensamblado__memoria.html#a9a2054ec7f63792c3956fe7264bbd941">   14</a></span>&#160;   <span class="keywordflow">port</span> <span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classensamblado__memoria.html#a9a2054ec7f63792c3956fe7264bbd941">reloj</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span>  <span class="comment">std_logic</span>;</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classensamblado__memoria.html#ac51161938e0f6935a2ebbbd61a6b78a1">   15</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classensamblado__memoria.html#ac51161938e0f6935a2ebbbd61a6b78a1">ED</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span>  <span class="vhdlchar"><a class="code" href="classparam__disenyo__pkg.html#ad1d7a7ce03bdb0b995bf8d185cac7670">st_elem_dat</a></span>;</div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classensamblado__memoria.html#a43f047c5eb6c40ebf5047bcdafc66556">   16</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classensamblado__memoria.html#a43f047c5eb6c40ebf5047bcdafc66556">dir</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span>  <span class="vhdlchar"><a class="code" href="classparam__disenyo__pkg.html#af5558a29c9523b6be76a05eac5ca0fa6">st_dir</a></span>;</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classensamblado__memoria.html#a7edf85f22482656cc0cdf1723889d719">   17</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classensamblado__memoria.html#a7edf85f22482656cc0cdf1723889d719">MPET</a></span><span class="vhdlchar">,</span> <span class="vhdlchar"><a class="code" href="classensamblado__memoria.html#a2159234629ceae09a98108d2fcda37f2">MLES</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span>  <span class="comment">std_logic</span>;</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classensamblado__memoria.html#acf08b5f05e4c19fa94e8f4e6128cffbb">   18</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classensamblado__memoria.html#acf08b5f05e4c19fa94e8f4e6128cffbb">MVAL</a></span><span class="vhdlchar">:</span> <span class="keywordflow">out</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classensamblado__memoria.html#a5f404ce9e93e75586bf0975962acf1d6">   19</a></span>&#160;      <span class="vhdlchar"><a class="code" href="classensamblado__memoria.html#a5f404ce9e93e75586bf0975962acf1d6">LD</a></span><span class="vhdlchar">:</span> <span class="keywordflow">out</span> <span class="vhdlchar"><a class="code" href="classparam__disenyo__pkg.html#ad1d7a7ce03bdb0b995bf8d185cac7670">st_elem_dat</a></span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keywordflow">end</span> <span class="vhdlchar"><a class="code" href="classcomponentes__memoria__pkg.html#abc7107dc7001637781a16097edb95c37">ensamblado_memoria</a></span>;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classensamblado__memoria_1_1estruc.html">   22</a></span>&#160;<span class="keywordflow">architecture</span> estruc <span class="keywordflow">of</span> <a class="code" href="classensamblado__memoria.html">ensamblado_memoria</a> is</div><div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classensamblado__memoria_1_1estruc.html#a4f73779cd7913a3d1e86407f4a581cfb">   23</a></span>&#160;<span class="keywordflow">signal</span> <span class="vhdlchar"><a class="code" href="classensamblado__memoria_1_1estruc.html#a4f73779cd7913a3d1e86407f4a581cfb">PEM</a></span><span class="vhdlchar">:</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classensamblado__memoria_1_1estruc.html#af88b3aeeb15030c046f5e3ea36380b0c">   24</a></span>&#160;<span class="keywordflow">signal</span> <span class="vhdlchar"><a class="code" href="classensamblado__memoria_1_1estruc.html#af88b3aeeb15030c046f5e3ea36380b0c">reg_MPET</a></span><span class="vhdlchar">:</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="vhdlkeyword">begin</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">-- registro asociado al controlador de memoria</span></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;regMPET: RC_1 <span class="keywordflow">port</span> <span class="keywordflow">map</span> (reloj =&gt; reloj, e =&gt; MPET , s =&gt; reg_MPET);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">--controlador de memoria</span></div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<a class="code" href="classensamblado__memoria_1_1estruc.html#a6c8ca171a8515f79de9ab6646fa9adb6">contro</a>: <a class="code" href="classcontrolador__memo.html">controlador_memo</a> <span class="keywordflow">port</span> <span class="keywordflow">map</span>(<a class="code" href="classcontrolador__memo.html#a7edf85f22482656cc0cdf1723889d719">MPET</a> =&gt; <a class="code" href="classensamblado__memoria_1_1estruc.html#af88b3aeeb15030c046f5e3ea36380b0c">reg_MPET</a>, <a class="code" href="classcontrolador__memo.html#acf08b5f05e4c19fa94e8f4e6128cffbb">MVAL</a> =&gt; <a class="code" href="classensamblado__memoria.html#acf08b5f05e4c19fa94e8f4e6128cffbb">MVAL</a><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">--memoria</span></div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<a class="code" href="classensamblado__memoria_1_1estruc.html#a90e35a584b4a1e984f9ef648b8c7a36d">mem</a>: <a class="code" href="classmemoria__mem.html">memoria_mem</a> <span class="keywordflow">port</span> <span class="keywordflow">map</span> (<a class="code" href="classmemoria__mem.html#a9a2054ec7f63792c3956fe7264bbd941">reloj</a> =&gt; <a class="code" href="classensamblado__memoria.html#a9a2054ec7f63792c3956fe7264bbd941">reloj</a>, <a class="code" href="classmemoria__mem.html#a7edf85f22482656cc0cdf1723889d719">MPET</a> =&gt; <a class="code" href="classensamblado__memoria.html#a7edf85f22482656cc0cdf1723889d719">MPET</a>, <a class="code" href="classmemoria__mem.html#ac51161938e0f6935a2ebbbd61a6b78a1">ED</a> =&gt; <a class="code" href="classensamblado__memoria.html#ac51161938e0f6935a2ebbbd61a6b78a1">ED</a>, <a class="code" href="classmemoria__mem.html#a43f047c5eb6c40ebf5047bcdafc66556">dir</a> =&gt; <a class="code" href="classensamblado__memoria.html#a43f047c5eb6c40ebf5047bcdafc66556">dir</a>, <a class="code" href="classmemoria__mem.html#a0d2f9a58fb9eb9a955c1f535c06a8a10">pe</a> =&gt; <a class="code" href="classensamblado__memoria.html#a2159234629ceae09a98108d2fcda37f2">MLES</a>, <a class="code" href="classmemoria__mem.html#a5f404ce9e93e75586bf0975962acf1d6">LD</a> =&gt; <a class="code" href="classensamblado__memoria.html#a5f404ce9e93e75586bf0975962acf1d6">LD</a><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keywordflow">end</span>;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="ttc" id="classensamblado__memoria_html_a9a2054ec7f63792c3956fe7264bbd941"><div class="ttname"><a href="classensamblado__memoria.html#a9a2054ec7f63792c3956fe7264bbd941">ensamblado_memoria.reloj</a></div><div class="ttdeci">in relojstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="ensamblado__memoria_8vhd_source.html#l00014">ensamblado_memoria.vhd:14</a></div></div>
+<div class="ttc" id="classmemoria__mem_html_a0d2f9a58fb9eb9a955c1f535c06a8a10"><div class="ttname"><a href="classmemoria__mem.html#a0d2f9a58fb9eb9a955c1f535c06a8a10">memoria_mem.pe</a></div><div class="ttdeci">in pestd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="memoria__mem_8vhd_source.html#l00019">memoria_mem.vhd:19</a></div></div>
+<div class="ttc" id="classparam__disenyo__pkg_html"><div class="ttname"><a href="classparam__disenyo__pkg.html">param_disenyo_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="param__disenyo__pkg_8vhd_source.html#l00011">param_disenyo_pkg.vhd:11</a></div></div>
+<div class="ttc" id="classensamblado__memoria_html_ac51161938e0f6935a2ebbbd61a6b78a1"><div class="ttname"><a href="classensamblado__memoria.html#ac51161938e0f6935a2ebbbd61a6b78a1">ensamblado_memoria.ED</a></div><div class="ttdeci">in EDst_elem_dat  </div><div class="ttdef"><b>Definition:</b> <a href="ensamblado__memoria_8vhd_source.html#l00015">ensamblado_memoria.vhd:15</a></div></div>
+<div class="ttc" id="classmemoria__mem_html_a5f404ce9e93e75586bf0975962acf1d6"><div class="ttname"><a href="classmemoria__mem.html#a5f404ce9e93e75586bf0975962acf1d6">memoria_mem.LD</a></div><div class="ttdeci">out LDst_elem_dat  </div><div class="ttdef"><b>Definition:</b> <a href="memoria__mem_8vhd_source.html#l00020">memoria_mem.vhd:20</a></div></div>
+<div class="ttc" id="classensamblado__memoria_1_1estruc_html_a6c8ca171a8515f79de9ab6646fa9adb6"><div class="ttname"><a href="classensamblado__memoria_1_1estruc.html#a6c8ca171a8515f79de9ab6646fa9adb6">contro</a></div><div class="ttdeci">controlador_memo controcontro</div><div class="ttdef"><b>Definition:</b> <a href="ensamblado__memoria_8vhd_source.html#l00030">ensamblado_memoria.vhd:30</a></div></div>
+<div class="ttc" id="classcontrolador__memo_html_acf08b5f05e4c19fa94e8f4e6128cffbb"><div class="ttname"><a href="classcontrolador__memo.html#acf08b5f05e4c19fa94e8f4e6128cffbb">controlador_memo.MVAL</a></div><div class="ttdeci">out MVALstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="controlador__memo_8vhd_source.html#l00014">controlador_memo.vhd:14</a></div></div>
+<div class="ttc" id="classcontrolador__memo_html_a7edf85f22482656cc0cdf1723889d719"><div class="ttname"><a href="classcontrolador__memo.html#a7edf85f22482656cc0cdf1723889d719">controlador_memo.MPET</a></div><div class="ttdeci">in MPETstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="controlador__memo_8vhd_source.html#l00013">controlador_memo.vhd:13</a></div></div>
+<div class="ttc" id="classensamblado__memoria_1_1estruc_html_af88b3aeeb15030c046f5e3ea36380b0c"><div class="ttname"><a href="classensamblado__memoria_1_1estruc.html#af88b3aeeb15030c046f5e3ea36380b0c">ensamblado_memoria.estruc.reg_MPET</a></div><div class="ttdeci">std_logic   reg_MPET</div><div class="ttdef"><b>Definition:</b> <a href="ensamblado__memoria_8vhd_source.html#l00024">ensamblado_memoria.vhd:24</a></div></div>
+<div class="ttc" id="classcomponentes__memoria__pkg_html_abc7107dc7001637781a16097edb95c37"><div class="ttname"><a href="classcomponentes__memoria__pkg.html#abc7107dc7001637781a16097edb95c37">componentes_memoria_pkg.ensamblado_memoria</a></div><div class="ttdeci">ensamblado_memoria</div><div class="ttdef"><b>Definition:</b> <a href="componentes__memoria__pkg_8vhd_source.html#l00032">componentes_memoria_pkg.vhd:32</a></div></div>
+<div class="ttc" id="classcontrolador__memo_html"><div class="ttname"><a href="classcontrolador__memo.html">controlador_memo</a></div><div class="ttdef"><b>Definition:</b> <a href="controlador__memo_8vhd_source.html#l00012">controlador_memo.vhd:12</a></div></div>
+<div class="ttc" id="classensamblado__memoria_html_a7edf85f22482656cc0cdf1723889d719"><div class="ttname"><a href="classensamblado__memoria.html#a7edf85f22482656cc0cdf1723889d719">ensamblado_memoria.MPET</a></div><div class="ttdeci">in MPETstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="ensamblado__memoria_8vhd_source.html#l00017">ensamblado_memoria.vhd:17</a></div></div>
+<div class="ttc" id="classcomponentes__memoria__pkg_html_a0a6af6eef40212dbaf130d57ce711256"><div class="ttname"><a href="classcomponentes__memoria__pkg.html#a0a6af6eef40212dbaf130d57ce711256">componentes_memoria_pkg.ieee</a></div><div class="ttdeci">_library_ ieeeieee</div><div class="ttdef"><b>Definition:</b> <a href="componentes__memoria__pkg_8vhd_source.html#l00005">componentes_memoria_pkg.vhd:5</a></div></div>
+<div class="ttc" id="classparam__disenyo__pkg_html_af5558a29c9523b6be76a05eac5ca0fa6"><div class="ttname"><a href="classparam__disenyo__pkg.html#af5558a29c9523b6be76a05eac5ca0fa6">param_disenyo_pkg.st_dir</a></div><div class="ttdeci">std_logic_vector(   dir_bits- 1 downto  0)   st_dir</div><div class="ttdef"><b>Definition:</b> <a href="param__disenyo__pkg_8vhd_source.html#l00024">param_disenyo_pkg.vhd:24</a></div></div>
+<div class="ttc" id="classmemoria__mem_html_ac51161938e0f6935a2ebbbd61a6b78a1"><div class="ttname"><a href="classmemoria__mem.html#ac51161938e0f6935a2ebbbd61a6b78a1">memoria_mem.ED</a></div><div class="ttdeci">in EDst_elem_dat  </div><div class="ttdef"><b>Definition:</b> <a href="memoria__mem_8vhd_source.html#l00017">memoria_mem.vhd:17</a></div></div>
+<div class="ttc" id="classensamblado__memoria_1_1estruc_html_a90e35a584b4a1e984f9ef648b8c7a36d"><div class="ttname"><a href="classensamblado__memoria_1_1estruc.html#a90e35a584b4a1e984f9ef648b8c7a36d">mem</a></div><div class="ttdeci">memoria_mem memmem</div><div class="ttdef"><b>Definition:</b> <a href="ensamblado__memoria_8vhd_source.html#l00033">ensamblado_memoria.vhd:33</a></div></div>
+<div class="ttc" id="classensamblado__memoria_html"><div class="ttname"><a href="classensamblado__memoria.html">ensamblado_memoria</a></div><div class="ttdef"><b>Definition:</b> <a href="ensamblado__memoria_8vhd_source.html#l00013">ensamblado_memoria.vhd:13</a></div></div>
+<div class="ttc" id="classparam__disenyo__pkg_html_ad1d7a7ce03bdb0b995bf8d185cac7670"><div class="ttname"><a href="classparam__disenyo__pkg.html#ad1d7a7ce03bdb0b995bf8d185cac7670">param_disenyo_pkg.st_elem_dat</a></div><div class="ttdeci">std_logic_vector(   tam_byte_bits- 1 downto  0)   st_elem_dat</div><div class="ttdef"><b>Definition:</b> <a href="param__disenyo__pkg_8vhd_source.html#l00040">param_disenyo_pkg.vhd:40</a></div></div>
+<div class="ttc" id="classcomponentes__memoria__pkg_html"><div class="ttname"><a href="classcomponentes__memoria__pkg.html">componentes_memoria_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="componentes__memoria__pkg_8vhd_source.html#l00010">componentes_memoria_pkg.vhd:10</a></div></div>
+<div class="ttc" id="classensamblado__memoria_html_a5f404ce9e93e75586bf0975962acf1d6"><div class="ttname"><a href="classensamblado__memoria.html#a5f404ce9e93e75586bf0975962acf1d6">ensamblado_memoria.LD</a></div><div class="ttdeci">out LDst_elem_dat  </div><div class="ttdef"><b>Definition:</b> <a href="ensamblado__memoria_8vhd_source.html#l00019">ensamblado_memoria.vhd:19</a></div></div>
+<div class="ttc" id="classmemoria__mem_html_a43f047c5eb6c40ebf5047bcdafc66556"><div class="ttname"><a href="classmemoria__mem.html#a43f047c5eb6c40ebf5047bcdafc66556">memoria_mem.dir</a></div><div class="ttdeci">in dirst_dir  </div><div class="ttdef"><b>Definition:</b> <a href="memoria__mem_8vhd_source.html#l00018">memoria_mem.vhd:18</a></div></div>
+<div class="ttc" id="classmemoria__mem_html"><div class="ttname"><a href="classmemoria__mem.html">memoria_mem</a></div><div class="ttdef"><b>Definition:</b> <a href="memoria__mem_8vhd_source.html#l00014">memoria_mem.vhd:14</a></div></div>
+<div class="ttc" id="classensamblado__memoria_html_a43f047c5eb6c40ebf5047bcdafc66556"><div class="ttname"><a href="classensamblado__memoria.html#a43f047c5eb6c40ebf5047bcdafc66556">ensamblado_memoria.dir</a></div><div class="ttdeci">in dirst_dir  </div><div class="ttdef"><b>Definition:</b> <a href="ensamblado__memoria_8vhd_source.html#l00016">ensamblado_memoria.vhd:16</a></div></div>
+<div class="ttc" id="classmemoria__mem_html_a7edf85f22482656cc0cdf1723889d719"><div class="ttname"><a href="classmemoria__mem.html#a7edf85f22482656cc0cdf1723889d719">memoria_mem.MPET</a></div><div class="ttdeci">in MPETstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="memoria__mem_8vhd_source.html#l00016">memoria_mem.vhd:16</a></div></div>
+<div class="ttc" id="classensamblado__memoria_html_acf08b5f05e4c19fa94e8f4e6128cffbb"><div class="ttname"><a href="classensamblado__memoria.html#acf08b5f05e4c19fa94e8f4e6128cffbb">ensamblado_memoria.MVAL</a></div><div class="ttdeci">out MVALstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="ensamblado__memoria_8vhd_source.html#l00018">ensamblado_memoria.vhd:18</a></div></div>
+<div class="ttc" id="classmemoria__mem_html_a9a2054ec7f63792c3956fe7264bbd941"><div class="ttname"><a href="classmemoria__mem.html#a9a2054ec7f63792c3956fe7264bbd941">memoria_mem.reloj</a></div><div class="ttdeci">in relojstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="memoria__mem_8vhd_source.html#l00015">memoria_mem.vhd:15</a></div></div>
+<div class="ttc" id="classensamblado__memoria_1_1estruc_html_a4f73779cd7913a3d1e86407f4a581cfb"><div class="ttname"><a href="classensamblado__memoria_1_1estruc.html#a4f73779cd7913a3d1e86407f4a581cfb">ensamblado_memoria.estruc.PEM</a></div><div class="ttdeci">std_logic   PEM</div><div class="ttdef"><b>Definition:</b> <a href="ensamblado__memoria_8vhd_source.html#l00023">ensamblado_memoria.vhd:23</a></div></div>
+<div class="ttc" id="classensamblado__memoria_html_a2159234629ceae09a98108d2fcda37f2"><div class="ttname"><a href="classensamblado__memoria.html#a2159234629ceae09a98108d2fcda37f2">ensamblado_memoria.MLES</a></div><div class="ttdeci">in MLESstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="ensamblado__memoria_8vhd_source.html#l00017">ensamblado_memoria.vhd:17</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Domingo, 2 de Diciembre de 2018 12:58:30 para Cache proyecto 3 por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

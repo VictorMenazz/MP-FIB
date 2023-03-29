@@ -1,0 +1,398 @@
+# do etapa_mcd_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying /home/victormena/altera/13.0sp1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /home/victormena/altera/13.0sp1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/tipos_constantes_pkg/retardos_componentes_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package retardos_componentes_pkg
+# vcom -93 -work work {/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/tipos_constantes_pkg/param_disenyo_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package param_disenyo_pkg
+# vcom -93 -work work {/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_3/mcd/control/CODIGO/estado_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package estado_pkg
+# vcom -93 -work work {/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes_pkg/componentes_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Compiling package componentes_pkg
+# vcom -93 -work work {/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/tipos_constantes_pkg/interface_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Compiling package interface_pkg
+# vcom -93 -work work {/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_3/mcd/componentes_mcd_pkg/componentes_mcd_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Compiling package componentes_mcd_1_pkg
+# vcom -93 -work work {/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_3/mcd/control/CODIGO/proc_func_control_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Compiling package proc_func_control_pkg
+# -- Compiling package body proc_func_control_pkg
+# -- Loading package proc_func_control_pkg
+# vcom -93 -work work {/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/REGISTROS/CODIGO/RD_N_pe.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_componentes_pkg
+# -- Compiling entity RD_N_pe
+# -- Compiling architecture comportamiento of RD_N_pe
+# vcom -93 -work work {/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/REGISTROS/CODIGO/RD_1_pe.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package retardos_componentes_pkg
+# -- Compiling entity RD_1_pe
+# -- Compiling architecture comportamiento of RD_1_pe
+# vcom -93 -work work {/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/MUX/CODIGO/mux2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_componentes_pkg
+# -- Compiling entity mux2
+# -- Compiling architecture comportamiento of mux2
+# vcom -93 -work work {/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/menor/CODIGO/menqu.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_componentes_pkg
+# -- Compiling entity menqu
+# -- Compiling architecture comport of menqu
+# vcom -93 -work work {/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/sumador/CODIGO/sumador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_componentes_pkg
+# -- Compiling entity sumador
+# -- Compiling architecture compor of sumador
+# vcom -93 -work work {/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_1/mcd/camino/componentes/igual_cero/CODIGO/igual_cero.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_componentes_pkg
+# -- Compiling entity igual_cero
+# -- Compiling architecture comport of igual_cero
+# vcom -93 -work work {/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_3/mcd_interface/CODIGO/etapa_mcd.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package componentes_pkg
+# -- Loading package componentes_mcd_1_pkg
+# -- Loading package interface_pkg
+# -- Compiling entity etapa_mcd
+# -- Compiling architecture estruc of etapa_mcd
+# vcom -93 -work work {/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_3/mcd/ensamblado/CODIGO/mcd.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package componentes_pkg
+# -- Loading package componentes_mcd_1_pkg
+# -- Compiling entity mcd
+# -- Compiling architecture estruc of mcd
+# vcom -93 -work work {/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_3/mcd/camino/ensamblado/CODIGO/camino_mcd.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Loading package componentes_pkg
+# -- Compiling entity camino_mcd
+# -- Compiling architecture estruc of camino_mcd
+# vcom -93 -work work {/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_3/mcd/control/CODIGO/control.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_componentes_pkg
+# -- Loading package estado_pkg
+# -- Loading package proc_func_control_pkg
+# -- Compiling entity control
+# -- Compiling architecture funcional of control
+# 
+# vcom -93 -work work {/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_3/mcd_interface/QUARTUS/../PRUEBAS/procedimientos_prueba_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package param_disenyo_pkg
+# -- Compiling package procedimientos_prueba_pkg
+# -- Compiling package body procedimientos_prueba_pkg
+# -- Loading package procedimientos_prueba_pkg
+# vcom -93 -work work {/home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_3/mcd_interface/QUARTUS/../PRUEBAS/prueba_etapa_mcd.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Loading package param_disenyo_pkg
+# -- Loading package estado_pkg
+# -- Loading package procedimientos_prueba_pkg
+# -- Loading package interface_pkg
+# -- Compiling entity prueba_etapa_mcd
+# -- Compiling architecture prueba of prueba_etapa_mcd
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  prueba_etapa_mcd
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=\"+acc\" -t 1ps prueba_etapa_mcd 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.param_disenyo_pkg
+# Loading work.estado_pkg
+# Loading work.procedimientos_prueba_pkg(body)
+# Loading work.interface_pkg
+# Loading work.prueba_etapa_mcd(prueba)
+# Loading work.componentes_pkg
+# Loading work.componentes_mcd_1_pkg
+# Loading work.etapa_mcd(estruc)
+# Loading work.retardos_componentes_pkg
+# Loading work.rd_n_pe(comportamiento)
+# Loading work.rd_1_pe(comportamiento)
+# Loading work.mcd(estruc)
+# Loading work.camino_mcd(estruc)
+# Loading work.mux2(comportamiento)
+# Loading work.menqu(comport)
+# Loading work.sumador(compor)
+# Loading work.igual_cero(comport)
+# Loading work.proc_func_control_pkg(body)
+# Loading work.control(funcional)
+# 
+# do /home/victormena/Documentos/MP/LAB1/Secuencial/proyecto_3/mcd_interface/QUARTUS/../PRUEBAS/formato_ventanas.do
+# log -r /*
+# do wave.do
+# onerror {resume}
+# quietly virtual signal -install /prueba_etapa_mcd { (context /prueba_etapa_mcd )(pet_dv.val & pet_l.listo )} val_lista_Pro_mcd
+# quietly virtual signal -install /prueba_etapa_mcd { (context /prueba_etapa_mcd )(resp_dv.val & resp_l.listo )} val_lista_mcd_Consu
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /prueba_etapa_mcd/ciclo
+# add wave -noupdate /prueba_etapa_mcd/reloj
+# add wave -noupdate /prueba_etapa_mcd/pcero
+# add wave -noupdate /prueba_etapa_mcd/inicio
+# add wave -noupdate -divider {Flujo de informacion}
+# add wave -noupdate -divider Productor
+# add wave -noupdate -radix unsigned /prueba_etapa_mcd/a
+# add wave -noupdate -radix unsigned /prueba_etapa_mcd/b
+# add wave -noupdate -divider {Interface Pro-mcd}
+# add wave -noupdate /prueba_etapa_mcd/val_lista_Pro_mcd
+# add wave -noupdate -divider {Reg. Entrada}
+# add wave -noupdate -radix unsigned /prueba_etapa_mcd/pr_mcd/reg_ent_a
+# add wave -noupdate -radix unsigned /prueba_etapa_mcd/pr_mcd/reg_ent_b
+# add wave -noupdate /prueba_etapa_mcd/pr_mcd/reg_ent_op_dis
+# add wave -noupdate -divider {Estado automata y salida mcd}
+# add wave -noupdate /prueba_etapa_mcd/pr_mcd/pr_mcd/cnt/estado
+# add wave -noupdate /prueba_etapa_mcd/pr_mcd/pr_mcd/cnt/prxestado
+# add wave -noupdate -radix unsigned /prueba_etapa_mcd/s
+# add wave -noupdate -divider {Reg. Internos}
+# add wave -noupdate -radix unsigned /prueba_etapa_mcd/pr_mcd/pr_mcd/cam/reg_a
+# add wave -noupdate -radix unsigned /prueba_etapa_mcd/pr_mcd/pr_mcd/cam/reg_b
+# add wave -noupdate -divider {Interface mcd_Consu}
+# add wave -noupdate /prueba_etapa_mcd/val_lista_mcd_Consu
+# add wave -noupdate -divider Consumidor
+# add wave -noupdate -radix unsigned /prueba_etapa_mcd/DATextraido
+# add wave -noupdate -radix unsigned /prueba_etapa_mcd/DATprocesado
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {0 ps} 0}
+# quietly wave cursor active 0
+# configure wave -namecolwidth 325
+# configure wave -valuecolwidth 49
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 0
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 20000
+# configure wave -gridperiod 40000
+# configure wave -griddelta 20
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {0 ps} {1771646 ps}
+# run -all
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /prueba_etapa_mcd/pr_mcd/pr_mcd/cam/menor
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /prueba_etapa_mcd/pr_mcd/pr_mcd/cam/menor
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 104 ns  Iteration: 0  Instance: /prueba_etapa_mcd/pr_mcd/pr_mcd/cam/menor
+# ** Note: 
+# 
+# produccion. Ciclo: 3   Valor a: 21   Valor b: 12
+#    Time: 120 ns  Iteration: 1  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# Consume UF. Ciclo: 4   Valor a: 21   Valor b: 12
+#    Time: 140 ns  Iteration: 1  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# produccion. Ciclo: 4   Valor a: 84   Valor b: 48
+#    Time: 160 ns  Iteration: 1  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# Consume UF. Ciclo: 13   Valor a: 84   Valor b: 48
+#    Time: 500 ns  Iteration: 1  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# Extraccion. Ciclo: 13   Valor: 3
+#    Time: 500 ns  Iteration: 2  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# produccion. Ciclo: 13   Valor a: 15   Valor b: 10
+#    Time: 520 ns  Iteration: 1  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# Finalizacion del consumo del dato. Ciclo: 13   Valor: 3
+#    Time: 520 ns  Iteration: 1  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# Consume UF. Ciclo: 19   Valor a: 15   Valor b: 10
+#    Time: 740 ns  Iteration: 1  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# Extraccion. Ciclo: 19   Valor: 12
+#    Time: 740 ns  Iteration: 2  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# produccion. Ciclo: 19   Valor a: 8   Valor b: 1
+#    Time: 760 ns  Iteration: 1  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# Finalizacion del consumo del dato. Ciclo: 19   Valor: 12
+#    Time: 760 ns  Iteration: 1  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# Consume UF. Ciclo: 23   Valor a: 8   Valor b: 1
+#    Time: 900 ns  Iteration: 1  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# Extraccion. Ciclo: 23   Valor: 5
+#    Time: 900 ns  Iteration: 2  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# produccion. Ciclo: 23   Valor a: 8   Valor b: 0
+#    Time: 920 ns  Iteration: 1  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# Finalizacion del consumo del dato. Ciclo: 26   Valor: 5
+#    Time: 1040 ns  Iteration: 1  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# Consume UF. Ciclo: 32   Valor a: 8   Valor b: 0
+#    Time: 1260 ns  Iteration: 1  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# Extraccion. Ciclo: 32   Valor: 1
+#    Time: 1260 ns  Iteration: 2  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# produccion. Ciclo: 32   Valor a: 0   Valor b: 7
+#    Time: 1280 ns  Iteration: 1  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# Finalizacion del consumo del dato. Ciclo: 32   Valor: 1
+#    Time: 1280 ns  Iteration: 1  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# Consume UF. Ciclo: 33   Valor a: 0   Valor b: 7
+#    Time: 1300 ns  Iteration: 1  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# Extraccion. Ciclo: 33   Valor: 8
+#    Time: 1300 ns  Iteration: 2  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# produccion. Ciclo: 33   Valor a: 10   Valor b: 5
+#    Time: 1320 ns  Iteration: 1  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# Finalizacion del consumo del dato. Ciclo: 36   Valor: 8
+#    Time: 1440 ns  Iteration: 1  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# Consume UF. Ciclo: 37   Valor a: 10   Valor b: 5
+#    Time: 1460 ns  Iteration: 1  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# productor ha finalizado.
+#    Time: 1460 ns  Iteration: 1  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# Extraccion. Ciclo: 37   Valor: 7
+#    Time: 1460 ns  Iteration: 2  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# Finalizacion del consumo del dato. Ciclo: 37   Valor: 7
+#    Time: 1480 ns  Iteration: 1  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# Extraccion. Ciclo: 40   Valor: 5
+#    Time: 1580 ns  Iteration: 2  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# Finalizacion del consumo del dato. Ciclo: 40   Valor: 5
+#    Time: 1600 ns  Iteration: 1  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# consumidor ha finalizado.
+#    Time: 1600 ns  Iteration: 1  Instance: /prueba_etapa_mcd
+# ** Note: 
+# 
+# Comprobacion finalizada.
+#    Time: 1640 ns  Iteration: 0  Instance: /prueba_etapa_mcd

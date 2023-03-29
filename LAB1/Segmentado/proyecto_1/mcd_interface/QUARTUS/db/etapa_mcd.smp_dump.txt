@@ -1,0 +1,6 @@
+
+State Machine - |etapa_mcd|mcd:pr_mcd|control:cnt|\reg_estado:v_estado
+Name \reg_estado:v_estado.HECHO \reg_estado:v_estado.CALC \reg_estado:v_estado.ESP 
+\reg_estado:v_estado.ESP 0 0 0 
+\reg_estado:v_estado.CALC 0 1 1 
+\reg_estado:v_estado.HECHO 1 0 1 

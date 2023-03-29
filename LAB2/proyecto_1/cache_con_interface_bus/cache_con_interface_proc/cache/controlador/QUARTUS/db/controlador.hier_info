@@ -1,0 +1,24 @@
+|controlador
+reloj => ~NO_FANOUT~
+pcero => ~NO_FANOUT~
+pet.ini => ~NO_FANOUT~
+pet.esc => ~NO_FANOUT~
+pet.acc => ~NO_FANOUT~
+s_estado.EST => ~NO_FANOUT~
+s_estado.AF => ~NO_FANOUT~
+s_control.muxE <= s_control.muxE.DB_MAX_OUTPUT_PORT_TYPE
+s_control.ET_esc <= s_control.ET_esc.DB_MAX_OUTPUT_PORT_TYPE
+s_control.ET_acc <= s_control.ET_acc.DB_MAX_OUTPUT_PORT_TYPE
+s_control.EST_DE <= s_control.EST_DE.DB_MAX_OUTPUT_PORT_TYPE
+s_control.EST_esc <= s_control.EST_esc.DB_MAX_OUTPUT_PORT_TYPE
+s_control.EST_acc <= s_control.EST_acc.DB_MAX_OUTPUT_PORT_TYPE
+s_control.DAT_esc <= s_control.DAT_esc.DB_MAX_OUTPUT_PORT_TYPE
+s_control.DAT_acc <= s_control.DAT_acc.DB_MAX_OUTPUT_PORT_TYPE
+resp.finalizada <= resp.finalizada.DB_MAX_OUTPUT_PORT_TYPE
+resp.listo <= resp.listo.DB_MAX_OUTPUT_PORT_TYPE
+resp_m.m_val => ~NO_FANOUT~
+pet_m.m_esc <= comb.DB_MAX_OUTPUT_PORT_TYPE
+pet_m.m_pet <= pet_m.m_pet.DB_MAX_OUTPUT_PORT_TYPE
+pet_m.m_acc <= pet_m.m_acc.DB_MAX_OUTPUT_PORT_TYPE
+
+

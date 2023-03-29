@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'reloj'
+Slack : -4.272
+TNS   : -53.870
+
+Type  : Slow 1200mV 85C Model Setup 'pet_dv.val'
+Slack : 0.819
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pet_dv.val'
+Slack : -1.489
+TNS   : -3.918
+
+Type  : Slow 1200mV 85C Model Hold 'reloj'
+Slack : -0.763
+TNS   : -8.024
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'reloj'
+Slack : -3.000
+TNS   : -22.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pet_dv.val'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Setup 'reloj'
+Slack : -3.701
+TNS   : -46.380
+
+Type  : Slow 1200mV 0C Model Setup 'pet_dv.val'
+Slack : 0.680
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pet_dv.val'
+Slack : -1.164
+TNS   : -3.007
+
+Type  : Slow 1200mV 0C Model Hold 'reloj'
+Slack : -0.656
+TNS   : -6.391
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'reloj'
+Slack : -3.000
+TNS   : -22.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pet_dv.val'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Setup 'reloj'
+Slack : -2.632
+TNS   : -24.267
+
+Type  : Fast 1200mV 0C Model Setup 'pet_dv.val'
+Slack : 0.989
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pet_dv.val'
+Slack : -1.081
+TNS   : -2.869
+
+Type  : Fast 1200mV 0C Model Hold 'reloj'
+Slack : -0.652
+TNS   : -8.067
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'reloj'
+Slack : -3.000
+TNS   : -22.117
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pet_dv.val'
+Slack : -3.000
+TNS   : -4.305
+
+------------------------------------------------------------

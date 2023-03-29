@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Secuencial proyecto 2: Fichero Fuente /home/llaberia/Desktop/QUARTUS_MULTIS_LABORATORIOS/MP_PROFE/LAB1/Secuencial/proyecto_1/mcd/componentes_mcd_pkg/componentes_mcd_pkg.vhd</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Secuencial proyecto 2
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_7d1a8fcd005c758db1f72d8753192582.html">LAB1</a></li><li class="navelem"><a class="el" href="dir_38445b9e92076debe1a9052d1e5ec2c0.html">Secuencial</a></li><li class="navelem"><a class="el" href="dir_6544f71ee48fd467dc9dad4b2ff531a0.html">proyecto_1</a></li><li class="navelem"><a class="el" href="dir_e5e2e72f775373a8e1b73610cc622b66.html">mcd</a></li><li class="navelem"><a class="el" href="dir_3da0e3fe081cc753d59707516dc56455.html">componentes_mcd_pkg</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">componentes_mcd_pkg.vhd</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="componentes__mcd__pkg_8vhd.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">--</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">-- Copyright (c) 2017 XXXX, UPC</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">-- All rights reserved.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">-- </span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classcomponentes__mcd__pkg.html#a0a6af6eef40212dbaf130d57ce711256">    6</a></span>&#160;<span class="vhdlkeyword">library </span><span class="keywordflow">ieee</span>;     </div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classcomponentes__mcd__pkg.html#acd03516902501cd1c7296a98e22c6fcb">    7</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classcamino__mcd.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.std_logic_1164.<span class="keywordflow">all</span>;     </div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classcomponentes__mcd__pkg.html#a2edc34402b573437d5f25fa90ba4013e">    8</a></span>&#160;<span class="vhdlkeyword">use </span><a class="code" href="classcamino__mcd.html#a0a6af6eef40212dbaf130d57ce711256">ieee</a>.numeric_std.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classcomponentes__mcd__pkg.html#a1de3d6a72279acdc8f85b56c5cfe12cd">    9</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classparam__disenyo__pkg.html">param_disenyo_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="namespacecomponentes__mcd__pkg.html">   11</a></span>&#160;<span class="keywordflow">package </span><a class="code" href="classcomponentes__mcd__pkg.html">componentes_mcd_pkg</a> <span class="keywordflow">is</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classcomponentes__mcd__pkg.html#a03d3ea68bae1674eeb85c96c7a59b4b8">   13</a></span>&#160;<span class="keywordflow">component</span> <a class="code" href="classcamino__mcd.html">camino_mcd</a> <span class="keywordflow">is</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;   <span class="keywordflow">port</span> (<a class="code" href="classcamino__mcd.html#ae81c37951d56ba49636dc2d009a5f316">reloj</a>, <a class="code" href="classcamino__mcd.html#a423443273d0ea7b0b4d7b71a0d947ef6">pcero</a>, <a class="code" href="classcamino__mcd.html#a3388e6ce16b527113a330bd1e2ffd6c2">pe</a>: <span class="comment">std_logic</span>;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;   <a class="code" href="classcamino__mcd.html#a25eb47a0373aa2029a295b69e22d05bd">ini</a>: <span class="comment">std_logic</span>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;   <a class="code" href="classcamino__mcd.html#a477d90a11c1fab7cf1aab91738a58ca7">a</a>, <a class="code" href="classcamino__mcd.html#aa19718a3ca1c5b3b839c001edf96379d">b</a>: <span class="keywordflow">in</span> <a class="code" href="classparam__disenyo__pkg.html#afcf4a57b4cd10e8ccef24f3fd0c2e5ab">st_dat</a>;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;   <a class="code" href="classcamino__mcd.html#a6058a1c91baa427329967450f0ec5377">s</a>: <span class="keywordflow">out</span> <a class="code" href="classparam__disenyo__pkg.html#afcf4a57b4cd10e8ccef24f3fd0c2e5ab">st_dat</a>;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;   <a class="code" href="classcamino__mcd.html#a83622b9d6244d49bd5006be23cff04ba">ig</a>: <span class="keywordflow">out</span> <span class="comment">std_logic</span>);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keywordflow">end</span> <span class="keywordflow">component</span>;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classcomponentes__mcd__pkg.html#ae1baa9f42256960b9f5b2161a808a3ac">   21</a></span>&#160;<span class="keywordflow">component</span> <a class="code" href="classcontrol.html">control</a> <span class="keywordflow">is</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keywordflow">port</span> (<a class="code" href="classcontrol.html#a9a2054ec7f63792c3956fe7264bbd941">reloj</a>, <a class="code" href="classcontrol.html#aaaf76b3c92306baf67cc09a1ff48254d">pcero</a>: <span class="keywordflow">in</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;   <a class="code" href="classcontrol.html#ad3795305431ca3c15cd3da270153444a">op_dis</a>: <span class="keywordflow">in</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;   <a class="code" href="classcontrol.html#a156c60e57a0d6d21df70ec4ff73981fc">consumo</a>: <span class="keywordflow">in</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;   <a class="code" href="classcontrol.html#ac478f003a16b0d0676b3919afc5b27ae">igualcero</a>: <span class="keywordflow">in</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;   <a class="code" href="classcontrol.html#a347fbd97b442eb461f99aa5fee1e1925">mxa</a>, <a class="code" href="classcontrol.html#a032d8dd29357c5106ac9fd5072440ef1">pe</a>: <span class="keywordflow">out</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;   <a class="code" href="classcontrol.html#ab34dee4955f3836f89399467b2507399">finalizada</a>: <span class="keywordflow">out</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;   <a class="code" href="classcontrol.html#a121733bcab04999ef32d02a254840721">desocupada</a>: <span class="keywordflow">out</span> <span class="comment">std_logic</span>);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keywordflow">end</span> <span class="keywordflow">component</span>;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classcomponentes__mcd__pkg.html#ab7f2fb4f201dfcfeaaf73c99080248cf">   31</a></span>&#160;<span class="keywordflow">component</span> <a class="code" href="classmcd.html">mcd</a> <span class="keywordflow">is</span></div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;   <span class="keywordflow">port</span> (<a class="code" href="classmcd.html#ae81c37951d56ba49636dc2d009a5f316">reloj</a>, <a class="code" href="classmcd.html#a423443273d0ea7b0b4d7b71a0d947ef6">pcero</a>: <span class="comment">std_logic</span>;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;   <a class="code" href="classmcd.html#a477d90a11c1fab7cf1aab91738a58ca7">a</a>, <a class="code" href="classmcd.html#aa19718a3ca1c5b3b839c001edf96379d">b</a>: <span class="keywordflow">in</span> <a class="code" href="classparam__disenyo__pkg.html#afcf4a57b4cd10e8ccef24f3fd0c2e5ab">st_dat</a>;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;   <a class="code" href="classmcd.html#ad3795305431ca3c15cd3da270153444a">op_dis</a>: <span class="keywordflow">in</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;   <a class="code" href="classmcd.html#a156c60e57a0d6d21df70ec4ff73981fc">consumo</a>: <span class="keywordflow">in</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;   <a class="code" href="classmcd.html#ab34dee4955f3836f89399467b2507399">finalizada</a>: <span class="keywordflow">out</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;   <a class="code" href="classmcd.html#a121733bcab04999ef32d02a254840721">desocupada</a>: <span class="keywordflow">out</span> <span class="comment">std_logic</span>;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;   <a class="code" href="classmcd.html#a6058a1c91baa427329967450f0ec5377">s</a>: <span class="keywordflow">out</span> <a class="code" href="classparam__disenyo__pkg.html#afcf4a57b4cd10e8ccef24f3fd0c2e5ab">st_dat</a>);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keywordflow">end</span> <span class="keywordflow">component</span>;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keywordflow">end</span> <span class="keywordflow">package</span> <span class="vhdlchar">componentes_mcd_pkg</span>;</div><div class="ttc" id="classcontrol_html"><div class="ttname"><a href="classcontrol.html">control</a></div><div class="ttdef"><b>Definition:</b> <a href="control_8vhd_source.html#l00015">control.vhd:15</a></div></div>
+<div class="ttc" id="classparam__disenyo__pkg_html"><div class="ttname"><a href="classparam__disenyo__pkg.html">param_disenyo_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="param__disenyo__pkg_8vhd_source.html#l00009">param_disenyo_pkg.vhd:9</a></div></div>
+<div class="ttc" id="classcontrol_html_a9a2054ec7f63792c3956fe7264bbd941"><div class="ttname"><a href="classcontrol.html#a9a2054ec7f63792c3956fe7264bbd941">control.reloj</a></div><div class="ttdeci">in relojstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="control_8vhd_source.html#l00016">control.vhd:16</a></div></div>
+<div class="ttc" id="classcamino__mcd_html_a477d90a11c1fab7cf1aab91738a58ca7"><div class="ttname"><a href="classcamino__mcd.html#a477d90a11c1fab7cf1aab91738a58ca7">camino_mcd.a</a></div><div class="ttdeci">in ast_dat  </div><div class="ttdef"><b>Definition:</b> <a href="camino__mcd_8vhd_source.html#l00016">camino_mcd.vhd:16</a></div></div>
+<div class="ttc" id="classcontrol_html_a121733bcab04999ef32d02a254840721"><div class="ttname"><a href="classcontrol.html#a121733bcab04999ef32d02a254840721">control.desocupada</a></div><div class="ttdeci">out desocupadastd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="control_8vhd_source.html#l00021">control.vhd:21</a></div></div>
+<div class="ttc" id="classcamino__mcd_html_a25eb47a0373aa2029a295b69e22d05bd"><div class="ttname"><a href="classcamino__mcd.html#a25eb47a0373aa2029a295b69e22d05bd">camino_mcd.ini</a></div><div class="ttdeci">inistd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="camino__mcd_8vhd_source.html#l00015">camino_mcd.vhd:15</a></div></div>
+<div class="ttc" id="classcomponentes__mcd__pkg_html"><div class="ttname"><a href="classcomponentes__mcd__pkg.html">componentes_mcd_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="componentes__mcd__pkg_8vhd_source.html#l00011">componentes_mcd_pkg.vhd:11</a></div></div>
+<div class="ttc" id="classcontrol_html_aaaf76b3c92306baf67cc09a1ff48254d"><div class="ttname"><a href="classcontrol.html#aaaf76b3c92306baf67cc09a1ff48254d">control.pcero</a></div><div class="ttdeci">in pcerostd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="control_8vhd_source.html#l00016">control.vhd:16</a></div></div>
+<div class="ttc" id="classcamino__mcd_html_ae81c37951d56ba49636dc2d009a5f316"><div class="ttname"><a href="classcamino__mcd.html#ae81c37951d56ba49636dc2d009a5f316">camino_mcd.reloj</a></div><div class="ttdeci">relojstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="camino__mcd_8vhd_source.html#l00014">camino_mcd.vhd:14</a></div></div>
+<div class="ttc" id="classcamino__mcd_html_a83622b9d6244d49bd5006be23cff04ba"><div class="ttname"><a href="classcamino__mcd.html#a83622b9d6244d49bd5006be23cff04ba">camino_mcd.ig</a></div><div class="ttdeci">out igstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="camino__mcd_8vhd_source.html#l00018">camino_mcd.vhd:18</a></div></div>
+<div class="ttc" id="classmcd_html_a477d90a11c1fab7cf1aab91738a58ca7"><div class="ttname"><a href="classmcd.html#a477d90a11c1fab7cf1aab91738a58ca7">mcd.a</a></div><div class="ttdeci">in ast_dat  </div><div class="ttdef"><b>Definition:</b> <a href="mcd_8vhd_source.html#l00015">mcd.vhd:15</a></div></div>
+<div class="ttc" id="classmcd_html"><div class="ttname"><a href="classmcd.html">mcd</a></div><div class="ttdef"><b>Definition:</b> <a href="mcd_8vhd_source.html#l00013">mcd.vhd:13</a></div></div>
+<div class="ttc" id="classcamino__mcd_html_aa19718a3ca1c5b3b839c001edf96379d"><div class="ttname"><a href="classcamino__mcd.html#aa19718a3ca1c5b3b839c001edf96379d">camino_mcd.b</a></div><div class="ttdeci">in bst_dat  </div><div class="ttdef"><b>Definition:</b> <a href="camino__mcd_8vhd_source.html#l00016">camino_mcd.vhd:16</a></div></div>
+<div class="ttc" id="classmcd_html_a423443273d0ea7b0b4d7b71a0d947ef6"><div class="ttname"><a href="classmcd.html#a423443273d0ea7b0b4d7b71a0d947ef6">mcd.pcero</a></div><div class="ttdeci">pcerostd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="mcd_8vhd_source.html#l00014">mcd.vhd:14</a></div></div>
+<div class="ttc" id="classcamino__mcd_html_a0a6af6eef40212dbaf130d57ce711256"><div class="ttname"><a href="classcamino__mcd.html#a0a6af6eef40212dbaf130d57ce711256">camino_mcd.ieee</a></div><div class="ttdeci">_library_ ieeeieee</div><div class="ttdef"><b>Definition:</b> <a href="camino__mcd_8vhd_source.html#l00006">camino_mcd.vhd:6</a></div></div>
+<div class="ttc" id="classmcd_html_ad3795305431ca3c15cd3da270153444a"><div class="ttname"><a href="classmcd.html#ad3795305431ca3c15cd3da270153444a">mcd.op_dis</a></div><div class="ttdeci">in op_disstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="mcd_8vhd_source.html#l00016">mcd.vhd:16</a></div></div>
+<div class="ttc" id="classcamino__mcd_html_a6058a1c91baa427329967450f0ec5377"><div class="ttname"><a href="classcamino__mcd.html#a6058a1c91baa427329967450f0ec5377">camino_mcd.s</a></div><div class="ttdeci">out sst_dat  </div><div class="ttdef"><b>Definition:</b> <a href="camino__mcd_8vhd_source.html#l00017">camino_mcd.vhd:17</a></div></div>
+<div class="ttc" id="classmcd_html_a121733bcab04999ef32d02a254840721"><div class="ttname"><a href="classmcd.html#a121733bcab04999ef32d02a254840721">mcd.desocupada</a></div><div class="ttdeci">out desocupadastd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="mcd_8vhd_source.html#l00019">mcd.vhd:19</a></div></div>
+<div class="ttc" id="classcamino__mcd_html"><div class="ttname"><a href="classcamino__mcd.html">camino_mcd</a></div><div class="ttdef"><b>Definition:</b> <a href="camino__mcd_8vhd_source.html#l00013">camino_mcd.vhd:13</a></div></div>
+<div class="ttc" id="classcontrol_html_ab34dee4955f3836f89399467b2507399"><div class="ttname"><a href="classcontrol.html#ab34dee4955f3836f89399467b2507399">control.finalizada</a></div><div class="ttdeci">out finalizadastd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="control_8vhd_source.html#l00021">control.vhd:21</a></div></div>
+<div class="ttc" id="classcontrol_html_ad3795305431ca3c15cd3da270153444a"><div class="ttname"><a href="classcontrol.html#ad3795305431ca3c15cd3da270153444a">control.op_dis</a></div><div class="ttdeci">in op_disstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="control_8vhd_source.html#l00017">control.vhd:17</a></div></div>
+<div class="ttc" id="classcontrol_html_a156c60e57a0d6d21df70ec4ff73981fc"><div class="ttname"><a href="classcontrol.html#a156c60e57a0d6d21df70ec4ff73981fc">control.consumo</a></div><div class="ttdeci">in consumostd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="control_8vhd_source.html#l00018">control.vhd:18</a></div></div>
+<div class="ttc" id="classcontrol_html_a347fbd97b442eb461f99aa5fee1e1925"><div class="ttname"><a href="classcontrol.html#a347fbd97b442eb461f99aa5fee1e1925">control.mxa</a></div><div class="ttdeci">out mxastd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="control_8vhd_source.html#l00020">control.vhd:20</a></div></div>
+<div class="ttc" id="classcamino__mcd_html_a423443273d0ea7b0b4d7b71a0d947ef6"><div class="ttname"><a href="classcamino__mcd.html#a423443273d0ea7b0b4d7b71a0d947ef6">camino_mcd.pcero</a></div><div class="ttdeci">pcerostd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="camino__mcd_8vhd_source.html#l00014">camino_mcd.vhd:14</a></div></div>
+<div class="ttc" id="classcontrol_html_a032d8dd29357c5106ac9fd5072440ef1"><div class="ttname"><a href="classcontrol.html#a032d8dd29357c5106ac9fd5072440ef1">control.pe</a></div><div class="ttdeci">out pestd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="control_8vhd_source.html#l00020">control.vhd:20</a></div></div>
+<div class="ttc" id="classmcd_html_a156c60e57a0d6d21df70ec4ff73981fc"><div class="ttname"><a href="classmcd.html#a156c60e57a0d6d21df70ec4ff73981fc">mcd.consumo</a></div><div class="ttdeci">in consumostd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="mcd_8vhd_source.html#l00017">mcd.vhd:17</a></div></div>
+<div class="ttc" id="classmcd_html_aa19718a3ca1c5b3b839c001edf96379d"><div class="ttname"><a href="classmcd.html#aa19718a3ca1c5b3b839c001edf96379d">mcd.b</a></div><div class="ttdeci">in bst_dat  </div><div class="ttdef"><b>Definition:</b> <a href="mcd_8vhd_source.html#l00015">mcd.vhd:15</a></div></div>
+<div class="ttc" id="classcontrol_html_ac478f003a16b0d0676b3919afc5b27ae"><div class="ttname"><a href="classcontrol.html#ac478f003a16b0d0676b3919afc5b27ae">control.igualcero</a></div><div class="ttdeci">in igualcerostd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="control_8vhd_source.html#l00019">control.vhd:19</a></div></div>
+<div class="ttc" id="classcamino__mcd_html_a3388e6ce16b527113a330bd1e2ffd6c2"><div class="ttname"><a href="classcamino__mcd.html#a3388e6ce16b527113a330bd1e2ffd6c2">camino_mcd.pe</a></div><div class="ttdeci">pestd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="camino__mcd_8vhd_source.html#l00014">camino_mcd.vhd:14</a></div></div>
+<div class="ttc" id="classmcd_html_ae81c37951d56ba49636dc2d009a5f316"><div class="ttname"><a href="classmcd.html#ae81c37951d56ba49636dc2d009a5f316">mcd.reloj</a></div><div class="ttdeci">relojstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="mcd_8vhd_source.html#l00014">mcd.vhd:14</a></div></div>
+<div class="ttc" id="classparam__disenyo__pkg_html_afcf4a57b4cd10e8ccef24f3fd0c2e5ab"><div class="ttname"><a href="classparam__disenyo__pkg.html#afcf4a57b4cd10e8ccef24f3fd0c2e5ab">param_disenyo_pkg.st_dat</a></div><div class="ttdeci">std_logic_vector(   tam_dat- 1 downto  0)   st_dat</div><div class="ttdef"><b>Definition:</b> <a href="param__disenyo__pkg_8vhd_source.html#l00013">param_disenyo_pkg.vhd:13</a></div></div>
+<div class="ttc" id="classmcd_html_ab34dee4955f3836f89399467b2507399"><div class="ttname"><a href="classmcd.html#ab34dee4955f3836f89399467b2507399">mcd.finalizada</a></div><div class="ttdeci">out finalizadastd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="mcd_8vhd_source.html#l00018">mcd.vhd:18</a></div></div>
+<div class="ttc" id="classmcd_html_a6058a1c91baa427329967450f0ec5377"><div class="ttname"><a href="classmcd.html#a6058a1c91baa427329967450f0ec5377">mcd.s</a></div><div class="ttdeci">out sst_dat  </div><div class="ttdef"><b>Definition:</b> <a href="mcd_8vhd_source.html#l00020">mcd.vhd:20</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Jueves, 29 de Noviembre de 2018 12:25:30 para Secuencial proyecto 2 por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>
