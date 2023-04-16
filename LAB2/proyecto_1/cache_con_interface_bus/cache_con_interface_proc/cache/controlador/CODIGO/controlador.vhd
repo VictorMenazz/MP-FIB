@@ -56,17 +56,17 @@ begin
 				if (hay_peticion_ini_procesador(pet)) then
 					v_prxestado := INI;
 				elsif (hay_peticion_procesador(pet)) then
-					v_prxestado := CMPET;
+					v_prxestado := CMPETIQ;
 				end if;
 			when DES => 
 				if(hay_peticion_procesador(pet)) then
-					v_prxestado := CMPET;
+					v_prxestado := CMPETIQ;
 				end if;
 			when INI =>
 				v_prxestado := ESCINI;
 			when ESCINI =>
 				v_prxestado := HECHOE;
-			when CMPET =>
+			when CMPETIQ =>
 				if (es_acierto_lectura(pet, derechos_acceso)) then
 					v_prxestado := LEC;
 				elsif (es_fallo_lectura(pet, derechos_acceso)) then
@@ -85,7 +85,7 @@ begin
 					v_prxestado := ESB;
 				end if;
 			when ESB =>
-				v_prcestado := LEC;
+				v_prxestado := LEC;
 			when PMEA =>
 				v_prxestado := ESPEA;
 			when ESPEA =>
@@ -142,10 +142,10 @@ begin
 			when ESCINI => --Actualizar contenedor
 				interfaces_en_CURSO(v_resp);
 				actualizar_etiqueta (v_s_control);
-				actualizar_estado (v_s_control; contenedor_valido);				
+				actualizar_estado (v_s_control, contenedor_valido);				
 				actualizar_dato (v_s_control);
 				
-			when CMPET =>
+			when CMPETIQ =>
 				interfaces_en_CURSO(v_resp);
 				lectura_etiq_estado(v_s_control);
 --				if (es_acierto_lectura(pet, derechos_acceso)) then
@@ -174,7 +174,7 @@ begin
 			when ESB =>
 				interfaces_en_CURSO(v_resp);
 				actualizar_etiqueta (v_s_control);
-				actualizar_estado (v_s_control; contenedor_valido);				
+				actualizar_estado (v_s_control, contenedor_valido);				
 				actualizar_dato (v_s_control);
 				
 			when PMEA =>
@@ -211,5 +211,7 @@ begin
 s_control <= v_s_control after retardo_logica_salida;
 resp <= v_resp after retardo_logica_salida;
 pet_m <= v_pet_m after retardo_logica_salida;
+
+end process;
 
 end;
