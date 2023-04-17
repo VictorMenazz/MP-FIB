@@ -1,0 +1,17 @@
+ salida de comprobacion de la propagacion de un acceso a memoria
+
+ciclo acceso pend.    acceso cache
+      tipo   direc.  tipo   direc.     segmentacion del acceso                        act. campos  estado CC    cache contenido  memoria
+                                 A/F                                                    ET ES DA                CT ET    ES DA   contenido
+  
+    4 inic    0000   inic    0000      D0                                                N  N  N        DES0    0  XXXX  U  XX    XX
+    5 load    0000                         IN                                            N  N  N         INI    0  XXXX  U  XX    XX
+    6 load    0000                             ES                                        N  N  N      ESCINI    0  XXXX  U  XX    XX
+    7 load    0000                                 HE                                    S  S  S      HECHOE    0  0000  1  01    XX
+    8 load    0000   load    0000      DS                                                N  N  N         DES    0  0000  1  01    XX
+    9 no hay                      A        CM                                            N  N  N     CMPETIQ    0  0000  1  01    XX
+   10 no hay                                   LE                                        N  N  N         LEC    0  0000  1  01    XX
+   11 no hay                                       HL                                    N  N  N      HECHOL    0  0000  1  01    XX
+   12 no hay         no hay            DS                                            
+   13 no hay         no hay            DS                                            
+   14 no hay         no hay            DS                                            

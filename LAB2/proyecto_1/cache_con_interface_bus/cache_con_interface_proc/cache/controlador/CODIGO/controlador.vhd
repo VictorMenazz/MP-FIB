@@ -126,16 +126,12 @@ begin
 		case estado is
 			when DES0 => 
 				interfaces_DES(v_resp);
-				if (hay_peticion_ini_procesador(pet)) then
-					
-				elsif (hay_peticion_procesador(pet)) then
-					
-				end if;
+				lectura_etiq_estado(v_s_control);
+
 			when DES => 
 				interfaces_DES(v_resp);
-				if(hay_peticion_procesador(pet)) then
-					
-				end if;
+				lectura_etiq_estado(v_s_control);
+
 			when INI =>
 				interfaces_en_CURSO(v_resp);
 				
@@ -147,16 +143,8 @@ begin
 				
 			when CMPETIQ =>
 				interfaces_en_CURSO(v_resp);
-				lectura_etiq_estado(v_s_control);
---				if (es_acierto_lectura(pet, derechos_acceso)) then
---					v_prxestado := LEC;
---				elsif (es_fallo_lectura(pet, derechos_acceso)) then
---					v_prxestado := PML;
---				elsif (es_acierto_escritura(pet, derechos_acceso)) then
---					v_prxestado := PMEA;
---				elsif (es_fallo_escritura(pet, derechos_acceso)) then
---					v_prxestado := PMEF;
---				end if;
+				
+				
 			when LEC =>
 				interfaces_en_CURSO(v_resp);
 				lectura_datos(v_s_control);
@@ -167,15 +155,13 @@ begin
 				
 			when ESPL =>
 				interfaces_en_CURSO(v_resp);
-				if (hay_respuesta_memoria(resp_m)) then
-					
-				end if;
 				
 			when ESB =>
 				interfaces_en_CURSO(v_resp);
 				actualizar_etiqueta (v_s_control);
 				actualizar_estado (v_s_control, contenedor_valido);				
 				actualizar_dato (v_s_control);
+				actu_datos_desde_bus(v_s_control);
 				
 			when PMEA =>
 				interfaces_en_CURSO(v_resp);
@@ -183,9 +169,6 @@ begin
 				
 			when ESPEA =>
 				interfaces_en_CURSO(v_resp);
-				if (hay_respuesta_memoria(resp_m)) then
-					
-				end if;
 				
 			when ESCP =>
 				interfaces_en_CURSO(v_resp);
@@ -197,9 +180,7 @@ begin
 				
 			when ESPEF =>
 				interfaces_en_CURSO(v_resp);
-				if (hay_respuesta_memoria(resp_m)) then
-					
-				end if;
+
 			when HECHOL =>
 				interfaces_HECHOL(v_resp);
 			when HECHOE =>
