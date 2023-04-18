@@ -1,0 +1,66 @@
+        prod. store xxxx yy: productor emite store; direccion: xxxx; valor: yy
+        prod. load xxxx: productor emite load; direccion: xxxx
+        store cache xxxx yy: cache inicia procesado de store; direccion: xxxx; valor: yy
+        load cache xxxx: cache inicia procesado de load; direccion: xxxx
+        consumo. valor    yy  load    xxxx: consumidor captura el valor; direccion: xxxx; valor: yy
+
+ciclo      accion
+    0     no hay peticion
+    4    final de puesta a cero
+    4         prod. store  0000    01
+    5         store cache  0000    01
+    5          prod. load  0000
+   11          load cache  0000
+   11         prod. store  0000    03
+   17             consumo    01  load    0000
+   18         store cache  0000    03
+   18          prod. load  0000
+   25          load cache  0000
+   25         prod. store  0010    05
+   25             consumo    03  load    0000
+   26         store cache  0010    05
+   26          prod. load  0010
+   32          load cache  0010
+   32         prod. store  FFFF    07
+   38             consumo    05  load    0010
+   39         store cache  FFFF    07
+   39          prod. load  FFFF
+   45          load cache  FFFF
+   45          prod. load  0010
+   51             consumo    07  load    FFFF
+   52          load cache  0010
+   52          prod. load  FFFF
+   52             consumo    05  load    0010
+   53          load cache  FFFF
+   53     no hay peticion
+   53             consumo    07  load    FFFF
+   54     no hay peticion
+
+ Contenido de la cache. Informacion en hexadecimal o binario
+
+Numero
+Contenedor      Estado
+       Etiqueta      Datos
+
+        0   0002   1    05
+        1   XXXX   U    XX
+        2   XXXX   U    XX
+        3   XXXX   U    XX
+        4   XXXX   U    XX
+        5   XXXX   U    XX
+        6   XXXX   U    XX
+        7   1FFF   1    07
+
+ Contenido de la memoria. Informacion en hexadecimal
+
+direccion   dato
+
+    0000    03
+    0001    XX
+ . . . . . . . 
+    000F    XX
+    0010    05
+    0011    XX
+ . . . . . . . 
+    FFFE    XX
+    FFFF    07

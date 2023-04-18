@@ -1,0 +1,975 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do ensamblado_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/retardos_otros_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package retardos_otros_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/retardos_RegDes_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package retardos_RegDes_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/retardos_memorias_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package retardos_memorias_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/retardos_controlador_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package retardos_controlador_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/param_disenyo_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling package param_disenyo_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/acciones_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package acciones_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/componentes_memoria_pkg/componentes_memoria_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Compiling package componentes_memoria_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/param_memorias_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Compiling package param_memorias_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/interface_cache_bus_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Compiling package interface_cache_bus_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/campo_ET_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Compiling package campo_ET_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/campo_EST_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Compiling package campo_EST_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/campo_DAT_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Compiling package campo_DAT_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/camino_dat_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Compiling package camino_dat_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/cache_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Compiling package cache_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_4/tipos_constantes_pkg/controlador_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Compiling package controlador_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/componentes_interface_cache_bus/mux_dat/CODIGO/mux_dat.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Compiling entity mux_dat
+# -- Compiling architecture compor of mux_dat
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_4/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/componentes/reg_etiq/CODIGO/registro_etiq.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_otros_pkg
+# -- Compiling entity registro_etiq
+# -- Compiling architecture compor of registro_etiq
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/COMPONENTES/CONTROLADOR/CODIGO/controlador_memo.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_memorias_pkg
+# -- Compiling entity controlador_memo
+# -- Compiling architecture compor of controlador_memo
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/componentes_interface_proc_cache_pkg/componentes_interface_proc_cache_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package camino_dat_pkg
+# -- Loading package controlador_pkg
+# -- Loading package cache_pkg
+# -- Compiling package componentes_interface_proc_cache_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc_pkg/cache_con_interface_proc_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package camino_dat_pkg
+# -- Loading package controlador_pkg
+# -- Loading package cache_pkg
+# -- Loading package interface_cache_bus_pkg
+# -- Compiling package cache_con_interface_proc_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/componentes_cache_interface_pkg/componentes_cache_interface_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package cache_pkg
+# -- Loading package interface_cache_bus_pkg
+# -- Compiling package componentes_cache_interface_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/componentes_cache_con_inter_proc_pkg/componentes_cache_con_inter_proc_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package camino_dat_pkg
+# -- Loading package controlador_pkg
+# -- Loading package cache_pkg
+# -- Compiling package componentes_cache_con_inter_proc_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/componentes_datos_pkg/componentes_datos_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package campo_DAT_pkg
+# -- Compiling package componentes_datos_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes_camino_pkg/componentes_camino_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package campo_ET_pkg
+# -- Loading package campo_EST_pkg
+# -- Loading package campo_DAT_pkg
+# -- Compiling package componentes_camino_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/componentes_cache_pkg/componentes_cache_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package camino_dat_pkg
+# -- Loading package controlador_pkg
+# -- Loading package cache_pkg
+# -- Compiling package componentes_cache_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/componentes_memoria_interface_pkg/componentes_memoria_interface_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package interface_cache_bus_pkg
+# -- Compiling package componentes_memoria_interface_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/BUS/componentes_interfaces_bus_pkg/componentes_interfaces_bus_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package interface_cache_bus_pkg
+# -- Compiling package componentes_interfaces_bus_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_4/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/componentes_etiq_pkg/componentes_etiq_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package campo_ET_pkg
+# -- Compiling package componentes_etiq_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_4/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/CODIGO/procedimientos_controlador_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package controlador_pkg
+# -- Loading package acciones_pkg
+# -- Compiling package procedimientos_controlador_pkg
+# -- Compiling package body procedimientos_controlador_pkg
+# -- Loading package procedimientos_controlador_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/COMPONENTES/registro_pet/CODIGO/registro_pet.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package cache_pkg
+# -- Loading package retardos_otros_pkg
+# -- Compiling entity registro_pet
+# -- Compiling architecture compor of registro_pet
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/COMPONENTES/mux_peticion/CODIGO/mux_pet.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package cache_pkg
+# -- Loading package retardos_otros_pkg
+# -- Compiling entity mux_pet
+# -- Compiling architecture compor of mux_pet
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/componentes/m_etiquetas/CODIGO/m_et.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package param_memorias_pkg
+# -- Loading package retardos_memorias_pkg
+# -- Loading package campo_ET_pkg
+# -- Compiling entity m_ET
+# -- Compiling architecture compor of m_ET
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_estado/m_estado/CODIGO/m_est.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package param_memorias_pkg
+# -- Loading package retardos_memorias_pkg
+# -- Loading package campo_EST_pkg
+# -- Compiling entity m_EST
+# -- Compiling architecture compor of m_EST
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/componentes/m_datos/CODIGO/m_dat.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package param_memorias_pkg
+# -- Loading package retardos_memorias_pkg
+# -- Loading package campo_DAT_pkg
+# -- Compiling entity m_DAT
+# -- Compiling architecture compor of m_DAT
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/BUS/componentes/registros/CODIGO/rd_pet_info.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package interface_cache_bus_pkg
+# -- Loading package retardos_RegDes_pkg
+# -- Compiling entity RD_pet_info
+# -- Compiling architecture comportamiento of RD_pet_info
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/BUS/componentes/registros/CODIGO/rd_resp_info.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package interface_cache_bus_pkg
+# -- Loading package retardos_RegDes_pkg
+# -- Compiling entity RD_resp_info
+# -- Compiling architecture comportamiento of RD_resp_info
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/BUS/componentes/registros/CODIGO/rc_pet.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package interface_cache_bus_pkg
+# -- Loading package retardos_RegDes_pkg
+# -- Compiling entity RC_pet
+# -- Compiling architecture comportamiento of RC_pet
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/BUS/componentes/registros/CODIGO/rc_resp.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package interface_cache_bus_pkg
+# -- Loading package retardos_RegDes_pkg
+# -- Compiling entity RC_resp
+# -- Compiling architecture comportamiento of RC_resp
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/ensam_memoria/CODIGO/ensamblado_memoria.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package componentes_memoria_pkg
+# -- Compiling entity ensamblado_memoria
+# -- Compiling architecture estruc of ensamblado_memoria
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/ensam_memoria/CODIGO/rc_1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package interface_cache_bus_pkg
+# -- Loading package retardos_RegDes_pkg
+# -- Compiling entity RC_1
+# -- Compiling architecture comportamiento of RC_1
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/COMPONENTES/MEMORIA/CODIGO/memoria_mem.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package retardos_memorias_pkg
+# -- Loading package param_memorias_pkg
+# -- Compiling entity memoria_mem
+# -- Compiling architecture compor of memoria_mem
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_4/ENSAMBLADO/CODIGO/ensamblado.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package cache_pkg
+# -- Loading package interface_cache_bus_pkg
+# -- Loading package componentes_cache_interface_pkg
+# -- Loading package componentes_memoria_interface_pkg
+# -- Compiling entity ensamblado
+# -- Compiling architecture estructural of ensamblado
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/ensamblado_cache_interfaces/CODIGO/cache_con_interface_bus.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package cache_pkg
+# -- Loading package interface_cache_bus_pkg
+# -- Loading package componentes_interfaces_bus_pkg
+# -- Loading package camino_dat_pkg
+# -- Loading package controlador_pkg
+# -- Loading package componentes_cache_con_inter_proc_pkg
+# -- Loading package cache_con_interface_proc_pkg
+# -- Compiling entity cache_con_interface_bus
+# -- Compiling architecture estructural of cache_con_interface_bus
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/ensamblado_con_interface_proc/CODIGO/cache_con_inter_proc.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package camino_dat_pkg
+# -- Loading package controlador_pkg
+# -- Loading package cache_pkg
+# -- Loading package componentes_cache_pkg
+# -- Loading package componentes_cache_con_inter_proc_pkg
+# -- Loading package interface_cache_bus_pkg
+# -- Compiling entity cache_con_inter_proc
+# -- Compiling architecture estruc of cache_con_inter_proc
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_4/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/interfaces/CODIGO/interface_proc_cache.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package cache_pkg
+# -- Loading package camino_dat_pkg
+# -- Loading package controlador_pkg
+# -- Loading package componentes_interface_proc_cache_pkg
+# -- Compiling entity interface_proc_cache
+# -- Compiling architecture estruc of interface_proc_cache
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_3/cache_con_interface_bus/cache_con_interface_proc/cache/ensamblado/CODIGO/cache.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package camino_dat_pkg
+# -- Loading package controlador_pkg
+# -- Loading package cache_pkg
+# -- Loading package componentes_cache_pkg
+# -- Compiling entity cache
+# -- Compiling architecture estruc of cache
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/ensamblado/CODIGO/camino_datos.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package campo_ET_pkg
+# -- Loading package campo_EST_pkg
+# -- Loading package campo_DAT_pkg
+# -- Loading package componentes_camino_pkg
+# -- Loading package camino_dat_pkg
+# -- Compiling entity camino_datos
+# -- Compiling architecture estructural of camino_datos
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_4/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/ensamblado/CODIGO/etiquetas.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package campo_ET_pkg
+# -- Loading package componentes_etiq_pkg
+# -- Compiling entity etiquetas
+# -- Compiling architecture estruc of etiquetas
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/ensamblado/CODIGO/datos.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package campo_DAT_pkg
+# -- Loading package componentes_datos_pkg
+# -- Compiling entity datos
+# -- Compiling architecture estruc of datos
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_4/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/CODIGO/controlador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package controlador_pkg
+# -- Loading package retardos_controlador_pkg
+# -- Loading package acciones_pkg
+# -- Loading package procedimientos_controlador_pkg
+# -- Compiling entity controlador
+# -- Compiling architecture compor of controlador
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_4/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/interfaces/CODIGO/interface_cache_proc.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package cache_pkg
+# -- Loading package camino_dat_pkg
+# -- Loading package controlador_pkg
+# -- Loading package componentes_interface_proc_cache_pkg
+# -- Compiling entity interface_cache_proc
+# -- Compiling architecture estruc of interface_cache_proc
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/BUS/interfaces/CODIGO/interface_cache_bus_info.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package interface_cache_bus_pkg
+# -- Loading package componentes_interfaces_bus_pkg
+# -- Compiling entity interface_cache_bus_info
+# -- Compiling architecture estruc of interface_cache_bus_info
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/BUS/interfaces/CODIGO/interface_cache_bus_control.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package interface_cache_bus_pkg
+# -- Loading package componentes_interfaces_bus_pkg
+# -- Compiling entity interface_cache_bus_control
+# -- Compiling architecture estruc of interface_cache_bus_control
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/ensam_memo_interface/CODIGO/mem_con_interface_bus.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package interface_cache_bus_pkg
+# -- Loading package componentes_interfaces_bus_pkg
+# -- Loading package componentes_memoria_pkg
+# -- Compiling entity mem_con_interface_bus
+# -- Compiling architecture estructural of mem_con_interface_bus
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/BUS/interfaces/CODIGO/interface_mem_bus_info.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package interface_cache_bus_pkg
+# -- Loading package componentes_interfaces_bus_pkg
+# -- Compiling entity interface_mem_bus_info
+# -- Compiling architecture estruc of interface_mem_bus_info
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/BUS/interfaces/CODIGO/interface_mem_bus_control.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package interface_cache_bus_pkg
+# -- Loading package componentes_interfaces_bus_pkg
+# -- Compiling entity interface_mem_bus_control
+# -- Compiling architecture estruc of interface_mem_bus_control
+# 
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_4/ENSAMBLADO/QUARTUS/../../UTILIDADES_pkg/imprimir_traza_pkg/impri_traza_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package param_memorias_pkg
+# -- Loading package acciones_pkg
+# -- Loading package cache_pkg
+# -- Loading package controlador_pkg
+# -- Compiling package impri_traza_pkg
+# -- Compiling package body impri_traza_pkg
+# -- Loading package impri_traza_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_4/ENSAMBLADO/QUARTUS/../../../../LAB2/proyecto_1/UTILIDADES_pkg/impri_CACHE_memoria_pkg/impri_cache_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package std_logic_textio
+# -- Loading package param_disenyo_pkg
+# -- Loading package param_memorias_pkg
+# -- Compiling package impri_cache_pkg
+# -- Compiling package body impri_cache_pkg
+# -- Loading package impri_cache_pkg
+# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_4/ENSAMBLADO/QUARTUS/../../../../LAB2/proyecto_1/UTILIDADES_pkg/impri_CACHE_memoria_pkg/impri_memoria_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package std_logic_textio
+# -- Loading package param_disenyo_pkg
+# -- Loading package param_memorias_pkg
+# -- Compiling package impri_memoria_pkg
+# -- Compiling package body impri_memoria_pkg
+# -- Loading package impri_memoria_pkg
+# vcom -2008 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_4/ENSAMBLADO/QUARTUS/../PRUEBAS/procedimientos_peticiones_pkg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package cache_pkg
+# -- Compiling package procedimientos_peticiones_pkg
+# -- Compiling package body procedimientos_peticiones_pkg
+# -- Loading package procedimientos_peticiones_pkg
+# vcom -2008 -work work {C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_4/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_ensamblado.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Loading package MATH_REAL
+# -- Loading package param_disenyo_pkg
+# -- Loading package camino_dat_pkg
+# -- Loading package cache_pkg
+# -- Loading package interface_cache_bus_pkg
+# -- Loading package controlador_pkg
+# -- Loading package procedimientos_peticiones_pkg
+# -- Loading package param_memorias_pkg
+# -- Loading package impri_memoria_pkg
+# -- Loading package impri_cache_pkg
+# -- Loading package acciones_pkg
+# -- Loading package impri_traza_pkg
+# -- Compiling entity prueba_ensamblado
+# -- Compiling architecture prueba of prueba_ensamblado
+# ** Warning: C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_4/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_ensamblado.vhd(79): (vcom-1236) Shared variables must be of a protected type.
+# 
+# ** Warning: [2] C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_4/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_ensamblado.vhd(244): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+# 
+# ** Warning: [2] C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_4/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_ensamblado.vhd(262): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+# 
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  prueba_ensamblado
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=\"+acc\" -t 1ps prueba_ensamblado 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading ieee.math_real(body)
+# Loading work.param_disenyo_pkg
+# Loading work.camino_dat_pkg
+# Loading work.cache_pkg
+# Loading work.interface_cache_bus_pkg
+# Loading work.controlador_pkg
+# Loading work.procedimientos_peticiones_pkg(body)
+# Loading work.param_memorias_pkg
+# Loading work.impri_memoria_pkg(body)
+# Loading work.impri_cache_pkg(body)
+# Loading work.acciones_pkg
+# Loading work.impri_traza_pkg(body)
+# Loading work.prueba_ensamblado(prueba)
+# Loading work.componentes_cache_interface_pkg
+# Loading work.componentes_memoria_interface_pkg
+# Loading work.ensamblado(estructural)
+# Loading work.componentes_interfaces_bus_pkg
+# Loading work.componentes_cache_con_inter_proc_pkg
+# Loading work.cache_con_interface_proc_pkg
+# Loading work.cache_con_interface_bus(estructural)
+# Loading work.componentes_cache_pkg
+# Loading work.cache_con_inter_proc(estruc)
+# Loading work.componentes_interface_proc_cache_pkg
+# Loading work.interface_proc_cache(estruc)
+# Loading work.retardos_otros_pkg
+# Loading work.registro_pet(compor)
+# Loading work.mux_pet(compor)
+# Loading work.cache(estruc)
+# Loading work.mux_dat(compor)
+# Loading work.campo_et_pkg
+# Loading work.campo_est_pkg
+# Loading work.campo_dat_pkg
+# Loading work.componentes_camino_pkg
+# Loading work.camino_datos(estructural)
+# Loading work.componentes_etiq_pkg
+# Loading work.etiquetas(estruc)
+# Loading work.retardos_memorias_pkg
+# Loading work.m_et(compor)
+# Loading work.registro_etiq(compor)
+# Loading work.m_est(compor)
+# Loading work.componentes_datos_pkg
+# Loading work.datos(estruc)
+# Loading work.m_dat(compor)
+# Loading work.retardos_controlador_pkg
+# Loading work.procedimientos_controlador_pkg(body)
+# Loading work.controlador(compor)
+# Loading work.interface_cache_proc(estruc)
+# Loading work.interface_cache_bus_info(estruc)
+# Loading work.retardos_regdes_pkg
+# Loading work.rd_pet_info(comportamiento)
+# Loading work.rd_resp_info(comportamiento)
+# Loading work.interface_cache_bus_control(estruc)
+# Loading work.rc_pet(comportamiento)
+# Loading work.rc_resp(comportamiento)
+# Loading work.componentes_memoria_pkg
+# Loading work.mem_con_interface_bus(estructural)
+# Loading work.interface_mem_bus_info(estruc)
+# Loading work.interface_mem_bus_control(estruc)
+# Loading work.ensamblado_memoria(estruc)
+# Loading work.rc_1(comportamiento)
+# Loading work.controlador_memo(compor)
+# Loading work.memoria_mem(compor)
+# 
+# do C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_4/ENSAMBLADO/QUARTUS/../PRUEBAS/formato_ventanas.do
+# log -r /*
+# (vsim-4077) Logging very large object: /prueba_ensamblado/s_mem_memoria 
+# (vsim-4077) Logging very large object: /prueba_ensamblado/ensa_ca_mem/memoria/memoria/mem/mem 
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /prueba_ensamblado/ciclo
+# add wave -noupdate /prueba_ensamblado/reloj
+# add wave -noupdate /prueba_ensamblado/pcero
+# add wave -noupdate -divider {PROCESADOR produc./consum.}
+# add wave -noupdate -divider Productor
+# add wave -noupdate -radix unsigned -childformat {{/prueba_ensamblado/peticion.acc -radix unsigned} {/prueba_ensamblado/peticion.dir -radix unsigned} {/prueba_ensamblado/peticion.esc -radix unsigned} {/prueba_ensamblado/peticion.ini -radix unsigned} {/prueba_ensamblado/peticion.DE -radix unsigned}} -subitemconfig {/prueba_ensamblado/peticion.acc {-height 16 -radix unsigned} /prueba_ensamblado/peticion.dir {-height 16 -radix unsigned} /prueba_ensamblado/peticion.esc {-height 16 -radix unsigned} /prueba_ensamblado/peticion.ini {-height 16 -radix unsigned} /prueba_ensamblado/peticion.DE {-height 16 -radix unsigned}} /prueba_ensamblado/peticion
+# add wave -noupdate /prueba_ensamblado/pet_listo
+# add wave -noupdate -divider Consumidor
+# add wave -noupdate -radix unsigned -childformat {{/prueba_ensamblado/respuesta.DL -radix unsigned} {/prueba_ensamblado/respuesta.val -radix unsigned}} -subitemconfig {/prueba_ensamblado/respuesta.DL {-height 16 -radix unsigned} /prueba_ensamblado/respuesta.val {-height 16 -radix unsigned}} /prueba_ensamblado/respuesta
+# add wave -noupdate -divider {INTERFACE proc/cache}
+# add wave -noupdate -divider {PETICION en cache}
+# add wave -noupdate /prueba_ensamblado/ensa_ca_mem/cache/cach/inter_Pr_ca/pe
+# add wave -noupdate -radix unsigned /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/peticion
+# add wave -noupdate -divider {CAMPOS CACHE}
+# add wave -noupdate -radix unsigned -childformat {{/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/etiq/ET_Mem/ET_mem(0) -radix unsigned} {/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/etiq/ET_Mem/ET_mem(1) -radix unsigned} {/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/etiq/ET_Mem/ET_mem(2) -radix unsigned} {/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/etiq/ET_Mem/ET_mem(3) -radix unsigned} {/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/etiq/ET_Mem/ET_mem(4) -radix unsigned} {/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/etiq/ET_Mem/ET_mem(5) -radix unsigned} {/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/etiq/ET_Mem/ET_mem(6) -radix unsigned} {/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/etiq/ET_Mem/ET_mem(7) -radix unsigned}} -subitemconfig {/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/etiq/ET_Mem/ET_mem(0) {-height 16 -radix unsigned} /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/etiq/ET_Mem/ET_mem(1) {-height 16 -radix unsigned} /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/etiq/ET_Mem/ET_mem(2) {-height 16 -radix unsigned} /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/etiq/ET_Mem/ET_mem(3) {-height 16 -radix unsigned} /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/etiq/ET_Mem/ET_mem(4) {-height 16 -radix unsigned} /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/etiq/ET_Mem/ET_mem(5) {-height 16 -radix unsigned} /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/etiq/ET_Mem/ET_mem(6) {-height 16 -radix unsigned} /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/etiq/ET_Mem/ET_mem(7) {-height 16 -radix unsigned}} /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/etiq/ET_Mem/ET_mem
+# add wave -noupdate /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/estado/EST_mem
+# add wave -noupdate -radix unsigned -childformat {{/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/datos_ca/DAT_Mem/DAT_mem(0) -radix unsigned} {/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/datos_ca/DAT_Mem/DAT_mem(1) -radix unsigned} {/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/datos_ca/DAT_Mem/DAT_mem(2) -radix unsigned} {/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/datos_ca/DAT_Mem/DAT_mem(3) -radix unsigned} {/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/datos_ca/DAT_Mem/DAT_mem(4) -radix unsigned} {/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/datos_ca/DAT_Mem/DAT_mem(5) -radix unsigned} {/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/datos_ca/DAT_Mem/DAT_mem(6) -radix unsigned} {/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/datos_ca/DAT_Mem/DAT_mem(7) -radix unsigned}} -subitemconfig {/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/datos_ca/DAT_Mem/DAT_mem(0) {-height 16 -radix unsigned} /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/datos_ca/DAT_Mem/DAT_mem(1) {-height 16 -radix unsigned} /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/datos_ca/DAT_Mem/DAT_mem(2) {-height 16 -radix unsigned} /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/datos_ca/DAT_Mem/DAT_mem(3) {-height 16 -radix unsigned} /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/datos_ca/DAT_Mem/DAT_mem(4) {-height 16 -radix unsigned} /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/datos_ca/DAT_Mem/DAT_mem(5) {-height 16 -radix unsigned} /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/datos_ca/DAT_Mem/DAT_mem(6) {-height 16 -radix unsigned} /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/datos_ca/DAT_Mem/DAT_mem(7) {-height 16 -radix unsigned}} /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/datos_ca/DAT_Mem/DAT_mem
+# add wave -noupdate -divider {CONTROLADOR de cache}
+# add wave -noupdate -divider {Controlador estados}
+# add wave -noupdate /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/contro/derechos_acceso
+# add wave -noupdate /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/contro/estado
+# add wave -noupdate /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/contro/prxestado
+# add wave -noupdate -divider {Controlador. senyales}
+# add wave -noupdate /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/contro/pet
+# add wave -noupdate /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/contro/s_estado
+# add wave -noupdate /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/contro/s_control
+# add wave -noupdate -radix unsigned -childformat {{/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/contro/resp.listo -radix unsigned} {/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/contro/resp.finalizada -radix unsigned}} -subitemconfig {/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/contro/resp.listo {-height 16 -radix unsigned} /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/contro/resp.finalizada {-height 16 -radix unsigned}} /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/contro/resp
+# add wave -noupdate -radix unsigned -childformat {{/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/contro/pet_m.m_acc -radix unsigned} {/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/contro/pet_m.m_pet -radix unsigned} {/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/contro/pet_m.m_esc -radix unsigned}} -subitemconfig {/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/contro/pet_m.m_acc {-height 16 -radix unsigned} /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/contro/pet_m.m_pet {-height 16 -radix unsigned} /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/contro/pet_m.m_esc {-height 16 -radix unsigned}} /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/contro/pet_m
+# add wave -noupdate -radix unsigned -childformat {{/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/contro/resp_m.m_val -radix unsigned}} -subitemconfig {/prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/contro/resp_m.m_val {-height 16 -radix unsigned}} /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/contro/resp_m
+# add wave -noupdate -divider {INTER. cache/BUS}
+# add wave -noupdate -divider Peticion
+# add wave -noupdate -radix unsigned -childformat {{/prueba_ensamblado/ensa_ca_mem/cache/inter_Pr_BUS_IN/mpet_info_e.acc -radix unsigned} {/prueba_ensamblado/ensa_ca_mem/cache/inter_Pr_BUS_IN/mpet_info_e.dir -radix unsigned} {/prueba_ensamblado/ensa_ca_mem/cache/inter_Pr_BUS_IN/mpet_info_e.dato_E -radix unsigned}} -subitemconfig {/prueba_ensamblado/ensa_ca_mem/cache/inter_Pr_BUS_IN/mpet_info_e.acc {-height 16 -radix unsigned} /prueba_ensamblado/ensa_ca_mem/cache/inter_Pr_BUS_IN/mpet_info_e.dir {-height 16 -radix unsigned} /prueba_ensamblado/ensa_ca_mem/cache/inter_Pr_BUS_IN/mpet_info_e.dato_E {-height 16 -radix unsigned}} /prueba_ensamblado/ensa_ca_mem/cache/inter_Pr_BUS_IN/mpet_info_e
+# add wave -noupdate /prueba_ensamblado/ensa_ca_mem/cache/inter_Pr_BUS_CON/mpet_cntl_e
+# add wave -noupdate -divider Respuesta
+# add wave -noupdate -radix unsigned /prueba_ensamblado/ensa_ca_mem/cache/inter_Pr_BUS_IN/mresp_info_s
+# add wave -noupdate /prueba_ensamblado/ensa_ca_mem/cache/inter_Pr_BUS_CON/mresp_cntl_s
+# add wave -noupdate -divider BUS
+# add wave -noupdate -divider Peticion
+# add wave -noupdate -radix unsigned -childformat {{/prueba_ensamblado/ensa_ca_mem/cache/inter_Pr_BUS_IN/mpet_info_bus.acc -radix unsigned} {/prueba_ensamblado/ensa_ca_mem/cache/inter_Pr_BUS_IN/mpet_info_bus.dir -radix unsigned} {/prueba_ensamblado/ensa_ca_mem/cache/inter_Pr_BUS_IN/mpet_info_bus.dato_E -radix unsigned}} -subitemconfig {/prueba_ensamblado/ensa_ca_mem/cache/inter_Pr_BUS_IN/mpet_info_bus.acc {-height 16 -radix unsigned} /prueba_ensamblado/ensa_ca_mem/cache/inter_Pr_BUS_IN/mpet_info_bus.dir {-height 16 -radix unsigned} /prueba_ensamblado/ensa_ca_mem/cache/inter_Pr_BUS_IN/mpet_info_bus.dato_E {-height 16 -radix unsigned}} /prueba_ensamblado/ensa_ca_mem/cache/inter_Pr_BUS_IN/mpet_info_bus
+# add wave -noupdate /prueba_ensamblado/ensa_ca_mem/cache/inter_Pr_BUS_CON/mpet_cntl_bus
+# add wave -noupdate -divider Respuesta
+# add wave -noupdate -radix unsigned -childformat {{/prueba_ensamblado/ensa_ca_mem/cache/inter_Pr_BUS_IN/mresp_info_bus.mdato_bus -radix unsigned}} -subitemconfig {/prueba_ensamblado/ensa_ca_mem/cache/inter_Pr_BUS_IN/mresp_info_bus.mdato_bus {-height 16 -radix unsigned}} /prueba_ensamblado/ensa_ca_mem/cache/inter_Pr_BUS_IN/mresp_info_bus
+# add wave -noupdate /prueba_ensamblado/ensa_ca_mem/cache/inter_Pr_BUS_CON/mresp_cntl_bus
+# add wave -noupdate -divider {INTER. BUS/memoria}
+# add wave -noupdate -divider Peticion
+# add wave -noupdate -radix unsigned /prueba_ensamblado/ensa_ca_mem/memoria/inter_Mem_BUS_IN/mpet_info_s
+# add wave -noupdate /prueba_ensamblado/ensa_ca_mem/memoria/inter_Mem_BUS_CON/mpet_cntl_s
+# add wave -noupdate -divider Respuesta
+# add wave -noupdate -radix unsigned /prueba_ensamblado/ensa_ca_mem/memoria/inter_Mem_BUS_IN/mresp_info_e
+# add wave -noupdate /prueba_ensamblado/ensa_ca_mem/memoria/inter_Mem_BUS_CON/mresp_cntl_e
+# add wave -noupdate -divider MEMORIA
+# add wave -noupdate /prueba_ensamblado/ensa_ca_mem/memoria/memoria/MPET
+# add wave -noupdate /prueba_ensamblado/ensa_ca_mem/memoria/memoria/MLES
+# add wave -noupdate -radix unsigned /prueba_ensamblado/ensa_ca_mem/memoria/memoria/dir
+# add wave -noupdate -radix unsigned /prueba_ensamblado/ensa_ca_mem/memoria/memoria/ED
+# add wave -noupdate -radix unsigned /prueba_ensamblado/ensa_ca_mem/memoria/memoria/LD
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {9073399 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 610
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 0
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 40000
+# configure wave -gridperiod 80000
+# configure wave -griddelta 20
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {0 ps} {55944 ns}
+# run -all
+#  salida de comprobacion de la propagacion de un acceso a memoria
+# 
+# ciclo acceso pend.    acceso cache
+#       tipo   direc.  tipo   direc.     segmentacion del acceso                        act. campos  estado CC    cache contenido  memoria
+#                                  A/F                                                    ET ES DA                CT ET    ES DA   contenido
+#   
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /prueba_ensamblado/ensa_ca_mem/memoria/memoria/mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/datos_ca/DAT_Mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/estado
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /prueba_ensamblado/ensa_ca_mem/cache/cach/cache_sin/camino/etiq/ET_Mem
+#     4 store   0000   no hay            D0                                            
+#     5 load    0000   store   0000      D0                                                N  N  N        DES0    0  XXXX  U  XX    XX
+#     6 load    0000                         ME                                            N  N  N       ESPEF    0  XXXX  U  XX    XX
+#     7 load    0000                             ME                                        N  N  N       ESPEF    0  XXXX  U  XX    XX
+#     8 load    0000                                 ME                                    N  N  N       ESPEF    0  XXXX  U  XX    01
+#     9 load    0000                                     ME                                N  N  N       ESPEF    0  XXXX  U  XX    01
+#    10 load    0000                                         ME                            N  N  N       ESPEF    0  XXXX  U  XX    01
+#    11 store   0000   load    0000 F    DS                                                N  N  N         DES    0  XXXX  U  XX    01
+#    12 store   0000                         ML                                            N  N  N        ESPL    0  XXXX  U  XX    01
+#    13 store   0000                             ML                                        N  N  N        ESPL    0  XXXX  U  XX    01
+#    14 store   0000                                 ML                                    N  N  N        ESPL    0  XXXX  U  XX    01
+#    15 store   0000                                     ML                                N  N  N        ESPL    0  XXXX  U  XX    01
+#    16 store   0000                                         ML                            N  N  N        ESPL    0  XXXX  U  XX    01
+#    17 store   0000                                             EB                        S  S  S         ESB    0  0000  1  01    01
+#    18 load    0000   store   0000 A    DS                                                N  N  N         DES    0  0000  1  01    01
+#    19 load    0000                         ME                                            N  N  N       ESPEA    0  0000  1  01    01
+#    20 load    0000                             ME                                        N  N  N       ESPEA    0  0000  1  01    01
+#    21 load    0000                                 ME                                    N  N  N       ESPEA    0  0000  1  01    03
+#    22 load    0000                                     ME                                N  N  N       ESPEA    0  0000  1  01    03
+#    23 load    0000                                         ME                            N  N  N       ESPEA    0  0000  1  01    03
+#    24 load    0000                                             EP                        N  N  S        ESCP    0  0000  1  03    03
+#    25 store   0010   load    0000 A    DS                                                N  N  N         DES    0  0000  1  03    03
+#    26 load    0010   store   0010 F    DS                                                N  N  N         DES    0  0000  1  03    XX
+#    27 load    0010                         ME                                            N  N  N       ESPEF    0  0000  1  03    XX
+#    28 load    0010                             ME                                        N  N  N       ESPEF    0  0000  1  03    XX
+#    29 load    0010                                 ME                                    N  N  N       ESPEF    0  0000  1  03    05
+#    30 load    0010                                     ME                                N  N  N       ESPEF    0  0000  1  03    05
+#    31 load    0010                                         ME                            N  N  N       ESPEF    0  0000  1  03    05
+#    32 store   FFFF   load    0010 F    DS                                                N  N  N         DES    0  0000  1  03    05
+#    33 store   FFFF                         ML                                            N  N  N        ESPL    0  0000  1  03    05
+#    34 store   FFFF                             ML                                        N  N  N        ESPL    0  0000  1  03    05
+#    35 store   FFFF                                 ML                                    N  N  N        ESPL    0  0000  1  03    05
+#    36 store   FFFF                                     ML                                N  N  N        ESPL    0  0000  1  03    05
+#    37 store   FFFF                                         ML                            N  N  N        ESPL    0  0000  1  03    05
+#    38 store   FFFF                                             EB                        S  S  S         ESB    0  0002  1  05    05
+#    39 load    FFFF   store   FFFF F    DS                                                N  N  N         DES    7  XXXX  U  XX    XX
+#    40 load    FFFF                         ME                                            N  N  N       ESPEF    7  XXXX  U  XX    XX
+#    41 load    FFFF                             ME                                        N  N  N       ESPEF    7  XXXX  U  XX    XX
+#    42 load    FFFF                                 ME                                    N  N  N       ESPEF    7  XXXX  U  XX    07
+#    43 load    FFFF                                     ME                                N  N  N       ESPEF    7  XXXX  U  XX    07
+#    44 load    FFFF                                         ME                            N  N  N       ESPEF    7  XXXX  U  XX    07
+#    45 load    0010   load    FFFF F    DS                                                N  N  N         DES    7  XXXX  U  XX    07
+#    46 load    0010                         ML                                            N  N  N        ESPL    7  XXXX  U  XX    07
+#    47 load    0010                             ML                                        N  N  N        ESPL    7  XXXX  U  XX    07
+#    48 load    0010                                 ML                                    N  N  N        ESPL    7  XXXX  U  XX    07
+#    49 load    0010                                     ML                                N  N  N        ESPL    7  XXXX  U  XX    07
+#    50 load    0010                                         ML                            N  N  N        ESPL    7  XXXX  U  XX    07
+#    51 load    0010                                             EB                        S  S  S         ESB    7  1FFF  1  07    07
+#    52 load    FFFF   load    0010 A    DS                                                N  N  N         DES    0  0002  1  05    05
+#    53 no hay         load    FFFF A    DS                                                N  N  N         DES    7  1FFF  1  07    07
+#    54 no hay         no hay            DS                                            
+#    55 no hay         no hay            DS                                            
+# ** Note: prueba finalizada
+#    Time: 4440 ns  Iteration: 1  Instance: /prueba_ensamblado
+# 
+# 
+#  Contenido de la cache. Informacion en hexadecimal o binario
+# 
+# 
+# Numero
+# Contenedor      Estado
+#        Etiqueta      Datos
+#         0   0002   1    05
+#         1   XXXX   U    XX
+#         2   XXXX   U    XX
+#         3   XXXX   U    XX
+#         4   XXXX   U    XX
+#         5   XXXX   U    XX
+#         6   XXXX   U    XX
+#         7   1FFF   1    07
+# 
+# 
+#  Contenido de la memoria. Informacion en hexadecimal
+# 
+# 
+# direccion   dato
+#     0000    03
+#     0001    XX
+#  . . . . . . . 
+#     000F    XX
+#     0010    05
+#     0011    XX
+#  . . . . . . . 
+#     FFFE    XX
+#     FFFF    07

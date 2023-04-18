@@ -1,0 +1,58 @@
+ salida de comprobacion de la propagacion de un acceso a memoria
+
+ciclo acceso pend.    acceso cache
+      tipo   direc.  tipo   direc.     segmentacion del acceso                        act. campos  estado CC    cache contenido  memoria
+                                 A/F                                                    ET ES DA                CT ET    ES DA   contenido
+  
+    4 store   0000   no hay            D0                                            
+    5 load    0000   store   0000      D0                                                N  N  N        DES0    0  XXXX  U  XX    XX
+    6 load    0000                         ME                                            N  N  N       ESPEF    0  XXXX  U  XX    XX
+    7 load    0000                             ME                                        N  N  N       ESPEF    0  XXXX  U  XX    XX
+    8 load    0000                                 ME                                    N  N  N       ESPEF    0  XXXX  U  XX    01
+    9 load    0000                                     ME                                N  N  N       ESPEF    0  XXXX  U  XX    01
+   10 load    0000                                         ME                            N  N  N       ESPEF    0  XXXX  U  XX    01
+   11 store   0000   load    0000 F    DS                                                N  N  N         DES    0  XXXX  U  XX    01
+   12 store   0000                         ML                                            N  N  N        ESPL    0  XXXX  U  XX    01
+   13 store   0000                             ML                                        N  N  N        ESPL    0  XXXX  U  XX    01
+   14 store   0000                                 ML                                    N  N  N        ESPL    0  XXXX  U  XX    01
+   15 store   0000                                     ML                                N  N  N        ESPL    0  XXXX  U  XX    01
+   16 store   0000                                         ML                            N  N  N        ESPL    0  XXXX  U  XX    01
+   17 store   0000                                             EB                        S  S  S         ESB    0  0000  1  01    01
+   18 load    0000   store   0000 A    DS                                                N  N  N         DES    0  0000  1  01    01
+   19 load    0000                         ME                                            N  N  N       ESPEA    0  0000  1  01    01
+   20 load    0000                             ME                                        N  N  N       ESPEA    0  0000  1  01    01
+   21 load    0000                                 ME                                    N  N  N       ESPEA    0  0000  1  01    03
+   22 load    0000                                     ME                                N  N  N       ESPEA    0  0000  1  01    03
+   23 load    0000                                         ME                            N  N  N       ESPEA    0  0000  1  01    03
+   24 load    0000                                             EP                        N  N  S        ESCP    0  0000  1  03    03
+   25 store   0010   load    0000 A    DS                                                N  N  N         DES    0  0000  1  03    03
+   26 load    0010   store   0010 F    DS                                                N  N  N         DES    0  0000  1  03    XX
+   27 load    0010                         ME                                            N  N  N       ESPEF    0  0000  1  03    XX
+   28 load    0010                             ME                                        N  N  N       ESPEF    0  0000  1  03    XX
+   29 load    0010                                 ME                                    N  N  N       ESPEF    0  0000  1  03    05
+   30 load    0010                                     ME                                N  N  N       ESPEF    0  0000  1  03    05
+   31 load    0010                                         ME                            N  N  N       ESPEF    0  0000  1  03    05
+   32 store   FFFF   load    0010 F    DS                                                N  N  N         DES    0  0000  1  03    05
+   33 store   FFFF                         ML                                            N  N  N        ESPL    0  0000  1  03    05
+   34 store   FFFF                             ML                                        N  N  N        ESPL    0  0000  1  03    05
+   35 store   FFFF                                 ML                                    N  N  N        ESPL    0  0000  1  03    05
+   36 store   FFFF                                     ML                                N  N  N        ESPL    0  0000  1  03    05
+   37 store   FFFF                                         ML                            N  N  N        ESPL    0  0000  1  03    05
+   38 store   FFFF                                             EB                        S  S  S         ESB    0  0002  1  05    05
+   39 load    FFFF   store   FFFF F    DS                                                N  N  N         DES    7  XXXX  U  XX    XX
+   40 load    FFFF                         ME                                            N  N  N       ESPEF    7  XXXX  U  XX    XX
+   41 load    FFFF                             ME                                        N  N  N       ESPEF    7  XXXX  U  XX    XX
+   42 load    FFFF                                 ME                                    N  N  N       ESPEF    7  XXXX  U  XX    07
+   43 load    FFFF                                     ME                                N  N  N       ESPEF    7  XXXX  U  XX    07
+   44 load    FFFF                                         ME                            N  N  N       ESPEF    7  XXXX  U  XX    07
+   45 load    0010   load    FFFF F    DS                                                N  N  N         DES    7  XXXX  U  XX    07
+   46 load    0010                         ML                                            N  N  N        ESPL    7  XXXX  U  XX    07
+   47 load    0010                             ML                                        N  N  N        ESPL    7  XXXX  U  XX    07
+   48 load    0010                                 ML                                    N  N  N        ESPL    7  XXXX  U  XX    07
+   49 load    0010                                     ML                                N  N  N        ESPL    7  XXXX  U  XX    07
+   50 load    0010                                         ML                            N  N  N        ESPL    7  XXXX  U  XX    07
+   51 load    0010                                             EB                        S  S  S         ESB    7  1FFF  1  07    07
+   52 load    FFFF   load    0010 A    DS                                                N  N  N         DES    0  0002  1  05    05
+   53 no hay         load    FFFF A    DS                                                N  N  N         DES    7  1FFF  1  07    07
+   54 no hay         no hay            DS                                            
+   55 no hay         no hay            DS                                            
