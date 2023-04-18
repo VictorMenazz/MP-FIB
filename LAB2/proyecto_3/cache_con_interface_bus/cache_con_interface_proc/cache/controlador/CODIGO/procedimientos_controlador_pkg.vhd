@@ -30,6 +30,8 @@ procedure interfaces_HECHOL(variable v_resp: out tp_contro_s);
 procedure interfaces_HECHOE(variable v_resp: out tp_contro_s);
 
 procedure actu_datos_desde_bus (variable v_s_control: inout tp_contro_cam_cntl);
+procedure control_muxL_activo (variable v_s_control: inout tp_contro_cam_cntl);
+procedure control_muxL_desactivo (variable v_s_control: inout tp_contro_cam_cntl);
 
 procedure por_defecto (variable v_s_control: inout tp_contro_cam_cntl; variable v_pet_m: out tp_cntl_memoria_s; variable v_resp: out tp_contro_s);
 
@@ -125,6 +127,16 @@ end procedure;
 procedure actu_datos_desde_bus (variable v_s_control: inout tp_contro_cam_cntl) is
 begin
 	v_s_control.muxE := actualizar_campo_datos_desde_bus;
+end procedure;
+
+procedure control_muxL_activo (variable v_s_control: inout tp_contro_cam_cntl) is
+begin
+	v_s_control.muxL := '1';
+end procedure;
+
+procedure control_muxL_desactivo (variable v_s_control: inout tp_contro_cam_cntl) is
+begin
+	v_s_control.muxL := '0';
 end procedure;
 
 procedure por_defecto (variable v_s_control: inout tp_contro_cam_cntl; variable v_pet_m: out tp_cntl_memoria_s; variable v_resp: out tp_contro_s) is
