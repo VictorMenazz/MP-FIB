@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>coherencia multiprocesador con bus proyecto 1: Fichero Fuente LAB3/proyecto_1/BUS/componentes/registros/CODIGO/RD_observacion.vhd</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">coherencia multiprocesador con bus proyecto 1
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_60a1be92ec3cd5bc7744054a8b03d72d.html">LAB3</a></li><li class="navelem"><a class="el" href="dir_c711de72a9f7bdf6d4f863876f28f22e.html">proyecto_1</a></li><li class="navelem"><a class="el" href="dir_923f2d74fddc320467294d2b546bd0ff.html">BUS</a></li><li class="navelem"><a class="el" href="dir_b3576a0461e63d148b8883f2b02afc6d.html">componentes</a></li><li class="navelem"><a class="el" href="dir_5c8b75006cd3c259e07fb9e7595ac568.html">registros</a></li><li class="navelem"><a class="el" href="dir_d682663ab6ab16ff590be42541d93a10.html">CODIGO</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">RD_observacion.vhd</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="RD__observacion_8vhd.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">--</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">-- Copyright (c) 2017 XXXX, UPC</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">-- All rights reserved.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">-- </span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classRD__observacion.html#ae4f03c286607f3181e16b9aa12d0c6d4">    6</a></span>&#160;<span class="vhdlkeyword">library </span><span class="keywordflow">IEEE</span>;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classRD__observacion.html#acd03516902501cd1c7296a98e22c6fcb">    7</a></span>&#160;<span class="vhdlkeyword">use </span>IEEE.std_logic_1164.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classRD__observacion.html#a01f17b3e67712d62142dc6d3e14931e8">    9</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classinterface__observador__pkg.html">interface_observador_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classRD__observacion.html#a1afeb77cb920a46f1f60373ccd04fd42">   10</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classretardos__RegDes__pkg.html">retardos_RegDes_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classRD__observacion.html">   12</a></span>&#160;<span class="keywordflow">entity </span><a class="code" href="classRD__observacion.html">RD_observacion</a> <span class="keywordflow">is</span><span class="keyword">                     -- registro con inicializacion a cero asincrona</span></div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classRD__observacion.html#a9a2054ec7f63792c3956fe7264bbd941">   13</a></span>&#160;  <span class="keywordflow">port</span> <span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classRD__observacion.html#a9a2054ec7f63792c3956fe7264bbd941">reloj</a></span><span class="vhdlchar">,</span> <span class="vhdlchar"><a class="code" href="classRD__observacion.html#aaaf76b3c92306baf67cc09a1ff48254d">pcero</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="comment">std_logic</span>;<span class="keyword">    -- pcero: senyal de inicializacion</span></div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classRD__observacion.html#a0f35254636fb24d9c79dd17517834818">   14</a></span>&#160;         <span class="vhdlchar"><a class="code" href="classRD__observacion.html#a0f35254636fb24d9c79dd17517834818">e</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="vhdlchar"><a class="code" href="classinterface__observador__pkg.html#a174cc0b72ad75c8e4deb60305bab868f">tp_observacion</a></span>;</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classRD__observacion.html#a3720502f686cbf850b7c5640d3abdd8a">   15</a></span>&#160;         <span class="vhdlchar"><a class="code" href="classRD__observacion.html#a3720502f686cbf850b7c5640d3abdd8a">s</a></span><span class="vhdlchar">:</span> <span class="keywordflow">out</span> <span class="vhdlchar"><a class="code" href="classinterface__observador__pkg.html#a174cc0b72ad75c8e4deb60305bab868f">tp_observacion</a></span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keywordflow">end</span>;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classRD__observacion_1_1comportamiento.html">   18</a></span>&#160;<span class="keywordflow">architecture</span> comportamiento <span class="keywordflow">of</span> <a class="code" href="classRD__observacion.html">RD_observacion</a> is</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="vhdlkeyword">  begin</span></div><div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classRD__observacion_1_1comportamiento.html#acb16b04fc938b219a1e28f7738aae4df">   20</a></span>&#160;     <span class="keywordflow">process</span> (<a class="code" href="classRD__observacion.html#a9a2054ec7f63792c3956fe7264bbd941">reloj</a>, <a class="code" href="classRD__observacion.html#aaaf76b3c92306baf67cc09a1ff48254d">pcero</a>) <span class="keywordflow">begin</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;       <span class="keywordflow">if</span> <span class="vhdlchar"><a class="code" href="classRD__observacion.html#aaaf76b3c92306baf67cc09a1ff48254d">pcero</a></span> <span class="vhdlchar">=</span> <span class="vhdlchar">&#39;</span><span class="vhdllogic"></span><span class="vhdllogic">1</span><span class="vhdlchar">&#39;</span> <span class="keywordflow">then</span> <span class="vhdlchar"><a class="code" href="classRD__observacion.html#a3720502f686cbf850b7c5640d3abdd8a">s</a></span> <span class="vhdlchar">&lt;=</span> <span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classinterface__observador__pkg.html#a9eb323dea18bc31075b8cb8ec5556a76">dir</a></span> <span class="vhdlchar">=</span><span class="vhdlchar">&gt;</span> <span class="vhdlchar">(</span><span class="keywordflow">others</span> <span class="vhdlchar">=</span><span class="vhdlchar">&gt;</span> <span class="vhdlchar">&#39;</span><span class="vhdllogic"></span><span class="vhdllogic">0</span><span class="vhdlchar">&#39;</span><span class="vhdlchar">)</span><span class="vhdlchar">,</span> <span class="vhdlchar"><a class="code" href="classinterface__observador__pkg.html#ac81a453e197c2d2d0cb04683a7fd0269">pet</a></span> <span class="vhdlchar">=</span><span class="vhdlchar">&gt;</span> <span class="vhdlchar">&#39;</span><span class="vhdllogic"></span><span class="vhdllogic">0</span><span class="vhdlchar">&#39;</span><span class="vhdlchar">,</span> <span class="vhdlchar"><a class="code" href="classinterface__observador__pkg.html#a5344923dc5368658fff81ea3cff83895">les</a></span> <span class="vhdlchar">=</span><span class="vhdlchar">&gt;</span> <span class="vhdlchar">&#39;</span><span class="vhdllogic"></span><span class="vhdllogic">0</span><span class="vhdlchar">&#39;</span><span class="vhdlchar">)</span> <span class="keywordflow">after</span> <span class="vhdlchar"><a class="code" href="classretardos__RegDes__pkg.html#ac53af39175df00f730da733399190bd2">retREGDES</a></span>;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;       <span class="keywordflow">elsif</span> <span class="vhdlchar">rising_edge</span><span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classRD__observacion.html#a9a2054ec7f63792c3956fe7264bbd941">reloj</a></span><span class="vhdlchar">)</span> <span class="keywordflow">then</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;              <span class="vhdlchar"><a class="code" href="classRD__observacion.html#a3720502f686cbf850b7c5640d3abdd8a">s</a></span> <span class="vhdlchar">&lt;=</span> <span class="vhdlchar"><a class="code" href="classRD__observacion.html#a0f35254636fb24d9c79dd17517834818">e</a></span> <span class="keywordflow">after</span> <span class="vhdlchar"><a class="code" href="classretardos__RegDes__pkg.html#ac53af39175df00f730da733399190bd2">retREGDES</a></span>;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;       <span class="keywordflow">end</span> <span class="keywordflow">if</span>;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;     <span class="keywordflow">end</span> <span class="keywordflow">process</span>;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keywordflow">end</span>;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="ttc" id="classinterface__observador__pkg_html"><div class="ttname"><a href="classinterface__observador__pkg.html">interface_observador_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="interface__observador__pkg_8vhd_source.html#l00011">interface_observador_pkg.vhd:11</a></div></div>
+<div class="ttc" id="classinterface__observador__pkg_html_a174cc0b72ad75c8e4deb60305bab868f"><div class="ttname"><a href="classinterface__observador__pkg.html#a174cc0b72ad75c8e4deb60305bab868f">interface_observador_pkg.tp_observacion</a></div><div class="ttdeci">tp_observacion</div><div class="ttdef"><b>Definition:</b> <a href="interface__observador__pkg_8vhd_source.html#l00013">interface_observador_pkg.vhd:13</a></div></div>
+<div class="ttc" id="classinterface__observador__pkg_html_a9eb323dea18bc31075b8cb8ec5556a76"><div class="ttname"><a href="classinterface__observador__pkg.html#a9eb323dea18bc31075b8cb8ec5556a76">interface_observador_pkg.dir</a></div><div class="ttdeci">st_dir   dir</div><div class="ttdef"><b>Definition:</b> <a href="interface__observador__pkg_8vhd_source.html#l00014">interface_observador_pkg.vhd:14</a></div></div>
+<div class="ttc" id="classinterface__observador__pkg_html_ac81a453e197c2d2d0cb04683a7fd0269"><div class="ttname"><a href="classinterface__observador__pkg.html#ac81a453e197c2d2d0cb04683a7fd0269">interface_observador_pkg.pet</a></div><div class="ttdeci">std_logic   pet</div><div class="ttdef"><b>Definition:</b> <a href="interface__observador__pkg_8vhd_source.html#l00015">interface_observador_pkg.vhd:15</a></div></div>
+<div class="ttc" id="classRD__observacion_html"><div class="ttname"><a href="classRD__observacion.html">RD_observacion</a></div><div class="ttdef"><b>Definition:</b> <a href="RD__observacion_8vhd_source.html#l00012">RD_observacion.vhd:12</a></div></div>
+<div class="ttc" id="classRD__observacion_html_aaaf76b3c92306baf67cc09a1ff48254d"><div class="ttname"><a href="classRD__observacion.html#aaaf76b3c92306baf67cc09a1ff48254d">RD_observacion.pcero</a></div><div class="ttdeci">in pcerostd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="RD__observacion_8vhd_source.html#l00013">RD_observacion.vhd:13</a></div></div>
+<div class="ttc" id="classretardos__RegDes__pkg_html_ac53af39175df00f730da733399190bd2"><div class="ttname"><a href="classretardos__RegDes__pkg.html#ac53af39175df00f730da733399190bd2">retardos_RegDes_pkg.retREGDES</a></div><div class="ttdeci">time  :=  2 ns retREGDES</div><div class="ttdef"><b>Definition:</b> <a href="retardos__RegDes__pkg_8vhd_source.html#l00011">retardos_RegDes_pkg.vhd:11</a></div></div>
+<div class="ttc" id="classretardos__RegDes__pkg_html"><div class="ttname"><a href="classretardos__RegDes__pkg.html">retardos_RegDes_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="retardos__RegDes__pkg_8vhd_source.html#l00009">retardos_RegDes_pkg.vhd:9</a></div></div>
+<div class="ttc" id="classRD__observacion_html_a3720502f686cbf850b7c5640d3abdd8a"><div class="ttname"><a href="classRD__observacion.html#a3720502f686cbf850b7c5640d3abdd8a">RD_observacion.s</a></div><div class="ttdeci">out stp_observacion  </div><div class="ttdef"><b>Definition:</b> <a href="RD__observacion_8vhd_source.html#l00015">RD_observacion.vhd:15</a></div></div>
+<div class="ttc" id="classinterface__observador__pkg_html_a5344923dc5368658fff81ea3cff83895"><div class="ttname"><a href="classinterface__observador__pkg.html#a5344923dc5368658fff81ea3cff83895">interface_observador_pkg.les</a></div><div class="ttdeci">std_logic   les</div><div class="ttdef"><b>Definition:</b> <a href="interface__observador__pkg_8vhd_source.html#l00016">interface_observador_pkg.vhd:16</a></div></div>
+<div class="ttc" id="classRD__observacion_html_a9a2054ec7f63792c3956fe7264bbd941"><div class="ttname"><a href="classRD__observacion.html#a9a2054ec7f63792c3956fe7264bbd941">RD_observacion.reloj</a></div><div class="ttdeci">in relojstd_logic  </div><div class="ttdef"><b>Definition:</b> <a href="RD__observacion_8vhd_source.html#l00013">RD_observacion.vhd:13</a></div></div>
+<div class="ttc" id="classRD__observacion_html_a0f35254636fb24d9c79dd17517834818"><div class="ttname"><a href="classRD__observacion.html#a0f35254636fb24d9c79dd17517834818">RD_observacion.e</a></div><div class="ttdeci">in etp_observacion  </div><div class="ttdef"><b>Definition:</b> <a href="RD__observacion_8vhd_source.html#l00014">RD_observacion.vhd:14</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Jueves, 24 de Enero de 2019 15:02:22 para coherencia multiprocesador con bus proyecto 1 por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

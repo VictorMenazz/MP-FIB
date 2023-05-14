@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>coherencia multiprocesador con bus proyecto 3 subproyecto 2 riesgo: Fichero Fuente LAB3/proyecto_2/arbitro/componentes/arbitraje/CODIGO/arbitraje.vhd</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">coherencia multiprocesador con bus proyecto 3 subproyecto 2 riesgo
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_60a1be92ec3cd5bc7744054a8b03d72d.html">LAB3</a></li><li class="navelem"><a class="el" href="dir_50fba018bc48b4688d356800efa422be.html">proyecto_2</a></li><li class="navelem"><a class="el" href="dir_6671fe6dfd914c42e821c5780a639560.html">arbitro</a></li><li class="navelem"><a class="el" href="dir_b8e678ce22e02d0f810cd08bf7be2701.html">componentes</a></li><li class="navelem"><a class="el" href="dir_319473431df00acf37dac58aa7ede032.html">arbitraje</a></li><li class="navelem"><a class="el" href="dir_cb00430527fea72144ca1107da5b33b6.html">CODIGO</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">arbitraje.vhd</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="arbitraje_8vhd.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">--</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">-- Copyright (c) 2017 XXXX, UPC</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">-- All rights reserved.</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">-- </span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classarbitraje.html#ae4f03c286607f3181e16b9aa12d0c6d4">    6</a></span>&#160;<span class="vhdlkeyword">library </span><span class="keywordflow">IEEE</span>;</div><div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classarbitraje.html#acd03516902501cd1c7296a98e22c6fcb">    7</a></span>&#160;<span class="vhdlkeyword">use </span>IEEE.std_logic_1164.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classarbitraje.html#a8b72c1af73f4d0cd515ce902ebf4b6f1">    9</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classmultis__pkg.html">multis_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classarbitraje.html#a821e50c9ec2d4ba3623fc8443b89c7d1">   10</a></span>&#160;<span class="vhdlkeyword">use </span>work.<a class="code" href="classretardos__arbitro__pkg.html">retardos_arbitro_pkg</a>.<span class="keywordflow">all</span>;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classarbitraje.html">   13</a></span>&#160;<span class="keywordflow">entity </span><a class="code" href="classarbitraje.html">arbitraje</a> <span class="keywordflow">is</span>                 </div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classarbitraje.html#a1a3c07f042b6ca34e8624041e7b5fe85">   14</a></span>&#160;<span class="keywordflow">port</span> <span class="vhdlchar">(</span><span class="vhdlchar"><a class="code" href="classarbitraje.html#a1a3c07f042b6ca34e8624041e7b5fe85">arb</a></span><span class="vhdlchar">:</span> <span class="vhdlchar"><a class="code" href="classmultis__pkg.html#a7ea33a04edee25886db5db6d2174a6d8">st_arb_peticiones</a></span>; </div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classarbitraje.html#a3a66d4139345745ee635e5bdfa84fff6">   15</a></span>&#160;   <span class="vhdlchar"><a class="code" href="classarbitraje.html#a3a66d4139345745ee635e5bdfa84fff6">peticiones</a></span><span class="vhdlchar">:</span> <span class="keywordflow">in</span> <span class="vhdlchar"><a class="code" href="classmultis__pkg.html#a7ea33a04edee25886db5db6d2174a6d8">st_arb_peticiones</a></span>;</div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classarbitraje.html#a548576ec078a8e7110845f856c2780e7">   16</a></span>&#160;   <span class="vhdlchar"><a class="code" href="classarbitraje.html#a548576ec078a8e7110845f856c2780e7">concesiones</a></span><span class="vhdlchar">:</span> <span class="keywordflow">out</span> <span class="vhdlchar"><a class="code" href="classmultis__pkg.html#a70cffaa0c0bd5b41db5055cb2b982fee">st_arb_concesiones</a></span><span class="vhdlchar">)</span>;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keywordflow">end</span> <span class="vhdlchar">arbitraje</span>;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classarbitraje_1_1estruc.html">   19</a></span>&#160;<span class="keywordflow">architecture</span> estruc <span class="keywordflow">of</span> <a class="code" href="classarbitraje.html">arbitraje</a> is</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="vhdlkeyword">begin</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="vhdlchar">g_arb</span><span class="vhdlchar">:</span> <span class="keywordflow">for</span> <span class="vhdlchar">i</span> <span class="keywordflow">in</span> <span class="vhdllogic"></span><span class="vhdllogic">0</span> <span class="keywordflow">to</span> <span class="vhdlchar"><a class="code" href="classmultis__pkg.html#afc605b281dd558cc8433aa10a177eb85">Nproc</a></span><span class="vhdlchar">-</span><span class="vhdllogic"></span><span class="vhdllogic">1</span> <span class="keywordflow">generate</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="vhdlkeyword">begin</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;   <span class="vhdlchar"><a class="code" href="classarbitraje.html#a548576ec078a8e7110845f856c2780e7">concesiones</a></span><span class="vhdlchar">(</span><span class="vhdlchar">i</span><span class="vhdlchar">)</span> <span class="vhdlchar">&lt;=</span> <span class="vhdlchar"><a class="code" href="classarbitraje.html#a3a66d4139345745ee635e5bdfa84fff6">peticiones</a></span><span class="vhdlchar">(</span><span class="vhdlchar">i</span><span class="vhdlchar">)</span> <span class="keywordflow">and</span> <span class="vhdlchar"><a class="code" href="classarbitraje.html#a1a3c07f042b6ca34e8624041e7b5fe85">arb</a></span><span class="vhdlchar">(</span><span class="vhdlchar">i</span><span class="vhdlchar">)</span> <span class="keywordflow">after</span> <span class="vhdlchar"><a class="code" href="classretardos__arbitro__pkg.html#abd318ff37513748ef677b6f83274f77c">ret_arb</a></span>;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keywordflow">end</span> <span class="keywordflow">generate</span>;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keywordflow">end</span>;</div><div class="ttc" id="classmultis__pkg_html_a70cffaa0c0bd5b41db5055cb2b982fee"><div class="ttname"><a href="classmultis__pkg.html#a70cffaa0c0bd5b41db5055cb2b982fee">multis_pkg.st_arb_concesiones</a></div><div class="ttdeci">std_logic_vector( 0 to    Nproc- 1)   st_arb_concesiones</div><div class="ttdef"><b>Definition:</b> <a href="multis__pkg_8vhd_source.html#l00022">multis_pkg.vhd:22</a></div></div>
+<div class="ttc" id="classretardos__arbitro__pkg_html_abd318ff37513748ef677b6f83274f77c"><div class="ttname"><a href="classretardos__arbitro__pkg.html#abd318ff37513748ef677b6f83274f77c">retardos_arbitro_pkg.ret_arb</a></div><div class="ttdeci">time  :=  2 ns ret_arb</div><div class="ttdef"><b>Definition:</b> <a href="retardos__arbitro__pkg_8vhd_source.html#l00013">retardos_arbitro_pkg.vhd:13</a></div></div>
+<div class="ttc" id="classarbitraje_html_a1a3c07f042b6ca34e8624041e7b5fe85"><div class="ttname"><a href="classarbitraje.html#a1a3c07f042b6ca34e8624041e7b5fe85">arbitraje.arb</a></div><div class="ttdeci">arbst_arb_peticiones  </div><div class="ttdef"><b>Definition:</b> <a href="arbitraje_8vhd_source.html#l00014">arbitraje.vhd:14</a></div></div>
+<div class="ttc" id="classretardos__arbitro__pkg_html"><div class="ttname"><a href="classretardos__arbitro__pkg.html">retardos_arbitro_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="retardos__arbitro__pkg_8vhd_source.html#l00011">retardos_arbitro_pkg.vhd:11</a></div></div>
+<div class="ttc" id="classmultis__pkg_html"><div class="ttname"><a href="classmultis__pkg.html">multis_pkg</a></div><div class="ttdef"><b>Definition:</b> <a href="multis__pkg_8vhd_source.html#l00013">multis_pkg.vhd:13</a></div></div>
+<div class="ttc" id="classarbitraje_html_a548576ec078a8e7110845f856c2780e7"><div class="ttname"><a href="classarbitraje.html#a548576ec078a8e7110845f856c2780e7">arbitraje.concesiones</a></div><div class="ttdeci">out concesionesst_arb_concesiones  </div><div class="ttdef"><b>Definition:</b> <a href="arbitraje_8vhd_source.html#l00016">arbitraje.vhd:16</a></div></div>
+<div class="ttc" id="classmultis__pkg_html_afc605b281dd558cc8433aa10a177eb85"><div class="ttname"><a href="classmultis__pkg.html#afc605b281dd558cc8433aa10a177eb85">multis_pkg.Nproc</a></div><div class="ttdeci">natural  := 2 Nproc</div><div class="ttdef"><b>Definition:</b> <a href="multis__pkg_8vhd_source.html#l00016">multis_pkg.vhd:16</a></div></div>
+<div class="ttc" id="classarbitraje_html_a3a66d4139345745ee635e5bdfa84fff6"><div class="ttname"><a href="classarbitraje.html#a3a66d4139345745ee635e5bdfa84fff6">arbitraje.peticiones</a></div><div class="ttdeci">in peticionesst_arb_peticiones  </div><div class="ttdef"><b>Definition:</b> <a href="arbitraje_8vhd_source.html#l00015">arbitraje.vhd:15</a></div></div>
+<div class="ttc" id="classmultis__pkg_html_a7ea33a04edee25886db5db6d2174a6d8"><div class="ttname"><a href="classmultis__pkg.html#a7ea33a04edee25886db5db6d2174a6d8">multis_pkg.st_arb_peticiones</a></div><div class="ttdeci">std_logic_vector( 0 to    Nproc- 1)   st_arb_peticiones</div><div class="ttdef"><b>Definition:</b> <a href="multis__pkg_8vhd_source.html#l00021">multis_pkg.vhd:21</a></div></div>
+<div class="ttc" id="classarbitraje_html"><div class="ttname"><a href="classarbitraje.html">arbitraje</a></div><div class="ttdef"><b>Definition:</b> <a href="arbitraje_8vhd_source.html#l00013">arbitraje.vhd:13</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Martes, 29 de Enero de 2019 14:36:29 para coherencia multiprocesador con bus proyecto 3 subproyecto 2 riesgo por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

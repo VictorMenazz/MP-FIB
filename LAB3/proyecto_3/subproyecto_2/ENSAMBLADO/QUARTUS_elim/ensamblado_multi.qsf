@@ -1,0 +1,192 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 17:27:48  gener 25, 2019
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		ensamblado_multi_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+
+# Project-Wide Assignments
+# ========================
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "12:02:07  SETEMBRE 05, 2018"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name VHDL_FILE ../../../../../LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/componentes_etiq_pkg/componentes_etiq_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/componentes_datos_pkg/componentes_datos_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes_camino_pkg/componentes_camino_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB2/proyecto_1/tipos_constantes_pkg/retardos_controlador_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB2/proyecto_1/tipos_constantes_pkg/param_disenyo_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB2/proyecto_1/tipos_constantes_pkg/campo_ET_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB2/proyecto_1/tipos_constantes_pkg/campo_EST_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB2/proyecto_1/tipos_constantes_pkg/campo_DAT_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB2/proyecto_1/tipos_constantes_pkg/camino_dat_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB2/proyecto_1/tipos_constantes_pkg/cache_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB2/proyecto_1/tipos_constantes_pkg/acciones_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB2/proyecto_1/memoria_con_interface_bus/componentes_memoria_interface_pkg/componentes_memoria_interface_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/componentes_memoria_pkg/componentes_memoria_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB2/proyecto_1/BUS/componentes_interfaces_bus_pkg/componentes_interfaces_bus_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB2/proyecto_1/tipos_constantes_pkg/retardos_RegDes_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB2/proyecto_1/tipos_constantes_pkg/retardos_otros_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/componentes_interface_proc_cache_pkg/componentes_interface_proc_cache_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB2/proyecto_1/tipos_constantes_pkg/interface_cache_bus_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB2/proyecto_1/tipos_constantes_pkg/retardos_memorias_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB2/proyecto_1/tipos_constantes_pkg/param_memorias_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB3/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/componentes_cache_multi_con_inter_proc_pkg/componentes_cache_multi_con_inter_proc_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB3/proyecto_1/cache_con_interface_bus/cache_con_interface_proc_pkg/cache_multi_con_interface_proc_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB3/proyecto_1/cache_con_interface_bus/componentes_cache_interface_pkg/componentes_cache_multi_interface_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB3/proyecto_1/tipos_constantes_pkg/retardos_observador_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB3/proyecto_1/tipos_constantes_pkg/retardos_inter_proc_cache_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB3/proyecto_1/BUS/componentes_interfaces_bus_multi_pkg/componentes_interfaces_bus_multi_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB3/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/componentes/observador/CODIGO/procedimientos_observador_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB3/proyecto_1/tipos_constantes_pkg/interface_observador_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB3/proyecto_1/tipos_constantes_pkg/controlador_Obs_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB3/proyecto_2/BUS/componentes_bus_multi_pkg/componentes_bus_multi_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB3/proyecto_2/tipos_constantes_pkg/retardos_bus_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB3/proyecto_2/tipos_constantes_pkg/retardos_arbitro_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB3/proyecto_2/tipos_constantes_pkg/multis_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB3/proyecto_2/tipos_constantes_pkg/bus_multi_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB3/proyecto_2/arbitro/componentes_arbitro_pkg/componentes_arbitro_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB3/proyecto_2/arbitro/componentes_arbitraje_pkg/componentes_arbitraje_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB3/proyecto_3/subproyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/componentes_cache_pkg/componentes_cache_multi_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB3/proyecto_3/subproyecto_2/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/componentes/procesador/CODIGO/procedimientos_controlador_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../../../../LAB3/proyecto_3/subproyecto_2/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/componentes_controlador_cache_multi_pkg/componentes_controlador_cache_multi_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../tipos_constantes_pkg/controlador_pkg.vhd
+set_global_assignment -name VHDL_FILE ../CODIGO/ensamblado_multi.vhd
+
+# Classic Timing Assignments
+# ==========================
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+
+# Analysis & Synthesis Assignments
+# ================================
+set_global_assignment -name FAMILY "Cyclone IV GX"
+set_global_assignment -name TOP_LEVEL_ENTITY ensamblado_multi
+set_global_assignment -name SEARCH_PATH ../../../../../LAB2/proyecto_1/memoria_con_interface_bus/ensam_memo_interface/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/ensam_memoria/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/COMPONENTES/MEMORIA/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/COMPONENTES/CONTROLADOR/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB2/proyecto_1/BUS/componentes/registros/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/interfaces/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/COMPONENTES/registro_pet/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/COMPONENTES/mux_peticion/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/componentes_interface_cache_bus/mux_dat/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/ensamblado/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/componentes/m_etiquetas/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_estado/m_estado/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/ensamblado/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/componentes/m_datos/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB3/proyecto_1/cache_con_interface_bus/ensamblado_cache_interfaces/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB3/proyecto_1/BUS/componentes/registros/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB3/proyecto_1/BUS/componentes/mux_obser/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB3/proyecto_1/BUS/componentes/AND/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB3/proyecto_1/BUS/interfaces/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB3/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/componentes_cache_multis/mux_dir/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB3/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/ensamblado_con_interface_proc/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB3/proyecto_2/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/componentes/observador/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB3/proyecto_2/arbitro/componentes/arbitraje/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB3/proyecto_2/BUS/Bus_multi/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB3/proyecto_2/arbitro/ensamblado/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB3/proyecto_2/arbitro/componentes/registro/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB3/proyecto_3/subproyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/ensamblado_multi/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB3/proyecto_3/subproyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/ensamblado/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB3/proyecto_3/subproyecto_2/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/componentes/procesador/CODIGO
+set_global_assignment -name SEARCH_PATH ../../../../../LAB3/proyecto_3/subproyecto_2/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/ensamblado_controlador/CODIGO
+
+# Fitter Assignments
+# ==================
+set_global_assignment -name DEVICE EP4CGX30CF23C6
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+
+# EDA Netlist Writer Assignments
+# ==============================
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+
+# Power Estimation Assignments
+# ============================
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+
+# start EDA_TEST_BENCH_SETTINGS(prueba_ensamblado_multi)
+# ------------------------------------------------------
+
+	# EDA Netlist Writer Assignments
+	# ==============================
+	set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id prueba_ensamblado_multi
+	set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME prueba_ensamblado_multi -section_id prueba_ensamblado_multi
+	set_global_assignment -name EDA_TEST_BENCH_FILE ../PRUEBAS_elim/tipos_pruebas_pkg.vhd -section_id prueba_ensamblado_multi -hdl_version VHDL_2008
+	set_global_assignment -name EDA_TEST_BENCH_FILE ../../../../../LAB3/proyecto_3/subproyecto_2/UTILIDADES_pkg/imprimir_traza_pkg/impri_traza_pkg.vhd -section_id prueba_ensamblado_multi -hdl_version VHDL_2008
+	set_global_assignment -name EDA_TEST_BENCH_FILE ../../../../../LAB3/proyecto_2/UTILIDADES_pkg/impri_CACHE_memoria_pkg/impri_cache_pkg.vhd -section_id prueba_ensamblado_multi -hdl_version VHDL_2008
+	set_global_assignment -name EDA_TEST_BENCH_FILE ../../../../../LAB3/proyecto_2/UTILIDADES_pkg/impri_CACHE_memoria_pkg/impri_memoria_pkg.vhd -section_id prueba_ensamblado_multi -hdl_version VHDL_2008
+	set_global_assignment -name EDA_TEST_BENCH_FILE ../PRUEBAS_elim/procedimientos_prueba_pkg.vhd -section_id prueba_ensamblado_multi -hdl_version VHDL_2008
+	set_global_assignment -name EDA_TEST_BENCH_FILE ../PRUEBAS_elim/procedimientos_peticiones_pkg.vhd -section_id prueba_ensamblado_multi -hdl_version VHDL_2008
+	set_global_assignment -name EDA_TEST_BENCH_FILE ../PRUEBAS_elim/prueba_ensamblado_multi.vhd -section_id prueba_ensamblado_multi -hdl_version VHDL_2008
+
+# end EDA_TEST_BENCH_SETTINGS(prueba_ensamblado_multi)
+# ----------------------------------------------------
+
+# start EDA_TOOL_SETTINGS(eda_simulation)
+# ---------------------------------------
+
+	# EDA Netlist Writer Assignments
+	# ==============================
+	set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+	set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+	set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH prueba_ensamblado_multi -section_id eda_simulation
+	set_global_assignment -name EDA_TEST_BENCH_NAME prueba_ensamblado_multi -section_id eda_simulation
+	set_global_assignment -name EDA_NATIVELINK_SIMULATION_SETUP_SCRIPT ../PRUEBAS_elim/formato_ventanas.do -section_id eda_simulation
+
+# end EDA_TOOL_SETTINGS(eda_simulation)
+# -------------------------------------
+
+# ------------------------------
+# start ENTITY(ensamblado_multi)
+
+	# start DESIGN_PARTITION(Top)
+	# ---------------------------
+
+		# Incremental Compilation Assignments
+		# ===================================
+		set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+		set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+		set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+
+	# end DESIGN_PARTITION(Top)
+	# -------------------------
+
+# end ENTITY(ensamblado_multi)
+# ----------------------------
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

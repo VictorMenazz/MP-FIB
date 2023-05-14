@@ -1,0 +1,3 @@
+TRABAJO 2
+Sirve para decidir si el valor del bus se tiene que guardar en el registro. Usa las dos señales X.val y X.esc para en el caso de un PtE que como se muestar en la figura 8 es la única transacción que modifica el autómata del observador.
+
