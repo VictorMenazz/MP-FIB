@@ -1,5 +1,5 @@
 Analysis & Elaboration report for ensamblado_multi
-Mon May 15 15:48:11 2023
+Mon May 15 17:05:42 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -42,7 +42,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                       ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Elaboration Status      ; Successful - Mon May 15 15:48:11 2023           ;
+; Analysis & Elaboration Status      ; Successful - Mon May 15 17:05:42 2023           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; ensamblado_multi                                ;
 ; Top-level Entity Name              ; ensamblado_multi                                ;
@@ -221,7 +221,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Elaboration
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Mon May 15 15:48:07 2023
+    Info: Processing started: Mon May 15 17:05:39 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ensamblado_multi -c ensamblado_multi --analysis_and_elaboration
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/memoria_con_interface_bus/componentes_memoria_interface_pkg/componentes_memoria_interface_pkg.vhd
@@ -467,9 +467,9 @@ Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/
     Info (12023): Found entity 1: memoria_mem
 Info (12128): Elaborating entity "memoria_mem" for hierarchy "mem_con_interface_bus:memoria|ensamblado_memoria:memoria|memoria_mem:mem"
 Info: Quartus II 64-Bit Analysis & Elaboration was successful. 0 errors, 43 warnings
-    Info: Peak virtual memory: 4684 megabytes
-    Info: Processing ended: Mon May 15 15:48:11 2023
-    Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Peak virtual memory: 4683 megabytes
+    Info: Processing ended: Mon May 15 17:05:42 2023
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
 
 

@@ -133,15 +133,28 @@ begin
 	proc_puesta_cero (reloj, pcero, peticion, pet_listo, ciclo, fichero_pro_cons);
 
 -- arbitraje
-	arb_control <= '1';
+	arb_control <= '0';
 
 -- peticiones
+	
 	v_DIR := 0; 
 	v_DATO := 1;
-	inicio (reloj, peticion, pet_listo, v_DIR, v_DATO, ciclo, fichero_pro_cons);
+	Pescritura(reloj, peticion, pet_listo, v_DIR, v_DATO, ciclo, fichero_pro_cons);
+
+	Plectura (reloj, peticion, pet_listo, respuesta, s_esperado, v_DIR, v_DATO, ciclo, fichero_pro_cons);
+
+	v_DIR := 0; 
+	v_DATO := 3;
+	Pescritura(reloj, peticion, pet_listo, v_DIR, v_DATO, ciclo, fichero_pro_cons);
+	
+	Plectura (reloj, peticion, pet_listo, respuesta, s_esperado, v_DIR, v_DATO, ciclo, fichero_pro_cons);
+	
+	v_DIR := 1; 
+	v_DATO := 5;
+	Pescritura(reloj, peticion, pet_listo, v_DIR, v_DATO, ciclo, fichero_pro_cons);
+	
 	Plectura (reloj, peticion, pet_listo, respuesta, s_esperado, v_DIR, v_DATO, ciclo, fichero_pro_cons);
 --
-
 
 	no_hay_peticion (reloj, peticion, pet_listo, ciclo, fichero_pro_cons);
 	no_hay_peticion (reloj, peticion, pet_listo, ciclo, fichero_pro_cons);

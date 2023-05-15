@@ -1,0 +1,74 @@
+        prod. store xxxx yy: productor emite store; direccion: xxxx; valor: yy
+        prod. load xxxx: productor emite load; direccion: xxxx
+        store cache xxxx yy: cache inicia procesado de store; direccion: xxxx; valor: yy
+        load cache xxxx: cache inicia procesado de load; direccion: xxxx
+        consumo. valor    yy  load    xxxx: consumidor captura el valor; direccion: xxxx; valor: yy
+
+ciclo      accion
+    0     no hay peticion  todos
+    4    final de puesta a cero
+    4  peticion de inicio  0000    04  proc.  0
+    4  peticion de inicio  0001    05  proc.  1
+    5          prod. load  0000  proc  0
+    5     no hay peticion  proc  1
+    8          load cache  0000  proc  0
+   11             consumo. valor    04  load    0000  proc.  0
+   13     no hay peticion  proc  0
+   13          prod. load  0001  proc  1
+   13          load cache  0001  proc  1
+   16             consumo. valor    05  load    0001  proc.  1
+   18         prod. store  0001    08  proc  0
+   18     no hay peticion  proc  1
+   18         store cache  0001  proc  0
+   29          prod. load  0001  proc  0
+   29     no hay peticion  proc  1
+   29          load cache  0001  proc  0
+   40             consumo. valor    08  load    0001  proc.  0
+   42         prod. store  0001    09  proc  0
+   42     no hay peticion  proc  1
+   42         store cache  0001  proc  0
+   54     no hay peticion  proc  0
+   54         prod. store  0001    05  proc  1
+   54         store cache  0001  proc  1
+   66     no hay peticion  todos
+   67     no hay peticion  todos
+
+ cache:   0
+ Contenido de la cache. Informacion en hexadecimal o binario
+
+Numero
+Contenedor      Estado
+       Etiqueta      Datos
+
+        0   0000   1    04
+        1   0000   1    09
+        2   XXXX   U    XX
+        3   XXXX   U    XX
+        4   XXXX   U    XX
+        5   XXXX   U    XX
+        6   XXXX   U    XX
+        7   XXXX   U    XX
+
+ cache:   1
+ Contenido de la cache. Informacion en hexadecimal o binario
+
+Numero
+Contenedor      Estado
+       Etiqueta      Datos
+
+        0   XXXX   U    XX
+        1   0000   1    05
+        2   XXXX   U    XX
+        3   XXXX   U    XX
+        4   XXXX   U    XX
+        5   XXXX   U    XX
+        6   XXXX   U    XX
+        7   XXXX   U    XX
+
+ Contenido de la memoria. Informacion en hexadecimal
+
+direccion   dato
+
+    0000    XX
+    0001    05
+    0002    XX

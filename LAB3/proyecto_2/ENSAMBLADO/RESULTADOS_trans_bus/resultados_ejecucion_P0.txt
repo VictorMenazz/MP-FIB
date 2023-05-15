@@ -1,0 +1,72 @@
+cache:  0
+ salida de comprobacion de la propagacion de un acceso a memoria
+
+ciclo acceso pend.    acceso cache           agente procesador   agente observador                      
+      tipo   direc.  tipo   direc.   SA SL act. campos est. AP  act. cam  est. AO cache contenido  memoria     
+                                 A/F          ET ES DA                            CT   ET  ES  DA  contenido                           
+  
+    4 inic    0000   inic    0000    D0  P    N  N  N     DES0  N  N  N    DESO    0  XXXX  U  XX    XX  
+    5 load    0000                   IN  P    N  N  N      INI  N  N  N    DESO    0  XXXX  U  XX    XX  
+    6 load    0000                   ES  P    N  N  N   ESCINI  N  N  N    DESO    0  XXXX  U  XX    XX  
+    7 load    0000                   HE  P    S  S  S   HECHOE  N  N  N    DESO    0  0000  1  04    XX  
+    8 load    0000   load    0000    DS  P    N  N  N      DES  N  N  N    DESO    0  0000  1  04    XX  
+    9 no hay                      A  CM  P    N  N  N  CMPETIQ  N  N  N    DESO    0  0000  1  04    XX  
+   10 no hay                         LE  P    N  N  N      LEC  N  N  N    DESO    0  0000  1  04    XX  
+   11 no hay                         HL  P    N  N  N   HECHOL  N  N  N    DESO    0  0000  1  04    XX  
+   12 no hay         no hay          DS  P                      N  N  N    DESO    0  0000  1  04    XX  
+   13 no hay         no hay          DS  P                      N  N  N    DESO    0  0000  1  04    XX  
+   14 no hay         no hay          DS  P                      N  N  N    DESO    0  0000  1  04    XX  
+   15 no hay         no hay          DS  P                      N  N  N    DESO    0  0000  1  04    XX  
+   16 no hay         no hay          DS  P                      N  N  N    DESO    0  0000  1  04    XX  
+   17 no hay         no hay          DS  P                      N  N  N    DESO    0  0000  1  04    XX  
+   18 store   0001   store   0001    DS  P    N  N  N      DES  N  N  N    DESO    1  XXXX  U  XX    XX  
+   19 no hay                      F  CM  P    N  N  N  CMPETIQ  N  N  N    DESO    1  XXXX  U  XX    XX  
+   20 no hay                         FE  P    N  N  N     PMEF  N  N  N    DESO    1  XXXX  U  XX    XX  
+   21 no hay                         FE  P    N  N  N     PMEF  N  N  N    DESO    1  XXXX  U  XX    XX  
+   22 no hay                         ME  P    N  N  N    ESPEF  N  N  N    DESO    1  XXXX  U  XX    XX  
+   23 no hay                         ME  P    N  N  N    ESPEF  N  N  N    DESO    1  XXXX  U  XX    XX  
+   24 no hay                         ME  P    N  N  N    ESPEF  N  N  N    DESO    1  XXXX  U  XX    08  
+   25 no hay                         ME  P    N  N  N    ESPEF  N  N  N    DESO    1  XXXX  U  XX    08  
+   26 no hay                         ME  P    N  N  N    ESPEF  N  N  N    DESO    1  XXXX  U  XX    08  
+   27 no hay                         HE  P    N  N  N   HECHOE  N  N  N    DESO    1  XXXX  U  XX    08  
+   28 no hay         no hay          DS  P                      N  N  N    DESO    0  0000  1  04    XX  
+   29 load    0001   load    0001    DS  P    N  N  N      DES  N  N  N    DESO    1  XXXX  U  XX    08  
+   30 no hay                      F  CM  P    N  N  N  CMPETIQ  N  N  N    DESO    1  XXXX  U  XX    08  
+   31 no hay                         FL  P    N  N  N      PML  N  N  N    DESO    1  XXXX  U  XX    08  
+   32 no hay                         FL  P    N  N  N      PML  N  N  N    DESO    1  XXXX  U  XX    08  
+   33 no hay                         ML  P    N  N  N     ESPL  N  N  N    DESO    1  XXXX  U  XX    08  
+   34 no hay                         ML  P    N  N  N     ESPL  N  N  N    DESO    1  XXXX  U  XX    08  
+   35 no hay                         ML  P    N  N  N     ESPL  N  N  N    DESO    1  XXXX  U  XX    08  
+   36 no hay                         ML  P    N  N  N     ESPL  N  N  N    DESO    1  XXXX  U  XX    08  
+   37 no hay                         ML  P    N  N  N     ESPL  N  N  N    DESO    1  XXXX  U  XX    08  
+   38 no hay                         EB  P    N  N  N      ESB  N  N  N    DESO    1  XXXX  U  XX    08  
+   39 no hay                         LE  P    S  S  S      LEC  N  N  N    DESO    1  0000  1  08    08  
+   40 no hay                         HL  P    N  N  N   HECHOL  N  N  N    DESO    1  0000  1  08    08  
+   41 no hay         no hay          DS  P                      N  N  N    DESO    0  0000  1  04    XX  
+   42 store   0001   store   0001    DS  P    N  N  N      DES  N  N  N    DESO    1  0000  1  08    08  
+   43 no hay                      A  CM  P    N  N  N  CMPETIQ  N  N  N    DESO    1  0000  1  08    08  
+   44 no hay                         AE  P    N  N  N     PMEA  N  N  N    DESO    1  0000  1  08    08  
+   45 no hay                         AE  P    N  N  N     PMEA  N  N  N    DESO    1  0000  1  08    08  
+   46 no hay                         ME  P    N  N  N    ESPEA  N  N  N    DESO    1  0000  1  08    08  
+   47 no hay                         ME  P    N  N  N    ESPEA  N  N  N    DESO    1  0000  1  08    08  
+   48 no hay                         ME  P    N  N  N    ESPEA  N  N  N    DESO    1  0000  1  08    09  
+   49 no hay                         ME  P    N  N  N    ESPEA  N  N  N    DESO    1  0000  1  08    09  
+   50 no hay                         ME  P    N  N  N    ESPEA  N  N  N    DESO    1  0000  1  08    09  
+   51 no hay                         EP  P    N  N  N     ESCP  N  N  N    DESO    1  0000  1  08    09  
+   52 no hay                         HE  P    N  N  S   HECHOE  N  N  N    DESO    1  0000  1  09    09  
+   53 no hay         no hay          DS  P                      N  N  N    DESO    0  0000  1  04    XX  
+   54 no hay         no hay          DS  P                      N  N  N    DESO    0  0000  1  04    XX  
+   55 no hay         no hay          DS  P                      N  N  N    DESO    0  0000  1  04    XX  
+   56 no hay         no hay          DS  P                      N  N  N    DESO    0  0000  1  04    XX  
+   57 no hay         no hay          DS  P                      N  N  N    DESO    0  0000  1  04    XX  
+   58 no hay         no hay          DS  P                      N  N  N    DESO    0  0000  1  04    XX  
+   59 no hay         no hay          DS  P                      N  N  N    DESO    0  0000  1  04    XX  
+   60 no hay         no hay          DS  O                      N  N  N  CMPETO    1  0000  1  09    XX  
+   61 no hay         no hay          DS  O                      N  S  N    EEST    1  0000  1  09    XX  
+   62 no hay         no hay          DS  P                      N  N  N    DESO    0  0000  1  04    XX  
+   63 no hay         no hay          DS  P                      N  N  N    DESO    0  0000  1  04    XX  
+   64 no hay         no hay          DS  P                      N  N  N    DESO    0  0000  1  04    XX  
+   65 no hay         no hay          DS  P                      N  N  N    DESO    0  0000  1  04    XX  
+   66 no hay         no hay          DS  P                      N  N  N    DESO    0  0000  1  04    XX  
+   67 no hay         no hay          DS  P                      N  N  N    DESO    0  0000  1  04    XX  
+   68 no hay         no hay          DS  P                      N  N  N    DESO    0  0000  1  04    XX  
