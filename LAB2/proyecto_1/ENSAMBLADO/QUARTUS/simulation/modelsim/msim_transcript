@@ -10,31 +10,31 @@
 # ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/tipos_constantes_pkg/retardos_otros_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/retardos_otros_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package retardos_otros_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/tipos_constantes_pkg/retardos_RegDes_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/retardos_RegDes_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package retardos_RegDes_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/tipos_constantes_pkg/retardos_memorias_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/retardos_memorias_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package retardos_memorias_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/tipos_constantes_pkg/retardos_controlador_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/retardos_controlador_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package retardos_controlador_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/tipos_constantes_pkg/param_disenyo_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/param_disenyo_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -42,13 +42,13 @@
 # -- Loading package NUMERIC_STD
 # -- Loading package MATH_REAL
 # -- Compiling package param_disenyo_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/tipos_constantes_pkg/acciones_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/acciones_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package acciones_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/tipos_constantes_pkg/param_memorias_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/param_memorias_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -57,7 +57,7 @@
 # -- Loading package MATH_REAL
 # -- Loading package param_disenyo_pkg
 # -- Compiling package param_memorias_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/tipos_constantes_pkg/interface_cache_bus_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/interface_cache_bus_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -66,7 +66,7 @@
 # -- Loading package MATH_REAL
 # -- Loading package param_disenyo_pkg
 # -- Compiling package interface_cache_bus_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/tipos_constantes_pkg/controlador_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/controlador_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -75,7 +75,7 @@
 # -- Loading package MATH_REAL
 # -- Loading package param_disenyo_pkg
 # -- Compiling package controlador_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/tipos_constantes_pkg/campo_ET_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/campo_ET_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -84,7 +84,7 @@
 # -- Loading package MATH_REAL
 # -- Loading package param_disenyo_pkg
 # -- Compiling package campo_ET_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/tipos_constantes_pkg/campo_EST_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/campo_EST_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -93,7 +93,7 @@
 # -- Loading package MATH_REAL
 # -- Loading package param_disenyo_pkg
 # -- Compiling package campo_EST_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/tipos_constantes_pkg/campo_DAT_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/campo_DAT_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -102,7 +102,7 @@
 # -- Loading package MATH_REAL
 # -- Loading package param_disenyo_pkg
 # -- Compiling package campo_DAT_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/tipos_constantes_pkg/camino_dat_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/camino_dat_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -111,7 +111,7 @@
 # -- Loading package MATH_REAL
 # -- Loading package param_disenyo_pkg
 # -- Compiling package camino_dat_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/tipos_constantes_pkg/cache_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/cache_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -120,7 +120,7 @@
 # -- Loading package MATH_REAL
 # -- Loading package param_disenyo_pkg
 # -- Compiling package cache_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/componentes_memoria_pkg/componentes_memoria_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/componentes_memoria_pkg/componentes_memoria_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -129,7 +129,7 @@
 # -- Loading package MATH_REAL
 # -- Loading package param_disenyo_pkg
 # -- Compiling package componentes_memoria_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/componentes_interface_cache_bus/mux_dat/CODIGO/mux_dat.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/componentes_interface_cache_bus/mux_dat/CODIGO/mux_dat.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -139,7 +139,7 @@
 # -- Loading package param_disenyo_pkg
 # -- Compiling entity mux_dat
 # -- Compiling architecture compor of mux_dat
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/COMPONENTES/CONTROLADOR/CODIGO/controlador_memo.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/COMPONENTES/CONTROLADOR/CODIGO/controlador_memo.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -150,7 +150,7 @@
 # -- Loading package retardos_memorias_pkg
 # -- Compiling entity controlador_memo
 # -- Compiling architecture compor of controlador_memo
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/componentes_interface_proc_cache_pkg/componentes_interface_proc_cache_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/componentes_interface_proc_cache_pkg/componentes_interface_proc_cache_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -162,7 +162,7 @@
 # -- Loading package controlador_pkg
 # -- Loading package cache_pkg
 # -- Compiling package componentes_interface_proc_cache_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc_pkg/cache_con_interface_proc_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc_pkg/cache_con_interface_proc_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -175,7 +175,7 @@
 # -- Loading package cache_pkg
 # -- Loading package interface_cache_bus_pkg
 # -- Compiling package cache_con_interface_proc_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/cache_con_interface_bus/componentes_cache_interface_pkg/componentes_cache_interface_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/componentes_cache_interface_pkg/componentes_cache_interface_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -186,7 +186,7 @@
 # -- Loading package cache_pkg
 # -- Loading package interface_cache_bus_pkg
 # -- Compiling package componentes_cache_interface_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/componentes_cache_con_inter_proc_pkg/componentes_cache_con_inter_proc_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/componentes_cache_con_inter_proc_pkg/componentes_cache_con_inter_proc_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -198,7 +198,7 @@
 # -- Loading package controlador_pkg
 # -- Loading package cache_pkg
 # -- Compiling package componentes_cache_con_inter_proc_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/componentes_datos_pkg/componentes_datos_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/componentes_datos_pkg/componentes_datos_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -208,7 +208,7 @@
 # -- Loading package param_disenyo_pkg
 # -- Loading package campo_DAT_pkg
 # -- Compiling package componentes_datos_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/componentes_etiq_pkg/componentes_etiq_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/componentes_etiq_pkg/componentes_etiq_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -218,7 +218,7 @@
 # -- Loading package param_disenyo_pkg
 # -- Loading package campo_ET_pkg
 # -- Compiling package componentes_etiq_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/CODIGO/procedimientos_controlador_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/CODIGO/procedimientos_controlador_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -231,7 +231,7 @@
 # -- Compiling package procedimientos_controlador_pkg
 # -- Compiling package body procedimientos_controlador_pkg
 # -- Loading package procedimientos_controlador_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes_camino_pkg/componentes_camino_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes_camino_pkg/componentes_camino_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -243,7 +243,7 @@
 # -- Loading package campo_EST_pkg
 # -- Loading package campo_DAT_pkg
 # -- Compiling package componentes_camino_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/componentes_cache_pkg/componentes_cache_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/componentes_cache_pkg/componentes_cache_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -255,7 +255,7 @@
 # -- Loading package controlador_pkg
 # -- Loading package cache_pkg
 # -- Compiling package componentes_cache_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/memoria_con_interface_bus/componentes_memoria_interface_pkg/componentes_memoria_interface_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/componentes_memoria_interface_pkg/componentes_memoria_interface_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -265,7 +265,7 @@
 # -- Loading package param_disenyo_pkg
 # -- Loading package interface_cache_bus_pkg
 # -- Compiling package componentes_memoria_interface_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/BUS/componentes_interfaces_bus_pkg/componentes_interfaces_bus_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/BUS/componentes_interfaces_bus_pkg/componentes_interfaces_bus_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -275,7 +275,7 @@
 # -- Loading package param_disenyo_pkg
 # -- Loading package interface_cache_bus_pkg
 # -- Compiling package componentes_interfaces_bus_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/COMPONENTES/registro_pet/CODIGO/registro_pet.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/COMPONENTES/registro_pet/CODIGO/registro_pet.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -287,7 +287,7 @@
 # -- Loading package retardos_otros_pkg
 # -- Compiling entity registro_pet
 # -- Compiling architecture compor of registro_pet
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/COMPONENTES/mux_peticion/CODIGO/mux_pet.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/COMPONENTES/mux_peticion/CODIGO/mux_pet.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -299,7 +299,7 @@
 # -- Loading package retardos_otros_pkg
 # -- Compiling entity mux_pet
 # -- Compiling architecture compor of mux_pet
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/componentes/m_etiquetas/CODIGO/m_et.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/componentes/m_etiquetas/CODIGO/m_et.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -312,7 +312,7 @@
 # -- Loading package campo_ET_pkg
 # -- Compiling entity m_ET
 # -- Compiling architecture compor of m_ET
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_estado/m_estado/CODIGO/m_est.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_estado/m_estado/CODIGO/m_est.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -325,7 +325,7 @@
 # -- Loading package campo_EST_pkg
 # -- Compiling entity m_EST
 # -- Compiling architecture compor of m_EST
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/componentes/m_datos/CODIGO/m_dat.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/componentes/m_datos/CODIGO/m_dat.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -338,7 +338,7 @@
 # -- Loading package campo_DAT_pkg
 # -- Compiling entity m_DAT
 # -- Compiling architecture compor of m_DAT
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/BUS/componentes/registros/CODIGO/rd_pet_info.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/BUS/componentes/registros/CODIGO/rd_pet_info.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -350,7 +350,7 @@
 # -- Loading package retardos_RegDes_pkg
 # -- Compiling entity RD_pet_info
 # -- Compiling architecture comportamiento of RD_pet_info
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/BUS/componentes/registros/CODIGO/rd_resp_info.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/BUS/componentes/registros/CODIGO/rd_resp_info.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -362,7 +362,7 @@
 # -- Loading package retardos_RegDes_pkg
 # -- Compiling entity RD_resp_info
 # -- Compiling architecture comportamiento of RD_resp_info
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/BUS/componentes/registros/CODIGO/rc_pet.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/BUS/componentes/registros/CODIGO/rc_pet.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -374,7 +374,7 @@
 # -- Loading package retardos_RegDes_pkg
 # -- Compiling entity RC_pet
 # -- Compiling architecture comportamiento of RC_pet
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/BUS/componentes/registros/CODIGO/rc_resp.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/BUS/componentes/registros/CODIGO/rc_resp.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -386,7 +386,7 @@
 # -- Loading package retardos_RegDes_pkg
 # -- Compiling entity RC_resp
 # -- Compiling architecture comportamiento of RC_resp
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/ensam_memoria/CODIGO/ensamblado_memoria.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/ensam_memoria/CODIGO/ensamblado_memoria.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -397,7 +397,7 @@
 # -- Loading package componentes_memoria_pkg
 # -- Compiling entity ensamblado_memoria
 # -- Compiling architecture estruc of ensamblado_memoria
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/ensam_memoria/CODIGO/rc_1.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/ensam_memoria/CODIGO/rc_1.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -409,7 +409,7 @@
 # -- Loading package retardos_RegDes_pkg
 # -- Compiling entity RC_1
 # -- Compiling architecture comportamiento of RC_1
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/COMPONENTES/MEMORIA/CODIGO/memoria_mem.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/COMPONENTES/MEMORIA/CODIGO/memoria_mem.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -421,7 +421,7 @@
 # -- Loading package param_memorias_pkg
 # -- Compiling entity memoria_mem
 # -- Compiling architecture compor of memoria_mem
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/ENSAMBLADO/CODIGO/ensamblado.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/ENSAMBLADO/CODIGO/ensamblado.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -435,7 +435,7 @@
 # -- Loading package componentes_memoria_interface_pkg
 # -- Compiling entity ensamblado
 # -- Compiling architecture estructural of ensamblado
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/cache_con_interface_bus/ensamblado_cache_interfaces/CODIGO/cache_con_interface_bus.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/ensamblado_cache_interfaces/CODIGO/cache_con_interface_bus.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -452,7 +452,7 @@
 # -- Loading package cache_con_interface_proc_pkg
 # -- Compiling entity cache_con_interface_bus
 # -- Compiling architecture estructural of cache_con_interface_bus
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/ensamblado_con_interface_proc/CODIGO/cache_con_inter_proc.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/ensamblado_con_interface_proc/CODIGO/cache_con_inter_proc.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -468,7 +468,7 @@
 # -- Loading package interface_cache_bus_pkg
 # -- Compiling entity cache_con_inter_proc
 # -- Compiling architecture estruc of cache_con_inter_proc
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/interfaces/CODIGO/interface_proc_cache.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/interfaces/CODIGO/interface_proc_cache.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -482,7 +482,7 @@
 # -- Loading package componentes_interface_proc_cache_pkg
 # -- Compiling entity interface_proc_cache
 # -- Compiling architecture estruc of interface_proc_cache
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/ensamblado/CODIGO/cache.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/ensamblado/CODIGO/cache.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -496,7 +496,7 @@
 # -- Loading package componentes_cache_pkg
 # -- Compiling entity cache
 # -- Compiling architecture estruc of cache
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/ensamblado/CODIGO/camino_datos.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/ensamblado/CODIGO/camino_datos.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -511,7 +511,7 @@
 # -- Loading package camino_dat_pkg
 # -- Compiling entity camino_datos
 # -- Compiling architecture estructural of camino_datos
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/ensamblado/CODIGO/etiquetas.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/ensamblado/CODIGO/etiquetas.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -523,7 +523,7 @@
 # -- Loading package componentes_etiq_pkg
 # -- Compiling entity etiquetas
 # -- Compiling architecture estruc of etiquetas
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/ensamblado/CODIGO/datos.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/ensamblado/CODIGO/datos.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -535,7 +535,7 @@
 # -- Loading package componentes_datos_pkg
 # -- Compiling entity datos
 # -- Compiling architecture estruc of datos
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/CODIGO/controlador.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/CODIGO/controlador.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -549,7 +549,7 @@
 # -- Loading package procedimientos_controlador_pkg
 # -- Compiling entity controlador
 # -- Compiling architecture compor of controlador
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/interfaces/CODIGO/interface_cache_proc.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/interfaces/CODIGO/interface_cache_proc.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -563,7 +563,7 @@
 # -- Loading package componentes_interface_proc_cache_pkg
 # -- Compiling entity interface_cache_proc
 # -- Compiling architecture estruc of interface_cache_proc
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/BUS/interfaces/CODIGO/interface_cache_bus_info.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/BUS/interfaces/CODIGO/interface_cache_bus_info.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -575,7 +575,7 @@
 # -- Loading package componentes_interfaces_bus_pkg
 # -- Compiling entity interface_cache_bus_info
 # -- Compiling architecture estruc of interface_cache_bus_info
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/BUS/interfaces/CODIGO/interface_cache_bus_control.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/BUS/interfaces/CODIGO/interface_cache_bus_control.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -587,7 +587,7 @@
 # -- Loading package componentes_interfaces_bus_pkg
 # -- Compiling entity interface_cache_bus_control
 # -- Compiling architecture estruc of interface_cache_bus_control
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/memoria_con_interface_bus/ensam_memo_interface/CODIGO/mem_con_interface_bus.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/ensam_memo_interface/CODIGO/mem_con_interface_bus.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -600,7 +600,7 @@
 # -- Loading package componentes_memoria_pkg
 # -- Compiling entity mem_con_interface_bus
 # -- Compiling architecture estructural of mem_con_interface_bus
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/BUS/interfaces/CODIGO/interface_mem_bus_info.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/BUS/interfaces/CODIGO/interface_mem_bus_info.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -612,7 +612,7 @@
 # -- Loading package componentes_interfaces_bus_pkg
 # -- Compiling entity interface_mem_bus_info
 # -- Compiling architecture estruc of interface_mem_bus_info
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/BUS/interfaces/CODIGO/interface_mem_bus_control.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/BUS/interfaces/CODIGO/interface_mem_bus_control.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -625,7 +625,7 @@
 # -- Compiling entity interface_mem_bus_control
 # -- Compiling architecture estruc of interface_mem_bus_control
 # 
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/ENSAMBLADO/QUARTUS/../../UTILIDADES_pkg/imprimir_traza_pkg/impri_traza_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/ENSAMBLADO/QUARTUS/../../UTILIDADES_pkg/imprimir_traza_pkg/impri_traza_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -642,7 +642,7 @@
 # -- Compiling package impri_traza_pkg
 # -- Compiling package body impri_traza_pkg
 # -- Loading package impri_traza_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/ENSAMBLADO/QUARTUS/../../UTILIDADES_pkg/impri_CACHE_memoria_pkg/impri_cache_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/ENSAMBLADO/QUARTUS/../../UTILIDADES_pkg/impri_CACHE_memoria_pkg/impri_cache_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -655,7 +655,7 @@
 # -- Compiling package impri_cache_pkg
 # -- Compiling package body impri_cache_pkg
 # -- Loading package impri_cache_pkg
-# vcom -93 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/ENSAMBLADO/QUARTUS/../../UTILIDADES_pkg/impri_CACHE_memoria_pkg/impri_memoria_pkg.vhd}
+# vcom -93 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/ENSAMBLADO/QUARTUS/../../UTILIDADES_pkg/impri_CACHE_memoria_pkg/impri_memoria_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -668,7 +668,7 @@
 # -- Compiling package impri_memoria_pkg
 # -- Compiling package body impri_memoria_pkg
 # -- Loading package impri_memoria_pkg
-# vcom -2008 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/ENSAMBLADO/QUARTUS/../PRUEBAS/procedimientos_peticiones_pkg.vhd}
+# vcom -2008 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/ENSAMBLADO/QUARTUS/../PRUEBAS/procedimientos_peticiones_pkg.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -681,7 +681,7 @@
 # -- Compiling package procedimientos_peticiones_pkg
 # -- Compiling package body procedimientos_peticiones_pkg
 # -- Loading package procedimientos_peticiones_pkg
-# vcom -2008 -work work {C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_ensamblado.vhd}
+# vcom -2008 -work work {C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_ensamblado.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -703,9 +703,9 @@
 # -- Loading package impri_traza_pkg
 # -- Compiling entity prueba_ensamblado
 # -- Compiling architecture prueba of prueba_ensamblado
-# ** Warning: C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_ensamblado.vhd(69): (vcom-1236) Shared variables must be of a protected type.
+# ** Warning: C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_ensamblado.vhd(69): (vcom-1236) Shared variables must be of a protected type.
 # 
-# ** Warning: [2] C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_ensamblado.vhd(190): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+# ** Warning: [2] C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/ENSAMBLADO/QUARTUS/../PRUEBAS/prueba_ensamblado.vhd(190): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
 # 
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  prueba_ensamblado
@@ -778,7 +778,7 @@
 # Loading work.controlador_memo(compor)
 # Loading work.memoria_mem(compor)
 # 
-# do C:/Users/victo/Desktop/MP-FIB/LABS/LAB2/proyecto_1/ENSAMBLADO/QUARTUS/../PRUEBAS/formato_ventanas.do
+# do C:/Users/victo/OneDrive/Escritorio/MP-FIB/LAB2/proyecto_1/ENSAMBLADO/QUARTUS/../PRUEBAS/formato_ventanas.do
 # log -r /*
 # (vsim-4077) Logging very large object: /prueba_ensamblado/s_mem_memoria 
 # (vsim-4077) Logging very large object: /prueba_ensamblado/ensa_ca_mem/memoria/memoria/mem/mem 

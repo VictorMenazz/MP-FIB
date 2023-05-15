@@ -131,13 +131,13 @@ set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 
 	# EDA Netlist Writer Assignments
 	# ==============================
-	set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id prueba_ensamblado
-	set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME prueba_ensamblado -section_id prueba_ensamblado
-	set_global_assignment -name EDA_TEST_BENCH_FILE ../../UTILIDADES_pkg/imprimir_traza_pkg/impri_traza_pkg.vhd -section_id prueba_ensamblado
-	set_global_assignment -name EDA_TEST_BENCH_FILE ../../../../LAB2/proyecto_1/UTILIDADES_pkg/impri_CACHE_memoria_pkg/impri_cache_pkg.vhd -section_id prueba_ensamblado
-	set_global_assignment -name EDA_TEST_BENCH_FILE ../../../../LAB2/proyecto_1/UTILIDADES_pkg/impri_CACHE_memoria_pkg/impri_memoria_pkg.vhd -section_id prueba_ensamblado
-	set_global_assignment -name EDA_TEST_BENCH_FILE ../PRUEBAS/procedimientos_peticiones_pkg.vhd -section_id prueba_ensamblado -hdl_version VHDL_2008
-	set_global_assignment -name EDA_TEST_BENCH_FILE ../PRUEBAS/prueba_ensamblado.vhd -section_id prueba_ensamblado -hdl_version VHDL_2008
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id prueba_ensamblado
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME prueba_ensamblado -section_id prueba_ensamblado
+set_global_assignment -name EDA_TEST_BENCH_FILE ../../UTILIDADES_pkg/imprimir_traza_pkg/impri_traza_pkg.vhd -section_id prueba_ensamblado
+set_global_assignment -name EDA_TEST_BENCH_FILE ../../../../LAB2/proyecto_1/UTILIDADES_pkg/impri_CACHE_memoria_pkg/impri_cache_pkg.vhd -section_id prueba_ensamblado
+set_global_assignment -name EDA_TEST_BENCH_FILE ../../../../LAB2/proyecto_1/UTILIDADES_pkg/impri_CACHE_memoria_pkg/impri_memoria_pkg.vhd -section_id prueba_ensamblado
+set_global_assignment -name EDA_TEST_BENCH_FILE ../PRUEBAS/procedimientos_peticiones_pkg.vhd -section_id prueba_ensamblado -hdl_version VHDL_2008
+set_global_assignment -name EDA_TEST_BENCH_FILE ../PRUEBAS/prueba_ensamblado.vhd -section_id prueba_ensamblado -hdl_version VHDL_2008
 
 # end EDA_TEST_BENCH_SETTINGS(prueba_ensamblado)
 # ----------------------------------------------
@@ -147,11 +147,11 @@ set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 
 	# EDA Netlist Writer Assignments
 	# ==============================
-	set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
-	set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
-	set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH prueba_ensamblado -section_id eda_simulation
-	set_global_assignment -name EDA_TEST_BENCH_NAME prueba_ensamblado -section_id eda_simulation
-	set_global_assignment -name EDA_NATIVELINK_SIMULATION_SETUP_SCRIPT ../PRUEBAS/formato_ventanas.do -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH prueba_ensamblado -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME prueba_ensamblado -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_SETUP_SCRIPT ../PRUEBAS/formato_ventanas.do -section_id eda_simulation
 
 # end EDA_TOOL_SETTINGS(eda_simulation)
 # -------------------------------------
@@ -164,9 +164,9 @@ set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 
 		# Incremental Compilation Assignments
 		# ===================================
-		set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-		set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-		set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 
 	# end DESIGN_PARTITION(Top)
 	# -------------------------

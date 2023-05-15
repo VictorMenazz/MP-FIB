@@ -1,5 +1,5 @@
 Analysis & Elaboration report for ensamblado
-Mon Apr 17 22:34:07 2023
+Tue Apr 18 14:56:28 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                       ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Elaboration Status      ; Successful - Mon Apr 17 22:34:07 2023           ;
+; Analysis & Elaboration Status      ; Successful - Tue Apr 18 14:56:28 2023           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; ensamblado                                      ;
 ; Top-level Entity Name              ; ensamblado                                      ;
@@ -201,182 +201,182 @@ Parallel compilation was disabled, but you have multiple processors available. E
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Elaboration
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Mon Apr 17 22:34:06 2023
+    Info: Processing started: Tue Apr 18 14:56:26 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ensamblado -c ensamblado --analysis_and_elaboration
 Warning (20028): Parallel compilation is not licensed and has been disabled
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/tipos_constantes_pkg/retardos_otros_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/retardos_otros_pkg.vhd
     Info (12022): Found design unit 1: retardos_otros_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/tipos_constantes_pkg/retardos_regdes_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/retardos_regdes_pkg.vhd
     Info (12022): Found design unit 1: retardos_RegDes_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/tipos_constantes_pkg/retardos_memorias_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/retardos_memorias_pkg.vhd
     Info (12022): Found design unit 1: retardos_memorias_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/tipos_constantes_pkg/retardos_controlador_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/retardos_controlador_pkg.vhd
     Info (12022): Found design unit 1: retardos_controlador_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/tipos_constantes_pkg/param_memorias_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/param_memorias_pkg.vhd
     Info (12022): Found design unit 1: param_memorias_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/tipos_constantes_pkg/interface_cache_bus_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/interface_cache_bus_pkg.vhd
     Info (12022): Found design unit 1: interface_cache_bus_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/tipos_constantes_pkg/controlador_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/controlador_pkg.vhd
     Info (12022): Found design unit 1: controlador_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/tipos_constantes_pkg/campo_et_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/campo_et_pkg.vhd
     Info (12022): Found design unit 1: campo_ET_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/tipos_constantes_pkg/campo_est_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/campo_est_pkg.vhd
     Info (12022): Found design unit 1: campo_EST_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/tipos_constantes_pkg/campo_dat_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/campo_dat_pkg.vhd
     Info (12022): Found design unit 1: campo_DAT_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/tipos_constantes_pkg/camino_dat_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/camino_dat_pkg.vhd
     Info (12022): Found design unit 1: camino_dat_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/tipos_constantes_pkg/cache_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/cache_pkg.vhd
     Info (12022): Found design unit 1: cache_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/tipos_constantes_pkg/param_disenyo_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/param_disenyo_pkg.vhd
     Info (12022): Found design unit 1: param_disenyo_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/componentes_interface_proc_cache_pkg/componentes_interface_proc_cache_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/componentes_interface_proc_cache_pkg/componentes_interface_proc_cache_pkg.vhd
     Info (12022): Found design unit 1: componentes_interface_proc_cache_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc_pkg/cache_con_interface_proc_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc_pkg/cache_con_interface_proc_pkg.vhd
     Info (12022): Found design unit 1: cache_con_interface_proc_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/cache_con_interface_bus/componentes_cache_interface_pkg/componentes_cache_interface_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/cache_con_interface_bus/componentes_cache_interface_pkg/componentes_cache_interface_pkg.vhd
     Info (12022): Found design unit 1: componentes_cache_interface_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/componentes_cache_con_inter_proc_pkg/componentes_cache_con_inter_proc_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/componentes_cache_con_inter_proc_pkg/componentes_cache_con_inter_proc_pkg.vhd
     Info (12022): Found design unit 1: componentes_cache_con_inter_proc_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/componentes_datos_pkg/componentes_datos_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/componentes_datos_pkg/componentes_datos_pkg.vhd
     Info (12022): Found design unit 1: componentes_datos_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/componentes_etiq_pkg/componentes_etiq_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/componentes_etiq_pkg/componentes_etiq_pkg.vhd
     Info (12022): Found design unit 1: componentes_etiq_pkg
-Info (12021): Found 2 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/codigo/procedimientos_controlador_pkg.vhd
+Info (12021): Found 2 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/codigo/procedimientos_controlador_pkg.vhd
     Info (12022): Found design unit 1: procedimientos_controlador_pkg
     Info (12022): Found design unit 2: procedimientos_controlador_pkg-body
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/tipos_constantes_pkg/acciones_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/acciones_pkg.vhd
     Info (12022): Found design unit 1: acciones_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes_camino_pkg/componentes_camino_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes_camino_pkg/componentes_camino_pkg.vhd
     Info (12022): Found design unit 1: componentes_camino_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/componentes_cache_pkg/componentes_cache_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/componentes_cache_pkg/componentes_cache_pkg.vhd
     Info (12022): Found design unit 1: componentes_cache_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/memoria_con_interface_bus/componentes_memoria_interface_pkg/componentes_memoria_interface_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/memoria_con_interface_bus/componentes_memoria_interface_pkg/componentes_memoria_interface_pkg.vhd
     Info (12022): Found design unit 1: componentes_memoria_interface_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/bus/componentes_interfaces_bus_pkg/componentes_interfaces_bus_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/bus/componentes_interfaces_bus_pkg/componentes_interfaces_bus_pkg.vhd
     Info (12022): Found design unit 1: componentes_interfaces_bus_pkg
-Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/memoria_con_interface_bus/memoria_principal/componentes_memoria_pkg/componentes_memoria_pkg.vhd
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/memoria_con_interface_bus/memoria_principal/componentes_memoria_pkg/componentes_memoria_pkg.vhd
     Info (12022): Found design unit 1: componentes_memoria_pkg
-Info (12021): Found 2 design units, including 1 entities, in source file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/ensamblado/codigo/ensamblado.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/ensamblado/codigo/ensamblado.vhd
     Info (12022): Found design unit 1: ensamblado-estructural
     Info (12023): Found entity 1: ensamblado
 Info (12127): Elaborating entity "ensamblado" for the top level hierarchy
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/cache_con_interface_bus/ensamblado_cache_interfaces/codigo/cache_con_interface_bus.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/cache_con_interface_bus/ensamblado_cache_interfaces/codigo/cache_con_interface_bus.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: cache_con_interface_bus-estructural
     Info (12023): Found entity 1: cache_con_interface_bus
 Info (12128): Elaborating entity "cache_con_interface_bus" for hierarchy "cache_con_interface_bus:cache"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/ensamblado_con_interface_proc/codigo/cache_con_inter_proc.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/ensamblado_con_interface_proc/codigo/cache_con_inter_proc.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: cache_con_inter_proc-estruc
     Info (12023): Found entity 1: cache_con_inter_proc
 Info (12128): Elaborating entity "cache_con_inter_proc" for hierarchy "cache_con_interface_bus:cache|cache_con_inter_proc:cach"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/interfaces/codigo/interface_proc_cache.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/interfaces/codigo/interface_proc_cache.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: interface_proc_cache-estruc
     Info (12023): Found entity 1: interface_proc_cache
 Info (12128): Elaborating entity "interface_proc_cache" for hierarchy "cache_con_interface_bus:cache|cache_con_inter_proc:cach|interface_proc_cache:inter_Pr_ca"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/componentes/registro_pet/codigo/registro_pet.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/componentes/registro_pet/codigo/registro_pet.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: registro_pet-compor
     Info (12023): Found entity 1: registro_pet
 Info (12128): Elaborating entity "registro_pet" for hierarchy "cache_con_interface_bus:cache|cache_con_inter_proc:cach|interface_proc_cache:inter_Pr_ca|registro_pet:regpet"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/componentes/mux_peticion/codigo/mux_pet.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/componentes/mux_peticion/codigo/mux_pet.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: mux_pet-compor
     Info (12023): Found entity 1: mux_pet
 Info (12128): Elaborating entity "mux_pet" for hierarchy "cache_con_interface_bus:cache|cache_con_inter_proc:cach|interface_proc_cache:inter_Pr_ca|mux_pet:muxpet"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/ensamblado/codigo/cache.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/ensamblado/codigo/cache.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: cache-estruc
     Info (12023): Found entity 1: cache
 Info (12128): Elaborating entity "cache" for hierarchy "cache_con_interface_bus:cache|cache_con_inter_proc:cach|cache:cache_sin"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/componentes_interface_cache_bus/mux_dat/codigo/mux_dat.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/componentes_interface_cache_bus/mux_dat/codigo/mux_dat.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: mux_dat-compor
     Info (12023): Found entity 1: mux_dat
 Info (12128): Elaborating entity "mux_dat" for hierarchy "cache_con_interface_bus:cache|cache_con_inter_proc:cach|cache:cache_sin|mux_dat:mx"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/ensamblado/codigo/camino_datos.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/ensamblado/codigo/camino_datos.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: camino_datos-estructural
     Info (12023): Found entity 1: camino_datos
 Info (12128): Elaborating entity "camino_datos" for hierarchy "cache_con_interface_bus:cache|cache_con_inter_proc:cach|cache:cache_sin|camino_datos:camino"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/ensamblado/codigo/etiquetas.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/ensamblado/codigo/etiquetas.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: etiquetas-estruc
     Info (12023): Found entity 1: etiquetas
 Info (12128): Elaborating entity "etiquetas" for hierarchy "cache_con_interface_bus:cache|cache_con_inter_proc:cach|cache:cache_sin|camino_datos:camino|etiquetas:etiq"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/componentes/m_etiquetas/codigo/m_et.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/componentes/m_etiquetas/codigo/m_et.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: m_ET-compor
     Info (12023): Found entity 1: m_ET
 Info (12128): Elaborating entity "m_ET" for hierarchy "cache_con_interface_bus:cache|cache_con_inter_proc:cach|cache:cache_sin|camino_datos:camino|etiquetas:etiq|m_ET:ET_Mem"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_estado/m_estado/codigo/m_est.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_estado/m_estado/codigo/m_est.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: m_EST-compor
     Info (12023): Found entity 1: m_EST
 Info (12128): Elaborating entity "m_EST" for hierarchy "cache_con_interface_bus:cache|cache_con_inter_proc:cach|cache:cache_sin|camino_datos:camino|m_EST:estado"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/ensamblado/codigo/datos.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/ensamblado/codigo/datos.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: datos-estruc
     Info (12023): Found entity 1: datos
 Info (12128): Elaborating entity "datos" for hierarchy "cache_con_interface_bus:cache|cache_con_inter_proc:cach|cache:cache_sin|camino_datos:camino|datos:datos_ca"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/componentes/m_datos/codigo/m_dat.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/componentes/m_datos/codigo/m_dat.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: m_DAT-compor
     Info (12023): Found entity 1: m_DAT
 Info (12128): Elaborating entity "m_DAT" for hierarchy "cache_con_interface_bus:cache|cache_con_inter_proc:cach|cache:cache_sin|camino_datos:camino|datos:datos_ca|m_DAT:DAT_Mem"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/codigo/controlador.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/codigo/controlador.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: controlador-compor
     Info (12023): Found entity 1: controlador
 Info (12128): Elaborating entity "controlador" for hierarchy "cache_con_interface_bus:cache|cache_con_inter_proc:cach|cache:cache_sin|controlador:contro"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/interfaces/codigo/interface_cache_proc.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/interfaces/codigo/interface_cache_proc.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: interface_cache_proc-estruc
     Info (12023): Found entity 1: interface_cache_proc
 Info (12128): Elaborating entity "interface_cache_proc" for hierarchy "cache_con_interface_bus:cache|cache_con_inter_proc:cach|interface_cache_proc:inter_ca_Pr"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/bus/interfaces/codigo/interface_cache_bus_info.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/bus/interfaces/codigo/interface_cache_bus_info.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: interface_cache_bus_info-estruc
     Info (12023): Found entity 1: interface_cache_bus_info
 Info (12128): Elaborating entity "interface_cache_bus_info" for hierarchy "cache_con_interface_bus:cache|interface_cache_bus_info:inter_Pr_BUS_IN"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/bus/componentes/registros/codigo/rd_pet_info.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/bus/componentes/registros/codigo/rd_pet_info.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: RD_pet_info-comportamiento
     Info (12023): Found entity 1: RD_pet_info
 Info (12128): Elaborating entity "RD_pet_info" for hierarchy "cache_con_interface_bus:cache|interface_cache_bus_info:inter_Pr_BUS_IN|RD_pet_info:reg_pet_info"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/bus/componentes/registros/codigo/rd_resp_info.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/bus/componentes/registros/codigo/rd_resp_info.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: RD_resp_info-comportamiento
     Info (12023): Found entity 1: RD_resp_info
 Info (12128): Elaborating entity "RD_resp_info" for hierarchy "cache_con_interface_bus:cache|interface_cache_bus_info:inter_Pr_BUS_IN|RD_resp_info:reg_resp_mdato"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/bus/interfaces/codigo/interface_cache_bus_control.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/bus/interfaces/codigo/interface_cache_bus_control.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: interface_cache_bus_control-estruc
     Info (12023): Found entity 1: interface_cache_bus_control
 Info (12128): Elaborating entity "interface_cache_bus_control" for hierarchy "cache_con_interface_bus:cache|interface_cache_bus_control:inter_Pr_BUS_CON"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/bus/componentes/registros/codigo/rc_pet.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/bus/componentes/registros/codigo/rc_pet.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: RC_pet-comportamiento
     Info (12023): Found entity 1: RC_pet
 Info (12128): Elaborating entity "RC_pet" for hierarchy "cache_con_interface_bus:cache|interface_cache_bus_control:inter_Pr_BUS_CON|RC_pet:reg_pet_cntl"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/bus/componentes/registros/codigo/rc_resp.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/bus/componentes/registros/codigo/rc_resp.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: RC_resp-comportamiento
     Info (12023): Found entity 1: RC_resp
 Info (12128): Elaborating entity "RC_resp" for hierarchy "cache_con_interface_bus:cache|interface_cache_bus_control:inter_Pr_BUS_CON|RC_resp:reg_resp_cntl"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/memoria_con_interface_bus/ensam_memo_interface/codigo/mem_con_interface_bus.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/memoria_con_interface_bus/ensam_memo_interface/codigo/mem_con_interface_bus.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: mem_con_interface_bus-estructural
     Info (12023): Found entity 1: mem_con_interface_bus
 Info (12128): Elaborating entity "mem_con_interface_bus" for hierarchy "mem_con_interface_bus:memoria"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/bus/interfaces/codigo/interface_mem_bus_info.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/bus/interfaces/codigo/interface_mem_bus_info.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: interface_mem_bus_info-estruc
     Info (12023): Found entity 1: interface_mem_bus_info
 Info (12128): Elaborating entity "interface_mem_bus_info" for hierarchy "mem_con_interface_bus:memoria|interface_mem_bus_info:inter_Mem_BUS_IN"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/bus/interfaces/codigo/interface_mem_bus_control.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/bus/interfaces/codigo/interface_mem_bus_control.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: interface_mem_bus_control-estruc
     Info (12023): Found entity 1: interface_mem_bus_control
 Info (12128): Elaborating entity "interface_mem_bus_control" for hierarchy "mem_con_interface_bus:memoria|interface_mem_bus_control:inter_Mem_BUS_CON"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/memoria_con_interface_bus/memoria_principal/ensam_memoria/codigo/ensamblado_memoria.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/memoria_con_interface_bus/memoria_principal/ensam_memoria/codigo/ensamblado_memoria.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: ensamblado_memoria-estruc
     Info (12023): Found entity 1: ensamblado_memoria
 Info (12128): Elaborating entity "ensamblado_memoria" for hierarchy "mem_con_interface_bus:memoria|ensamblado_memoria:memoria"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/memoria_con_interface_bus/memoria_principal/ensam_memoria/codigo/rc_1.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/memoria_con_interface_bus/memoria_principal/ensam_memoria/codigo/rc_1.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: RC_1-comportamiento
     Info (12023): Found entity 1: RC_1
 Info (12128): Elaborating entity "RC_1" for hierarchy "mem_con_interface_bus:memoria|ensamblado_memoria:memoria|RC_1:regMPET"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/memoria_con_interface_bus/memoria_principal/componentes/controlador/codigo/controlador_memo.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/memoria_con_interface_bus/memoria_principal/componentes/controlador/codigo/controlador_memo.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: controlador_memo-compor
     Info (12023): Found entity 1: controlador_memo
 Info (12128): Elaborating entity "controlador_memo" for hierarchy "mem_con_interface_bus:memoria|ensamblado_memoria:memoria|controlador_memo:contro"
-Warning (12125): Using design file /users/victo/desktop/mp-fib/labs/lab2/proyecto_1/memoria_con_interface_bus/memoria_principal/componentes/memoria/codigo/memoria_mem.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Warning (12125): Using design file /users/victo/onedrive/escritorio/mp-fib/lab2/proyecto_1/memoria_con_interface_bus/memoria_principal/componentes/memoria/codigo/memoria_mem.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
     Info (12022): Found design unit 1: memoria_mem-compor
     Info (12023): Found entity 1: memoria_mem
 Info (12128): Elaborating entity "memoria_mem" for hierarchy "mem_con_interface_bus:memoria|ensamblado_memoria:memoria|memoria_mem:mem"
 Info: Quartus II 64-Bit Analysis & Elaboration was successful. 0 errors, 29 warnings
     Info: Peak virtual memory: 4690 megabytes
-    Info: Processing ended: Mon Apr 17 22:34:07 2023
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Processing ended: Tue Apr 18 14:56:28 2023
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
 
 
