@@ -1,0 +1,491 @@
+Analysis & Elaboration report for ensamblado_multi
+Tue May 16 18:46:41 2023
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Analysis & Elaboration Settings
+  5. Port Connectivity Checks: "mem_con_interface_bus:memoria|interface_mem_bus_info:inter_Mem_BUS_IN"
+  6. Port Connectivity Checks: "cache_multi_con_interface_bus:\proc_multi:0:cache|interface_cache_bus_info:inter_Pr_BUS_IN"
+  7. Port Connectivity Checks: "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach|cache_multi:cache_sin|controlador_multi:contro|observador:contro_obser"
+  8. Port Connectivity Checks: "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach|cache_multi:cache_sin|controlador_multi:contro|controlador:contro_proc"
+  9. Port Connectivity Checks: "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach|cache_multi:cache_sin"
+ 10. Port Connectivity Checks: "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach"
+ 11. Analysis & Elaboration Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                                       ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Elaboration Status      ; Successful - Tue May 16 18:46:41 2023           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; ensamblado_multi                                ;
+; Top-level Entity Name              ; ensamblado_multi                                ;
+; Family                             ; Cyclone IV GX                                   ;
+; Total logic elements               ; N/A until Partition Merge                       ;
+;     Total combinational functions  ; N/A until Partition Merge                       ;
+;     Dedicated logic registers      ; N/A until Partition Merge                       ;
+; Total registers                    ; N/A until Partition Merge                       ;
+; Total pins                         ; N/A until Partition Merge                       ;
+; Total virtual pins                 ; N/A until Partition Merge                       ;
+; Total memory bits                  ; N/A until Partition Merge                       ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                       ;
+; Total GXB Receiver Channel PCS     ; N/A until Partition Merge                       ;
+; Total GXB Receiver Channel PMA     ; N/A until Partition Merge                       ;
+; Total GXB Transmitter Channel PCS  ; N/A until Partition Merge                       ;
+; Total GXB Transmitter Channel PMA  ; N/A until Partition Merge                       ;
+; Total PLLs                         ; N/A until Partition Merge                       ;
++------------------------------------+-------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 12     ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Elaboration Settings                                                                                      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP4CGX30CF23C6     ;                    ;
+; Top-level entity name                                                      ; ensamblado_multi   ; ensamblado_multi   ;
+; Family name                                                                ; Cyclone IV GX      ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "mem_con_interface_bus:memoria|interface_mem_bus_info:inter_Mem_BUS_IN"                         ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port            ; Type   ; Severity ; Details                                                                             ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------+
+; mpet_info_s.acc ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "cache_multi_con_interface_bus:\proc_multi:0:cache|interface_cache_bus_info:inter_Pr_BUS_IN" ;
++-----------------+-------+----------+-----------------------------------------------------------------------------------+
+; Port            ; Type  ; Severity ; Details                                                                           ;
++-----------------+-------+----------+-----------------------------------------------------------------------------------+
+; mpet_info_e.acc ; Input ; Info     ; Stuck at GND                                                                      ;
++-----------------+-------+----------+-----------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach|cache_multi:cache_sin|controlador_multi:contro|observador:contro_obser" ;
++-------------------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port              ; Type   ; Severity ; Details                                                                                                                                      ;
++-------------------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; s_control.DAT_acc ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                          ;
+; s_control.DAT_esc ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                          ;
+; s_control.muxE    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                          ;
++-------------------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach|cache_multi:cache_sin|controlador_multi:contro|controlador:contro_proc" ;
++----------------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port           ; Type   ; Severity ; Details                                                                                                                                         ;
++----------------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+; s_control.muxE ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                             ;
++----------------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach|cache_multi:cache_sin" ;
++-------------+--------+----------+---------------------------------------------------------------------------------------------------+
+; Port        ; Type   ; Severity ; Details                                                                                           ;
++-------------+--------+----------+---------------------------------------------------------------------------------------------------+
+; pet_m.m_acc ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.               ;
++-------------+--------+----------+---------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach"         ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port        ; Type   ; Severity ; Details                                                                             ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; pet_m.m_acc ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Elaboration
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Tue May 16 18:46:39 2023
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ensamblado_multi -c ensamblado_multi --analysis_and_elaboration
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab2/proyecto_1/memoria_con_interface_bus/componentes_memoria_interface_pkg/componentes_memoria_interface_pkg.vhd
+    Info (12022): Found design unit 1: componentes_memoria_interface_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab2/proyecto_1/memoria_con_interface_bus/memoria_principal/componentes_memoria_pkg/componentes_memoria_pkg.vhd
+    Info (12022): Found design unit 1: componentes_memoria_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab2/proyecto_1/bus/componentes_interfaces_bus_pkg/componentes_interfaces_bus_pkg.vhd
+    Info (12022): Found design unit 1: componentes_interfaces_bus_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/retardos_regdes_pkg.vhd
+    Info (12022): Found design unit 1: retardos_RegDes_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/retardos_otros_pkg.vhd
+    Info (12022): Found design unit 1: retardos_otros_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/componentes_interface_proc_cache_pkg/componentes_interface_proc_cache_pkg.vhd
+    Info (12022): Found design unit 1: componentes_interface_proc_cache_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/interface_cache_bus_pkg.vhd
+    Info (12022): Found design unit 1: interface_cache_bus_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/retardos_memorias_pkg.vhd
+    Info (12022): Found design unit 1: retardos_memorias_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/param_memorias_pkg.vhd
+    Info (12022): Found design unit 1: param_memorias_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/componentes_etiq_pkg/componentes_etiq_pkg.vhd
+    Info (12022): Found design unit 1: componentes_etiq_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/componentes_datos_pkg/componentes_datos_pkg.vhd
+    Info (12022): Found design unit 1: componentes_datos_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes_camino_pkg/componentes_camino_pkg.vhd
+    Info (12022): Found design unit 1: componentes_camino_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/retardos_controlador_pkg.vhd
+    Info (12022): Found design unit 1: retardos_controlador_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/param_disenyo_pkg.vhd
+    Info (12022): Found design unit 1: param_disenyo_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/controlador_pkg.vhd
+    Info (12022): Found design unit 1: controlador_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/campo_et_pkg.vhd
+    Info (12022): Found design unit 1: campo_ET_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/campo_est_pkg.vhd
+    Info (12022): Found design unit 1: campo_EST_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/campo_dat_pkg.vhd
+    Info (12022): Found design unit 1: campo_DAT_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/camino_dat_pkg.vhd
+    Info (12022): Found design unit 1: camino_dat_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/cache_pkg.vhd
+    Info (12022): Found design unit 1: cache_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab2/proyecto_1/tipos_constantes_pkg/acciones_pkg.vhd
+    Info (12022): Found design unit 1: acciones_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab3/proyecto_1/tipos_constantes_pkg/retardos_observador_pkg.vhd
+    Info (12022): Found design unit 1: retardos_observador_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab3/proyecto_1/tipos_constantes_pkg/retardos_inter_proc_cache_pkg.vhd
+    Info (12022): Found design unit 1: retardos_inter_proc_cache_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab3/proyecto_1/bus/componentes_interfaces_bus_multi_pkg/componentes_interfaces_bus_multi_pkg.vhd
+    Info (12022): Found design unit 1: componentes_interfaces_bus_multi_pkg
+Info (12021): Found 2 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab3/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/componentes/procesador/codigo/procedimientos_controlador_pkg.vhd
+    Info (12022): Found design unit 1: procedimientos_controlador_pkg
+    Info (12022): Found design unit 2: procedimientos_controlador_pkg-body
+Info (12021): Found 2 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab3/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/componentes/observador/codigo/procedimientos_observador_pkg.vhd
+    Info (12022): Found design unit 1: procedimientos_observador_pkg
+    Info (12022): Found design unit 2: procedimientos_observador_pkg-body
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab3/proyecto_1/tipos_constantes_pkg/interface_observador_pkg.vhd
+    Info (12022): Found design unit 1: interface_observador_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab3/proyecto_1/tipos_constantes_pkg/controlador_obs_pkg.vhd
+    Info (12022): Found design unit 1: controlador_Obs_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab3/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/componentes_cache_multi_con_inter_proc_pkg/componentes_cache_multi_con_inter_proc_pkg.vhd
+    Info (12022): Found design unit 1: componentes_cache_multi_con_inter_proc_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab3/proyecto_1/cache_con_interface_bus/cache_con_interface_proc_pkg/cache_multi_con_interface_proc_pkg.vhd
+    Info (12022): Found design unit 1: cache_multi_con_interface_proc_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab3/proyecto_1/cache_con_interface_bus/componentes_cache_interface_pkg/componentes_cache_multi_interface_pkg.vhd
+    Info (12022): Found design unit 1: componentes_cache_multi_interface_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab3/proyecto_2/bus/componentes_bus_multi_pkg/componentes_bus_multi_pkg.vhd
+    Info (12022): Found design unit 1: componentes_bus_multi_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab3/proyecto_2/tipos_constantes_pkg/retardos_bus_pkg.vhd
+    Info (12022): Found design unit 1: retardos_bus_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab3/proyecto_2/tipos_constantes_pkg/retardos_arbitro_pkg.vhd
+    Info (12022): Found design unit 1: retardos_arbitro_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab3/proyecto_2/tipos_constantes_pkg/multis_pkg.vhd
+    Info (12022): Found design unit 1: multis_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab3/proyecto_2/tipos_constantes_pkg/bus_multi_pkg.vhd
+    Info (12022): Found design unit 1: bus_multi_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab3/proyecto_2/arbitro/componentes_arbitro_pkg/componentes_arbitro_pkg.vhd
+    Info (12022): Found design unit 1: componentes_arbitro_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab3/proyecto_2/arbitro/componentes_arbitraje_pkg/componentes_arbitraje_pkg.vhd
+    Info (12022): Found design unit 1: componentes_arbitraje_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab3/proyecto_2/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/componentes_controlador_cache_multi_pkg/componentes_controlador_cache_multi_pkg.vhd
+    Info (12022): Found design unit 1: componentes_controlador_cache_multi_pkg
+Info (12021): Found 1 design units, including 0 entities, in source file /users/victo/desktop/mp-fib/lab3/proyecto_3/subproyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/componentes_cache_pkg/componentes_cache_multi_pkg.vhd
+    Info (12022): Found design unit 1: componentes_cache_multi_pkg
+Info (12021): Found 2 design units, including 1 entities, in source file /users/victo/desktop/mp-fib/lab3/proyecto_3/subproyecto_1/ensamblado/codigo/ensamblado_multi.vhd
+    Info (12022): Found design unit 1: ensamblado_multi-estructural
+    Info (12023): Found entity 1: ensamblado_multi
+Info (12127): Elaborating entity "ensamblado_multi" for the top level hierarchy
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab3/proyecto_2/arbitro/ensamblado/codigo/arbitro.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: arbitro-estructural
+    Info (12023): Found entity 1: arbitro
+Info (12128): Elaborating entity "arbitro" for hierarchy "arbitro:arbitraje"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab3/proyecto_2/arbitro/componentes/registro/codigo/rd_1_arbi.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RD_1_arbi-comportamiento
+    Info (12023): Found entity 1: RD_1_arbi
+Info (12128): Elaborating entity "RD_1_arbi" for hierarchy "arbitro:arbitraje|RD_1_arbi:reg_mval"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab3/proyecto_2/arbitro/componentes/arbitraje/codigo/arbitraje.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: arbitraje-estruc
+    Info (12023): Found entity 1: arbitraje
+Info (12128): Elaborating entity "arbitraje" for hierarchy "arbitro:arbitraje|arbitraje:arbi"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab3/proyecto_2/arbitro/componentes/registro/codigo/rd_arbi.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RD_arbi-comportamiento
+    Info (12023): Found entity 1: RD_arbi
+Info (12128): Elaborating entity "RD_arbi" for hierarchy "arbitro:arbitraje|RD_arbi:reg_conc"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab3/proyecto_1/cache_con_interface_bus/ensamblado_cache_interfaces/codigo/cache_multi_con_interface_bus.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: cache_multi_con_interface_bus-estructural
+    Info (12023): Found entity 1: cache_multi_con_interface_bus
+Info (12128): Elaborating entity "cache_multi_con_interface_bus" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab3/proyecto_1/bus/interfaces/codigo/interface_observador.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: interface_observador-estruc
+    Info (12023): Found entity 1: interface_observador
+Info (12128): Elaborating entity "interface_observador" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|interface_observador:obser"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab3/proyecto_1/bus/componentes/registros/codigo/rd_observacion.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RD_observacion-comportamiento
+    Info (12023): Found entity 1: RD_observacion
+Info (12128): Elaborating entity "RD_observacion" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|interface_observador:obser|RD_observacion:reg_obser"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab3/proyecto_1/bus/componentes/registros/codigo/rd_pe_obser.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RD_pe_obser-comportamiento
+    Info (12023): Found entity 1: RD_pe_obser
+Info (12128): Elaborating entity "RD_pe_obser" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|interface_observador:obser|RD_pe_obser:reg_inter_obs"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab3/proyecto_1/bus/componentes/mux_obser/codigo/mux_obser.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: mux_obser-compor
+    Info (12023): Found entity 1: mux_obser
+Info (12128): Elaborating entity "mux_obser" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|interface_observador:obser|mux_obser:mux_inter_obs"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab3/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/ensamblado_con_interface_proc/codigo/cache_multi_con_inter_proc.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: cache_multi_con_inter_proc-estruc
+    Info (12023): Found entity 1: cache_multi_con_inter_proc
+Info (12128): Elaborating entity "cache_multi_con_inter_proc" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/interfaces/codigo/interface_proc_cache.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: interface_proc_cache-estruc
+    Info (12023): Found entity 1: interface_proc_cache
+Info (12128): Elaborating entity "interface_proc_cache" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach|interface_proc_cache:inter_Pr_ca"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/componentes/registro_pet/codigo/registro_pet.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: registro_pet-compor
+    Info (12023): Found entity 1: registro_pet
+Info (12128): Elaborating entity "registro_pet" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach|interface_proc_cache:inter_Pr_ca|registro_pet:regpet"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/componentes/mux_peticion/codigo/mux_pet.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: mux_pet-compor
+    Info (12023): Found entity 1: mux_pet
+Info (12128): Elaborating entity "mux_pet" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach|interface_proc_cache:inter_Pr_ca|mux_pet:muxpet"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab3/proyecto_3/subproyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/ensamblado_multi/codigo/cache_multi.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: cache_multi-estruc
+    Info (12023): Found entity 1: cache_multi
+Info (12128): Elaborating entity "cache_multi" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach|cache_multi:cache_sin"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab3/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/componentes_cache_multis/mux_dir/codigo/mux_dir.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: mux_dir-compor
+    Info (12023): Found entity 1: mux_dir
+Info (12128): Elaborating entity "mux_dir" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach|cache_multi:cache_sin|mux_dir:mux_O"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/componentes_interface_cache_bus/mux_dat/codigo/mux_dat.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: mux_dat-compor
+    Info (12023): Found entity 1: mux_dat
+Info (12128): Elaborating entity "mux_dat" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach|cache_multi:cache_sin|mux_dat:mx"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab3/proyecto_3/subproyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/ensamblado/codigo/camino_datos.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: camino_datos-estructural
+    Info (12023): Found entity 1: camino_datos
+Info (12128): Elaborating entity "camino_datos" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach|cache_multi:cache_sin|camino_datos:camino"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/ensamblado/codigo/etiquetas.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: etiquetas-estruc
+    Info (12023): Found entity 1: etiquetas
+Info (12128): Elaborating entity "etiquetas" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach|cache_multi:cache_sin|camino_datos:camino|etiquetas:etiq"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/componentes/m_etiquetas/codigo/m_et.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: m_ET-compor
+    Info (12023): Found entity 1: m_ET
+Info (12128): Elaborating entity "m_ET" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach|cache_multi:cache_sin|camino_datos:camino|etiquetas:etiq|m_ET:ET_Mem"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_estado/m_estado/codigo/m_est.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: m_EST-compor
+    Info (12023): Found entity 1: m_EST
+Info (12128): Elaborating entity "m_EST" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach|cache_multi:cache_sin|camino_datos:camino|m_EST:estado"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/ensamblado/codigo/datos.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: datos-estruc
+    Info (12023): Found entity 1: datos
+Info (12128): Elaborating entity "datos" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach|cache_multi:cache_sin|camino_datos:camino|datos:datos_ca"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/componentes/m_datos/codigo/m_dat.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: m_DAT-compor
+    Info (12023): Found entity 1: m_DAT
+Info (12128): Elaborating entity "m_DAT" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach|cache_multi:cache_sin|camino_datos:camino|datos:datos_ca|m_DAT:DAT_Mem"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab3/proyecto_3/subproyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/ensamblado_controlador/codigo/controlador_multi.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: controlador_multi-estruc
+    Info (12023): Found entity 1: controlador_multi
+Info (12128): Elaborating entity "controlador_multi" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach|cache_multi:cache_sin|controlador_multi:contro"
+Warning (10873): Using initial value X (don't care) for net "s_control.muxE" at controlador_multi.vhd(22)
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab3/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/componentes/procesador/codigo/controlador.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: controlador-compor
+    Info (12023): Found entity 1: controlador
+Info (12128): Elaborating entity "controlador" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach|cache_multi:cache_sin|controlador_multi:contro|controlador:contro_proc"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab3/proyecto_2/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/componentes/observador/codigo/observador.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: observador-compor
+    Info (12023): Found entity 1: observador
+Info (12128): Elaborating entity "observador" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach|cache_multi:cache_sin|controlador_multi:contro|observador:contro_obser"
+Warning (10492): VHDL Process Statement warning at observador.vhd(59): signal "trans_bus" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/interfaces/codigo/interface_cache_proc.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: interface_cache_proc-estruc
+    Info (12023): Found entity 1: interface_cache_proc
+Info (12128): Elaborating entity "interface_cache_proc" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|cache_multi_con_inter_proc:cach|interface_cache_proc:inter_ca_Pr"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab3/proyecto_1/bus/interfaces/codigo/interface_cache_bus_info.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: interface_cache_bus_info-estruc
+    Info (12023): Found entity 1: interface_cache_bus_info
+Info (12128): Elaborating entity "interface_cache_bus_info" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|interface_cache_bus_info:inter_Pr_BUS_IN"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab3/proyecto_1/bus/componentes/and/codigo/and_pet_info.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: and_pet_info-compor
+    Info (12023): Found entity 1: and_pet_info
+Info (12128): Elaborating entity "and_pet_info" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|interface_cache_bus_info:inter_Pr_BUS_IN|and_pet_info:and_conc_info"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab2/proyecto_1/bus/componentes/registros/codigo/rd_pet_info.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RD_pet_info-comportamiento
+    Info (12023): Found entity 1: RD_pet_info
+Info (12128): Elaborating entity "RD_pet_info" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|interface_cache_bus_info:inter_Pr_BUS_IN|RD_pet_info:reg_pet_info"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab2/proyecto_1/bus/componentes/registros/codigo/rd_resp_info.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RD_resp_info-comportamiento
+    Info (12023): Found entity 1: RD_resp_info
+Info (12128): Elaborating entity "RD_resp_info" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|interface_cache_bus_info:inter_Pr_BUS_IN|RD_resp_info:reg_resp_mdato"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab3/proyecto_1/bus/interfaces/codigo/interface_cache_bus_control.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: interface_cache_bus_control-estruc
+    Info (12023): Found entity 1: interface_cache_bus_control
+Info (12128): Elaborating entity "interface_cache_bus_control" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|interface_cache_bus_control:inter_Pr_BUS_CON"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab3/proyecto_1/bus/componentes/and/codigo/and_pet_control.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: and_pet_control-compor
+    Info (12023): Found entity 1: and_pet_control
+Info (12128): Elaborating entity "and_pet_control" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|interface_cache_bus_control:inter_Pr_BUS_CON|and_pet_control:and_conc_cntl"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab2/proyecto_1/bus/componentes/registros/codigo/rc_pet.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RC_pet-comportamiento
+    Info (12023): Found entity 1: RC_pet
+Info (12128): Elaborating entity "RC_pet" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|interface_cache_bus_control:inter_Pr_BUS_CON|RC_pet:reg_pet_cntl"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab2/proyecto_1/bus/componentes/registros/codigo/rc_resp.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RC_resp-comportamiento
+    Info (12023): Found entity 1: RC_resp
+Info (12128): Elaborating entity "RC_resp" for hierarchy "cache_multi_con_interface_bus:\proc_multi:0:cache|interface_cache_bus_control:inter_Pr_BUS_CON|RC_resp:reg_resp_cntl"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab3/proyecto_2/bus/bus_multi/codigo/bus_multi.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: bus_multi-comportamiento
+    Info (12023): Found entity 1: bus_multi
+Info (12128): Elaborating entity "bus_multi" for hierarchy "bus_multi:bus_mu"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab2/proyecto_1/memoria_con_interface_bus/ensam_memo_interface/codigo/mem_con_interface_bus.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: mem_con_interface_bus-estructural
+    Info (12023): Found entity 1: mem_con_interface_bus
+Info (12128): Elaborating entity "mem_con_interface_bus" for hierarchy "mem_con_interface_bus:memoria"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab3/proyecto_1/bus/interfaces/codigo/interface_mem_bus_info.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: interface_mem_bus_info-estruc
+    Info (12023): Found entity 1: interface_mem_bus_info
+Info (12128): Elaborating entity "interface_mem_bus_info" for hierarchy "mem_con_interface_bus:memoria|interface_mem_bus_info:inter_Mem_BUS_IN"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab3/proyecto_1/bus/interfaces/codigo/interface_mem_bus_control.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: interface_mem_bus_control-estruc
+    Info (12023): Found entity 1: interface_mem_bus_control
+Info (12128): Elaborating entity "interface_mem_bus_control" for hierarchy "mem_con_interface_bus:memoria|interface_mem_bus_control:inter_Mem_BUS_CON"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab2/proyecto_1/memoria_con_interface_bus/memoria_principal/ensam_memoria/codigo/ensamblado_memoria.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: ensamblado_memoria-estruc
+    Info (12023): Found entity 1: ensamblado_memoria
+Info (12128): Elaborating entity "ensamblado_memoria" for hierarchy "mem_con_interface_bus:memoria|ensamblado_memoria:memoria"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab2/proyecto_1/memoria_con_interface_bus/memoria_principal/ensam_memoria/codigo/rc_1.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: RC_1-comportamiento
+    Info (12023): Found entity 1: RC_1
+Info (12128): Elaborating entity "RC_1" for hierarchy "mem_con_interface_bus:memoria|ensamblado_memoria:memoria|RC_1:regMPET"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab2/proyecto_1/memoria_con_interface_bus/memoria_principal/componentes/controlador/codigo/controlador_memo.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: controlador_memo-compor
+    Info (12023): Found entity 1: controlador_memo
+Info (12128): Elaborating entity "controlador_memo" for hierarchy "mem_con_interface_bus:memoria|ensamblado_memoria:memoria|controlador_memo:contro"
+Warning (12125): Using design file /users/victo/desktop/mp-fib/lab2/proyecto_1/memoria_con_interface_bus/memoria_principal/componentes/memoria/codigo/memoria_mem.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: memoria_mem-compor
+    Info (12023): Found entity 1: memoria_mem
+Info (12128): Elaborating entity "memoria_mem" for hierarchy "mem_con_interface_bus:memoria|ensamblado_memoria:memoria|memoria_mem:mem"
+Info: Quartus II 64-Bit Analysis & Elaboration was successful. 0 errors, 45 warnings
+    Info: Peak virtual memory: 4691 megabytes
+    Info: Processing ended: Tue May 16 18:46:41 2023
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+
