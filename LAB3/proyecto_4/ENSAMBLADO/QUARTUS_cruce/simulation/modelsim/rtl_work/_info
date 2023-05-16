@@ -20,7 +20,7 @@ L12
 VH<7cBTSgczRQSDI4[Vg6]1
 Z12 OV;C;10.1d;51
 31
-Z13 !s108 1684258887.032000
+Z13 !s108 1684270715.167000
 Z14 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/BUS/componentes/AND/CODIGO/and_pet_control.vhd|
 Z15 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/BUS/componentes/AND/CODIGO/and_pet_control.vhd|
 Z16 o-93 -work work -O0
@@ -65,7 +65,7 @@ L12
 V@6LCY?jIXJCGWJACl6H?Q3
 R12
 31
-Z21 !s108 1684258886.896000
+Z21 !s108 1684270715.025000
 Z22 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/BUS/componentes/AND/CODIGO/and_pet_info.vhd|
 Z23 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/BUS/componentes/AND/CODIGO/and_pet_info.vhd|
 R16
@@ -111,7 +111,7 @@ L13
 VACAO:Z]k:=Vbo2bW?DN<k3
 R12
 31
-Z30 !s108 1684258887.420000
+Z30 !s108 1684270715.577000
 Z31 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_2/arbitro/componentes/arbitraje/CODIGO/arbitraje.vhd|
 Z32 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_2/arbitro/componentes/arbitraje/CODIGO/arbitraje.vhd|
 R16
@@ -159,7 +159,7 @@ L14
 V^TL4R<Jgi;>>RH]9PKPMh0
 R12
 31
-Z37 !s108 1684258888.202000
+Z37 !s108 1684270716.385000
 Z38 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_2/arbitro/ensamblado/CODIGO/arbitro.vhd|
 Z39 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_2/arbitro/ensamblado/CODIGO/arbitro.vhd|
 R16
@@ -209,7 +209,7 @@ L15
 VEC=70N@c]mHL76FZW5hIf0
 R12
 31
-Z45 !s108 1684258888.297000
+Z45 !s108 1684270716.522000
 Z46 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_2/BUS/Bus_multi/CODIGO/bus_multi.vhd|
 Z47 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_2/BUS/Bus_multi/CODIGO/bus_multi.vhd|
 R16
@@ -262,7 +262,7 @@ R16
 R17
 !s100 TiWWZJ3P5L;I62?XUI>Z^1
 !i10b 1
-!s108 1684258887.298000
+!s108 1684270715.445000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_2/tipos_constantes_pkg/bus_multi_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_2/tipos_constantes_pkg/bus_multi_pkg.vhd|
 Ecache_multi
@@ -286,7 +286,7 @@ L19
 VG@i@7a[?MRZFIlCILMlPY3
 R12
 31
-Z56 !s108 1684258887.647000
+Z56 !s108 1684270715.814000
 Z57 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_3/subproyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/ensamblado_multi/CODIGO/cache_multi.vhd|
 Z58 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_3/subproyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/ensamblado_multi/CODIGO/cache_multi.vhd|
 R16
@@ -340,7 +340,7 @@ L19
 VgibFjK9N<e1D1YPKJg7TZ0
 R12
 31
-Z63 !s108 1684258887.557000
+Z63 !s108 1684270715.721000
 Z64 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/ensamblado_con_interface_proc/CODIGO/cache_multi_con_inter_proc.vhd|
 Z65 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/ensamblado_con_interface_proc/CODIGO/cache_multi_con_inter_proc.vhd|
 R16
@@ -399,7 +399,7 @@ L21
 VD:;OZ<^Hi9=`cmg?8[4D90
 R12
 31
-Z71 !s108 1684258888.248000
+Z71 !s108 1684270716.437000
 Z72 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/cache_con_interface_bus/ensamblado_cache_interfaces/CODIGO/cache_multi_con_interface_bus.vhd|
 Z73 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/cache_con_interface_bus/ensamblado_cache_interfaces/CODIGO/cache_multi_con_interface_bus.vhd|
 R16
@@ -461,7 +461,7 @@ R16
 R17
 !s100 6Bd0V8ae1O<:NYOc1ze4i0
 !i10b 1
-!s108 1684258886.277000
+!s108 1684270714.416000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/cache_con_interface_bus/cache_con_interface_proc_pkg/cache_multi_con_interface_proc_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/cache_con_interface_bus/cache_con_interface_proc_pkg/cache_multi_con_interface_proc_pkg.vhd|
 Pcache_pkg
@@ -483,7 +483,7 @@ R16
 R17
 !s100 QCZ0;?<h;^Jj5?g?M>]g@3
 !i10b 1
-!s108 1684258885.538000
+!s108 1684270713.668000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/cache_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/cache_pkg.vhd|
 Pcamino_dat_pkg
@@ -505,7 +505,7 @@ R16
 R17
 !s100 AB=XT=]^X<6YU`XhHhZ3>1
 !i10b 1
-!s108 1684258885.493000
+!s108 1684270713.628000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/camino_dat_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/camino_dat_pkg.vhd|
 Ecamino_datos
@@ -528,7 +528,7 @@ L18
 V:D]SJHQoVF_=lECk1D3G43
 R12
 31
-Z82 !s108 1684258887.695000
+Z82 !s108 1684270715.862000
 Z83 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_3/subproyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/ensamblado/CODIGO/camino_datos.vhd|
 Z84 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_3/subproyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/ensamblado/CODIGO/camino_datos.vhd|
 R16
@@ -578,7 +578,7 @@ R16
 R17
 !s100 XH71=EckM@TX6W7>7Ug:O2
 !i10b 1
-!s108 1684258885.442000
+!s108 1684270713.572000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/campo_DAT_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/campo_DAT_pkg.vhd|
 Pcampo_est_pkg
@@ -600,7 +600,7 @@ R16
 R17
 !s100 8^oa]0@1l5KZ^8]lN0`580
 !i10b 1
-!s108 1684258885.397000
+!s108 1684270713.521000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/campo_EST_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/campo_EST_pkg.vhd|
 Pcampo_et_pkg
@@ -622,7 +622,7 @@ R16
 R17
 !s100 :LRTHn77Rl1zidIZK5_4N0
 !i10b 1
-!s108 1684258885.355000
+!s108 1684270713.480000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/campo_ET_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/campo_ET_pkg.vhd|
 Pcomponentes_arbitraje_pkg
@@ -646,7 +646,7 @@ R16
 R17
 !s100 _HR@obAkj_Ri:XJDmBU`C2
 !i10b 1
-!s108 1684258887.380000
+!s108 1684270715.532000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_2/arbitro/componentes_arbitraje_pkg/componentes_arbitraje_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_2/arbitro/componentes_arbitraje_pkg/componentes_arbitraje_pkg.vhd|
 Pcomponentes_arbitro_pkg
@@ -670,7 +670,7 @@ R16
 R17
 !s100 bDK0AeCA@fDDJe=zzDlIA3
 !i10b 1
-!s108 1684258887.338000
+!s108 1684270715.489000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_2/arbitro/componentes_arbitro_pkg/componentes_arbitro_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_2/arbitro/componentes_arbitro_pkg/componentes_arbitro_pkg.vhd|
 Pcomponentes_bus_multi_pkg
@@ -696,7 +696,7 @@ R16
 R17
 !s100 4R18nmPE4:I9]NMU<_<^[2
 !i10b 1
-!s108 1684258888.158000
+!s108 1684270716.338000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_2/BUS/componentes_bus_multi_pkg/componentes_bus_multi_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_2/BUS/componentes_bus_multi_pkg/componentes_bus_multi_pkg.vhd|
 Pcomponentes_cache_multi_con_inter_proc_pkg
@@ -723,7 +723,7 @@ R16
 R17
 !s100 BVL4SfnK0RgG8=]TY[kk02
 !i10b 1
-!s108 1684258886.235000
+!s108 1684270714.375000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/componentes_cache_multi_con_inter_proc_pkg/componentes_cache_multi_con_inter_proc_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/componentes_cache_multi_con_inter_proc_pkg/componentes_cache_multi_con_inter_proc_pkg.vhd|
 Pcomponentes_cache_multi_interface_pkg
@@ -748,7 +748,7 @@ R16
 R17
 !s100 igU>aXe`D3CW5=Gm?EINE1
 !i10b 1
-!s108 1684258886.318000
+!s108 1684270714.458000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/cache_con_interface_bus/componentes_cache_interface_pkg/componentes_cache_multi_interface_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/cache_con_interface_bus/componentes_cache_interface_pkg/componentes_cache_multi_interface_pkg.vhd|
 Pcomponentes_cache_multi_pkg
@@ -774,7 +774,7 @@ R16
 R17
 !s100 _<RmzjW:DE[:4KG]`8o?01
 !i10b 1
-!s108 1684258886.440000
+!s108 1684270714.577000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_3/subproyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/componentes_cache_pkg/componentes_cache_multi_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_3/subproyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/componentes_cache_pkg/componentes_cache_multi_pkg.vhd|
 Pcomponentes_camino_pkg
@@ -799,7 +799,7 @@ R16
 R17
 !s100 M2AN`P]?3^oFEFd8KQEAE2
 !i10b 1
-!s108 1684258886.064000
+!s108 1684270714.207000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes_camino_pkg/componentes_camino_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes_camino_pkg/componentes_camino_pkg.vhd|
 Pcomponentes_controlador_cache_multi_pkg
@@ -823,7 +823,7 @@ R16
 R17
 !s100 Y8GWLJG0O=k5Ng[gJke180
 !i10b 1
-!s108 1684258886.481000
+!s108 1684270714.619000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_3/subproyecto_2/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/componentes_controlador_cache_multi_pkg/componentes_controlador_cache_multi_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_3/subproyecto_2/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/componentes_controlador_cache_multi_pkg/componentes_controlador_cache_multi_pkg.vhd|
 Pcomponentes_datos_pkg
@@ -846,7 +846,7 @@ R16
 R17
 !s100 P9[8ignTZ?nm4h4Cha_X50
 !i10b 1
-!s108 1684258886.024000
+!s108 1684270714.164000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/componentes_datos_pkg/componentes_datos_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/componentes_datos_pkg/componentes_datos_pkg.vhd|
 Pcomponentes_etiq_pkg
@@ -869,7 +869,7 @@ R16
 R17
 !s100 ROaI:6f[BAjNnDQL1ePV`3
 !i10b 1
-!s108 1684258885.985000
+!s108 1684270714.124000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/componentes_etiq_pkg/componentes_etiq_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/componentes_etiq_pkg/componentes_etiq_pkg.vhd|
 Pcomponentes_interface_proc_cache_pkg
@@ -894,7 +894,7 @@ R16
 R17
 !s100 ZQ:A^a?chXD=TnaVH6ofa3
 !i10b 1
-!s108 1684258886.194000
+!s108 1684270714.330000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/componentes_interface_proc_cache_pkg/componentes_interface_proc_cache_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/componentes_interface_proc_cache_pkg/componentes_interface_proc_cache_pkg.vhd|
 Pcomponentes_interfaces_bus_multi_pkg
@@ -918,7 +918,7 @@ R16
 R17
 !s100 z@EO2W59V[RmD5g<GJi491
 !i10b 1
-!s108 1684258886.359000
+!s108 1684270714.499000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/BUS/componentes_interfaces_bus_multi_pkg/componentes_interfaces_bus_multi_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/BUS/componentes_interfaces_bus_multi_pkg/componentes_interfaces_bus_multi_pkg.vhd|
 Pcomponentes_interfaces_bus_pkg
@@ -941,7 +941,7 @@ R16
 R17
 !s100 82Z`1G[K3SL_JJ99DoYVT1
 !i10b 1
-!s108 1684258886.152000
+!s108 1684270714.289000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/BUS/componentes_interfaces_bus_pkg/componentes_interfaces_bus_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/BUS/componentes_interfaces_bus_pkg/componentes_interfaces_bus_pkg.vhd|
 Pcomponentes_memoria_interface_pkg
@@ -964,7 +964,7 @@ R16
 R17
 !s100 @f^=5KA[FXW@K7akEQiLO2
 !i10b 1
-!s108 1684258886.108000
+!s108 1684270714.250000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/componentes_memoria_interface_pkg/componentes_memoria_interface_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/componentes_memoria_interface_pkg/componentes_memoria_interface_pkg.vhd|
 Pcomponentes_memoria_pkg
@@ -986,7 +986,7 @@ R16
 R17
 !s100 @LUoz1ajJQLaN^_A=]k0b2
 !i10b 1
-!s108 1684258885.578000
+!s108 1684270713.707000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/componentes_memoria_pkg/componentes_memoria_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/componentes_memoria_pkg/componentes_memoria_pkg.vhd|
 Econtrolador_memo
@@ -1005,7 +1005,7 @@ L12
 VZ@zdmmOGd;zV=PYzeM3F43
 R12
 31
-Z88 !s108 1684258885.942000
+Z88 !s108 1684270714.079000
 Z89 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/COMPONENTES/CONTROLADOR/CODIGO/controlador_memo.vhd|
 Z90 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/COMPONENTES/CONTROLADOR/CODIGO/controlador_memo.vhd|
 R16
@@ -1050,7 +1050,7 @@ L14
 VWi@DM4DR<KfPAGXjFaTLN2
 R12
 31
-Z95 !s108 1684258887.834000
+Z95 !s108 1684270716.006000
 Z96 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_3/subproyecto_2/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/ensamblado_controlador/CODIGO/controlador_multi.vhd|
 Z97 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_3/subproyecto_2/cache_con_interface_bus/cache_con_interface_proc/cache/controlador/ensamblado_controlador/CODIGO/controlador_multi.vhd|
 R16
@@ -1098,7 +1098,7 @@ R16
 R17
 !s100 CWM:Q^J;[Z<^XK?lOlfVg1
 !i10b 1
-!s108 1684258885.736000
+!s108 1684270713.867000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/tipos_constantes_pkg/controlador_Obs_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/tipos_constantes_pkg/controlador_Obs_pkg.vhd|
 Pcontrolador_pkg
@@ -1120,7 +1120,7 @@ R16
 R17
 !s100 1I:aN:eJAEIQ3YEPM]YnG1
 !i10b 1
-!s108 1684258885.776000
+!s108 1684270713.911000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_3/subproyecto_2/tipos_constantes_pkg/controlador_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_3/subproyecto_2/tipos_constantes_pkg/controlador_pkg.vhd|
 Edatos
@@ -1140,7 +1140,7 @@ L15
 Vg2XZW[Eb3]S@;C4gFGoeJ3
 R12
 31
-Z101 !s108 1684258887.788000
+Z101 !s108 1684270715.959000
 Z102 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/ensamblado/CODIGO/datos.vhd|
 Z103 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/ensamblado/CODIGO/datos.vhd|
 R16
@@ -1184,7 +1184,7 @@ L13
 V^>ik9L`]j7H8GG>2cS1V71
 R12
 31
-Z107 !s108 1684258887.165000
+Z107 !s108 1684270715.306000
 Z108 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/ensam_memoria/CODIGO/ensamblado_memoria.vhd|
 Z109 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/ensam_memoria/CODIGO/ensamblado_memoria.vhd|
 R16
@@ -1235,7 +1235,7 @@ L21
 VK`^VGfoS61l0P`DCJzeQz3
 R12
 31
-Z117 !s108 1684258888.351000
+Z117 !s108 1684270716.571000
 Z118 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_4/ENSAMBLADO/CODIGO/ensamblado_multi.vhd|
 Z119 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_4/ENSAMBLADO/CODIGO/ensamblado_multi.vhd|
 R16
@@ -1287,7 +1287,7 @@ L15
 VX7bEX_i7RG?oL6]JADD7^2
 R12
 31
-Z123 !s108 1684258887.741000
+Z123 !s108 1684270715.911000
 Z124 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/ensamblado/CODIGO/etiquetas.vhd|
 Z125 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/ensamblado/CODIGO/etiquetas.vhd|
 R16
@@ -1334,7 +1334,7 @@ L15
 VMneNbka`0^<hZQmCFZjJ23
 R12
 31
-Z130 !s108 1684258887.973000
+Z130 !s108 1684270716.148000
 Z131 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/BUS/interfaces/CODIGO/interface_cache_bus_control.vhd|
 Z132 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/BUS/interfaces/CODIGO/interface_cache_bus_control.vhd|
 R16
@@ -1383,7 +1383,7 @@ L15
 VZFR]=7HG<oF>Bk_^CZ4HO3
 R12
 31
-Z136 !s108 1684258887.926000
+Z136 !s108 1684270716.101000
 Z137 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/BUS/interfaces/CODIGO/interface_cache_bus_info.vhd|
 Z138 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/BUS/interfaces/CODIGO/interface_cache_bus_info.vhd|
 R16
@@ -1432,7 +1432,7 @@ R16
 R17
 !s100 ge<gzL<@_FdeK384I3a[:2
 !i10b 1
-!s108 1684258885.617000
+!s108 1684270713.747000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/interface_cache_bus_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/interface_cache_bus_pkg.vhd|
 Einterface_cache_proc
@@ -1454,7 +1454,7 @@ L12
 Vm_P6GY5I<l8@Uman7DA4l1
 R12
 31
-Z142 !s108 1684258887.879000
+Z142 !s108 1684270716.054000
 Z143 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/interfaces/CODIGO/interface_cache_proc.vhd|
 Z144 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/interfaces/CODIGO/interface_cache_proc.vhd|
 R16
@@ -1501,7 +1501,7 @@ L14
 VTk=Fk;aB9SVH]bTLC6fjN3
 R12
 31
-Z148 !s108 1684258888.112000
+Z148 !s108 1684270716.290000
 Z149 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/BUS/interfaces/CODIGO/interface_mem_bus_control.vhd|
 Z150 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/BUS/interfaces/CODIGO/interface_mem_bus_control.vhd|
 R16
@@ -1546,7 +1546,7 @@ L14
 V7V;P[5ckEemU:6RWN]mDG3
 R12
 31
-Z154 !s108 1684258888.065000
+Z154 !s108 1684270716.245000
 Z155 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/BUS/interfaces/CODIGO/interface_mem_bus_info.vhd|
 Z156 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/BUS/interfaces/CODIGO/interface_mem_bus_info.vhd|
 R16
@@ -1592,7 +1592,7 @@ L14
 V2Wal>2H5SkFj`5UcnElGZ1
 R12
 31
-Z160 !s108 1684258887.512000
+Z160 !s108 1684270715.674000
 Z161 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/BUS/interfaces/CODIGO/interface_observador.vhd|
 Z162 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/BUS/interfaces/CODIGO/interface_observador.vhd|
 R16
@@ -1640,7 +1640,7 @@ R16
 R17
 !s100 PD6DNOz[JW75;2`NDOC@F2
 !i10b 1
-!s108 1684258885.695000
+!s108 1684270713.827000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/tipos_constantes_pkg/interface_observador_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/tipos_constantes_pkg/interface_observador_pkg.vhd|
 Einterface_proc_cache
@@ -1662,7 +1662,7 @@ L13
 VgZP92R07^K:5MfYV^h_K:0
 R12
 31
-Z165 !s108 1684258887.603000
+Z165 !s108 1684270715.767000
 Z166 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/interfaces/CODIGO/interface_proc_cache.vhd|
 Z167 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/interfaces/CODIGO/interface_proc_cache.vhd|
 R16
@@ -1710,7 +1710,7 @@ L16
 VH^_kXN[z9ZzR6b`D^Z@I32
 R12
 31
-Z171 !s108 1684258886.852000
+Z171 !s108 1684270714.978000
 Z172 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/componentes/m_datos/CODIGO/m_dat.vhd|
 Z173 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_datos/componentes/m_datos/CODIGO/m_dat.vhd|
 R16
@@ -1757,7 +1757,7 @@ L16
 V`SF^8J<KLTlIdg5O6kZZT1
 R12
 31
-Z176 !s108 1684258886.807000
+Z176 !s108 1684270714.932000
 Z177 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_estado/m_estado/CODIGO/m_est.vhd|
 Z178 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_estado/m_estado/CODIGO/m_est.vhd|
 R16
@@ -1804,7 +1804,7 @@ L16
 VjGD8dC2<S5h4M[^b8GFNi2
 R12
 31
-Z181 !s108 1684258886.761000
+Z181 !s108 1684270714.887000
 Z182 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/componentes/m_etiquetas/CODIGO/m_et.vhd|
 Z183 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/camino_de_datos/componentes/campo_etiquetas/componentes/m_etiquetas/CODIGO/m_et.vhd|
 R16
@@ -1851,7 +1851,7 @@ L15
 V<Uc2JWZ8X[oM54J1?<RD;1
 R12
 31
-Z186 !s108 1684258888.018000
+Z186 !s108 1684270716.196000
 Z187 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/ensam_memo_interface/CODIGO/mem_con_interface_bus.vhd|
 Z188 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/ensam_memo_interface/CODIGO/mem_con_interface_bus.vhd|
 R16
@@ -1897,7 +1897,7 @@ L14
 V29V4GNd0k=NL8J^ZoPlz<1
 R12
 31
-Z191 !s108 1684258887.252000
+Z191 !s108 1684270715.400000
 Z192 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/COMPONENTES/MEMORIA/CODIGO/memoria_mem.vhd|
 Z193 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/COMPONENTES/MEMORIA/CODIGO/memoria_mem.vhd|
 R16
@@ -1945,7 +1945,7 @@ R16
 R17
 !s100 VLZl7`>1BfcjYCU5O6cmg1
 !i10b 1
-!s108 1684258886.402000
+!s108 1684270714.538000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_2/tipos_constantes_pkg/multis_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_2/tipos_constantes_pkg/multis_pkg.vhd|
 Emux_dat
@@ -1963,7 +1963,7 @@ L10
 V^gX>9AYWj<1o07^a;=X1n0
 R12
 31
-Z196 !s108 1684258885.898000
+Z196 !s108 1684270714.037000
 Z197 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/componentes_interface_cache_bus/mux_dat/CODIGO/mux_dat.vhd|
 Z198 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/componentes_interface_cache_bus/mux_dat/CODIGO/mux_dat.vhd|
 R16
@@ -2004,7 +2004,7 @@ L10
 Vm1:gE<A5R0kMJ3@4KZf[I2
 R12
 31
-Z202 !s108 1684258885.855000
+Z202 !s108 1684270713.993000
 Z203 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/componentes_cache_multis/mux_dir/CODIGO/mux_dir.vhd|
 Z204 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/cache/componentes_cache_multis/mux_dir/CODIGO/mux_dir.vhd|
 R16
@@ -2047,7 +2047,7 @@ L12
 V^cJGWd5EYz3`k`oRfj=e[0
 R12
 31
-Z209 !s108 1684258886.610000
+Z209 !s108 1684270714.749000
 Z210 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/BUS/componentes/mux_obser/CODIGO/mux_obser.vhd|
 Z211 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/BUS/componentes/mux_obser/CODIGO/mux_obser.vhd|
 R16
@@ -2092,7 +2092,7 @@ L12
 VISAcF>HdiY6TJ28:XYh8b2
 R12
 31
-Z215 !s108 1684258886.701000
+Z215 !s108 1684270714.840000
 Z216 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/COMPONENTES/mux_peticion/CODIGO/mux_pet.vhd|
 Z217 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/COMPONENTES/mux_peticion/CODIGO/mux_pet.vhd|
 R16
@@ -2138,7 +2138,7 @@ R16
 R17
 !s100 T6LLciW[]k0`=6F6gICGo3
 !i10b 1
-!s108 1684258885.030000
+!s108 1684270713.157000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/param_disenyo_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/param_disenyo_pkg.vhd|
 Pparam_memorias_pkg
@@ -2160,7 +2160,7 @@ R16
 R17
 !s100 _Bh=>T;R[kkJlNhdnHloH0
 !i10b 1
-!s108 1684258885.656000
+!s108 1684270713.787000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/param_memorias_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/param_memorias_pkg.vhd|
 Erc_1
@@ -2180,7 +2180,7 @@ L13
 VPilH<nonR75>:BGXOSL[h0
 R12
 31
-Z221 !s108 1684258887.208000
+Z221 !s108 1684270715.354000
 Z222 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/ensam_memoria/CODIGO/rc_1.vhd|
 Z223 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/memoria_con_interface_bus/memoria_principal/ensam_memoria/CODIGO/rc_1.vhd|
 R16
@@ -2225,7 +2225,7 @@ L12
 VA:82i[<^@VA>V[E@dQN<B2
 R12
 31
-Z226 !s108 1684258887.077000
+Z226 !s108 1684270715.217000
 Z227 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/BUS/componentes/registros/CODIGO/rc_pet.vhd|
 Z228 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/BUS/componentes/registros/CODIGO/rc_pet.vhd|
 R16
@@ -2270,7 +2270,7 @@ L12
 Vn=1GAcGnK=igSI15ci^a40
 R12
 31
-Z231 !s108 1684258887.121000
+Z231 !s108 1684270715.261000
 Z232 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/BUS/componentes/registros/CODIGO/rc_resp.vhd|
 Z233 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/BUS/componentes/registros/CODIGO/rc_resp.vhd|
 R16
@@ -2311,7 +2311,7 @@ L11
 VWRONn7Wj;FoXeD4m:Taif2
 R12
 31
-Z237 !s108 1684258885.815000
+Z237 !s108 1684270713.952000
 Z238 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_2/arbitro/componentes/registro/CODIGO/rd_1_arbi.vhd|
 Z239 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_2/arbitro/componentes/registro/CODIGO/rd_1_arbi.vhd|
 R16
@@ -2353,7 +2353,7 @@ L12
 V_NM09nCzmAbf0ZTD344Zj1
 R12
 31
-Z243 !s108 1684258887.466000
+Z243 !s108 1684270715.625000
 Z244 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_2/arbitro/componentes/registro/CODIGO/rd_arbi.vhd|
 Z245 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_2/arbitro/componentes/registro/CODIGO/rd_arbi.vhd|
 R16
@@ -2399,7 +2399,7 @@ L12
 VNShf=3R[9ZRfiKh[@TH<F0
 R12
 31
-Z249 !s108 1684258886.521000
+Z249 !s108 1684270714.658000
 Z250 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/BUS/componentes/registros/CODIGO/rd_observacion.vhd|
 Z251 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/BUS/componentes/registros/CODIGO/rd_observacion.vhd|
 R16
@@ -2444,7 +2444,7 @@ L12
 V[Kf6TbGKbCj9mBYYUQj>n1
 R12
 31
-Z255 !s108 1684258886.564000
+Z255 !s108 1684270714.702000
 Z256 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/BUS/componentes/registros/CODIGO/rd_pe_obser.vhd|
 Z257 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/BUS/componentes/registros/CODIGO/rd_pe_obser.vhd|
 R16
@@ -2489,7 +2489,7 @@ L12
 V;UfnQVBBGAW1e;cA<VGPj1
 R12
 31
-Z260 !s108 1684258886.940000
+Z260 !s108 1684270715.074000
 Z261 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/BUS/componentes/registros/CODIGO/rd_pet_info.vhd|
 Z262 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/BUS/componentes/registros/CODIGO/rd_pet_info.vhd|
 R16
@@ -2534,7 +2534,7 @@ L12
 VCDOMAV1jK]47fFjz1H54F1
 R12
 31
-Z265 !s108 1684258886.988000
+Z265 !s108 1684270715.120000
 Z266 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/BUS/componentes/registros/CODIGO/rd_resp_info.vhd|
 Z267 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/BUS/componentes/registros/CODIGO/rd_resp_info.vhd|
 R16
@@ -2579,7 +2579,7 @@ L12
 VnB1>dW??PfXY7Kf`Po;:o0
 R12
 31
-Z270 !s108 1684258886.655000
+Z270 !s108 1684270714.794000
 Z271 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/COMPONENTES/registro_pet/CODIGO/registro_pet.vhd|
 Z272 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/cache_con_interface_bus/cache_con_interface_proc/interface_proc_cache/COMPONENTES/registro_pet/CODIGO/registro_pet.vhd|
 R16
@@ -2625,7 +2625,7 @@ R16
 R17
 !s100 ^g^RfL_nCXG]Z4d@c33N22
 !i10b 1
-!s108 1684258885.313000
+!s108 1684270713.441000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_2/tipos_constantes_pkg/retardos_arbitro_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_2/tipos_constantes_pkg/retardos_arbitro_pkg.vhd|
 Pretardos_bus_pkg
@@ -2646,7 +2646,7 @@ R16
 R17
 !s100 Eic[M0hMWPmV[1jDJLG7_1
 !i10b 1
-!s108 1684258885.273000
+!s108 1684270713.400000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_2/tipos_constantes_pkg/retardos_bus_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_2/tipos_constantes_pkg/retardos_bus_pkg.vhd|
 Pretardos_inter_proc_cache_pkg
@@ -2665,7 +2665,7 @@ R16
 R17
 !s100 WcS`4Q7V6WFzc[jhI_31P2
 !i10b 1
-!s108 1684258885.236000
+!s108 1684270713.363000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/tipos_constantes_pkg/retardos_inter_proc_cache_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/tipos_constantes_pkg/retardos_inter_proc_cache_pkg.vhd|
 Pretardos_memorias_pkg
@@ -2684,7 +2684,7 @@ R16
 R17
 !s100 U^z]2@>hi]bYz_IT2eOCY3
 !i10b 1
-!s108 1684258885.149000
+!s108 1684270713.273000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/retardos_memorias_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/retardos_memorias_pkg.vhd|
 Pretardos_observador_pkg
@@ -2705,7 +2705,7 @@ R16
 R17
 !s100 A?oM;TLljUA`lL0n;C3][3
 !i10b 1
-!s108 1684258885.196000
+!s108 1684270713.323000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/tipos_constantes_pkg/retardos_observador_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_1/tipos_constantes_pkg/retardos_observador_pkg.vhd|
 Pretardos_otros_pkg
@@ -2724,7 +2724,7 @@ R16
 R17
 !s100 ZOG]EPUo0D;IWJ]^TfE>90
 !i10b 1
-!s108 1684258885.113000
+!s108 1684270713.236000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/retardos_otros_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/retardos_otros_pkg.vhd|
 Pretardos_regdes_pkg
@@ -2743,7 +2743,7 @@ R16
 R17
 !s100 BI@DiYfEbWi6@J:Yj3d162
 !i10b 1
-!s108 1684258885.075000
+!s108 1684270713.201000
 !s90 -reportprogress|300|-93|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/retardos_RegDes_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB2/proyecto_1/tipos_constantes_pkg/retardos_RegDes_pkg.vhd|
 Ptipos_pruebas_pkg
@@ -2770,7 +2770,7 @@ VQQS3B`QT`;z<SZR15MRhc2
 R12
 33
 !i10b 1
-!s108 1684258888.435000
+!s108 1684270716.621000
 !s90 -reportprogress|300|-2008|-work|work|C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_4/ENSAMBLADO/QUARTUS_cruce/../PRUEBAS_cruce/tipos_pruebas_pkg.vhd|
 !s107 C:/Users/victo/Desktop/MP-FIB/LAB3/proyecto_4/ENSAMBLADO/QUARTUS_cruce/../PRUEBAS_cruce/tipos_pruebas_pkg.vhd|
 o-2008 -work work -O0
